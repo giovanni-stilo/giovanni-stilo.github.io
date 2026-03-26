@@ -83,20 +83,9 @@ Prof. Stilo's research spans several areas of AI and Machine Learning, with a pr
 
 ## Scientific Community Service
 
-**Editorial Roles:**
-- **Associate Editor**, Knowledge and Information Systems (KAIS), Springer (since 2025)
-- **Volume Editor**, DELTA '25 LNCS Vol. 15013; BIAS-CCIS '22 Vol. 1610; BIAS-CCIS '21 Vol. 1418; BIAS-CCIS '20 Vol. 1245
-- **Guest Editor**, Special Issues in IPM, ECML/PKDD journal track, Information Retrieval Journal
+Active in editorial boards, conference organization, and program committees at top AI/ML venues. See the full [Service page](/service/) for details.
 
-**Conference Organization:**
-- **PC Co-Chair**, CIKM 2025
-- **Workshop Chair**, WSDM 2026
-- **Program Chair**, itaDATA 2024
-- **Research Track Chair**, ICDM 2021
-- **DC Co-Chair**, UMAP 2022
-- **Student Travel Awards Chair**, CIKM 2024
-
-**Program Committees (Senior PC):** ECAI, IJCAI, CIKM, SDM, and more
+**Highlights:** PC Co-Chair of CIKM 2025, Workshop Chair of WSDM 2026, Associate Editor of KAIS (Springer), Senior PC at ECAI/IJCAI/CIKM/SDM, editor of 5 Springer volumes, reviewer for TKDD/TKDE/AI/DAMI and more.
 
 ## The AIIM Collective
 
