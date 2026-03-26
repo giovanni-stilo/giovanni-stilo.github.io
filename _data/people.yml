@@ -1,0 +1,240 @@
+# Faculty & Collaborators
+faculty:
+  - name: "Prof. Giovanni Stilo"
+    role: "Full Professor"
+    affiliation: "Luiss University of Rome"
+    image: "/assets/img/profile.jpeg"
+    scholar: "https://scholar.google.com/citations?hl=en&user=uTyaicMAAAAJ"
+
+  - name: "Prof. Carlotta Domeniconi"
+    role: "Faculty Collaborator"
+    affiliation: "George Mason University"
+    webpage: "https://cs.gmu.edu/~carlotta/"
+
+# Postdoctoral Researchers
+postdocs:
+  - name: "Dr. Bardh Prenkaj"
+    affiliation: "Technical University of Munich"
+    webpage: "https://bardhprenkaj.netlify.app/"
+    github: "bardhprenkaj"
+
+  - name: "Matteo Spezialetti"
+    affiliation: "University of L'Aquila"
+    webpage: "https://scholar.google.com/citations?user=UfLxHp8AAAAJ"
+
+# Current PhD Students
+phd_students:
+  - name: "Francesca Ciccarelli"
+    affiliation: "University of L'Aquila"
+    webpage: "https://www.linkedin.com/in/francesca-ciccarelli-12b2b1235/"
+
+  - name: "Daniele Fossemo"
+    affiliation: "University of L'Aquila"
+    webpage: "https://www.linkedin.com/in/daniele-fossem%C3%B2-7181b136b"
+
+  - name: "Giuseppe Costanzo"
+    affiliation: "University of L'Aquila"
+    webpage: "https://www.linkedin.com/in/giuseppe-costanzo-020750279"
+
+  - name: "Andrea D'Angelo"
+    affiliation: "University of L'Aquila"
+    webpage: "https://andrea-dangelo.com"
+    github: "dangeloandrea14"
+
+# PhD Alumni
+phd_alumni:
+  - name: "Dr. Mario A. Prado-Romero"
+    thesis_year: 2025
+    affiliation: "Ph.D. at GSSI"
+    webpage: "https://scholar.google.es/citations?hl=en&user=NPie5kEAAAAJ"
+
+  - name: "Hamed Sarvari"
+    thesis_year: 2022
+    affiliation: "Ph.D. at George Mason University"
+
+  - name: "Dr. Lorenzo Madeddu"
+    thesis_year: 2022
+    affiliation: "Now at AstraZeneca"
+    webpage: "https://www.lorenzomadeddu.com/"
+
+  - name: "Dr. Giorgia Di Tommaso"
+    thesis_year: 2019
+    affiliation: "Now at Enel Group"
+    webpage: "https://it.linkedin.com/in/giorgia-di-tommaso"
+
+  - name: "Prof. Jose Camacho Collados"
+    thesis_year: 2018
+    affiliation: "Now at Cardiff University"
+    webpage: "http://josecamachocollados.com/"
+
+# MSc Alumni
+msc_alumni:
+  - name: "Fabio D'Andreamatteo"
+    year: 2025
+    program: "M.Sc. in Data Science, University of L'Aquila"
+
+  - name: "Samuele Ramassone"
+    year: 2025
+    program: "M.Sc. in Computer Science, University of L'Aquila"
+
+  - name: "Gabriele Tagliente"
+    year: 2025
+    program: "M.Sc. in Computer Science, University of L'Aquila"
+
+  - name: "Matteo Iezzi"
+    year: 2025
+    program: "M.Sc. in Data Science, University of L'Aquila"
+
+  - name: "Mattia Masci"
+    year: 2024
+    program: "M.Sc. in Computer Science, University of L'Aquila"
+
+  - name: "Diana Di Marco"
+    year: 2023
+    program: "M.Sc. in Computer Science, University of L'Aquila"
+
+  - name: "Jessica Leone"
+    year: 2023
+    program: "M.Sc. in Computer Science, University of L'Aquila"
+
+  - name: "Andrea D'Angelo"
+    year: 2022
+    program: "M.Sc. in Computer Science, University of L'Aquila"
+
+  - name: "Rabee Adel Qasem"
+    year: 2022
+    program: "M.Sc. in Data Science, AAUP"
+
+  - name: "Abdelrahman Salameh"
+    year: 2022
+    program: "M.Sc. in Data Science, AAUP"
+
+  - name: "Loai Bitawi"
+    year: 2022
+    program: "M.Sc. in Data Science, AAUP"
+
+  - name: "Benedetta Flammini"
+    year: 2022
+    program: "M.Sc. in Data Science, University of L'Aquila"
+
+  - name: "Giordano D'Aloisio"
+    year: 2021
+    program: "M.Sc. in Computer Science, University of L'Aquila"
+
+  - name: "Manuel Di Pietro"
+    year: 2019
+    program: "M.Sc. in Computer Science, University of L'Aquila"
+
+  - name: "Cecilia Martinez Oliva"
+    year: 2019
+    program: "M.Sc. in Data Science, Sapienza University of Rome"
+
+  - name: "Gabriele Avellino"
+    year: 2019
+    program: "M.Sc. in Data Science, Sapienza University of Rome"
+
+  - name: "Matteo Uriselli"
+    year: 2019
+    program: "M.Sc. in Computer Science, Sapienza University of Rome"
+
+  - name: "Andrea Lorino"
+    year: 2018
+    program: "M.Sc. in Computer Science, Sapienza University of Rome"
+
+  - name: "Andrea Lenzi"
+    year: 2018
+    program: "M.Sc. in Computer Science, Sapienza University of Rome"
+
+  - name: "Lorenzo Madeddu"
+    year: 2018
+    program: "M.Sc. in Computer Science, Sapienza University of Rome"
+
+  - name: "Carlo Spatocco"
+    year: 2017
+    program: "M.Sc. in Mathematics, Sapienza University of Rome"
+
+  - name: "Bardh Prenkaj"
+    year: 2017
+    program: "M.Sc. in Computer Science, Sapienza University of Rome"
+
+  - name: "Valentina Pizzo"
+    year: 2017
+    program: "M.Sc. in Computer Science, Sapienza University of Rome"
+
+  - name: "Manuela Benedetti"
+    year: 2017
+    program: "M.Sc. in Computer Science, Sapienza University of Rome"
+
+  - name: "Giorgia Di Tommaso"
+    year: 2015
+    program: "M.Sc. in Computer Science, Sapienza University of Rome"
+
+  - name: "Claudio Rauso"
+    year: 2015
+    program: "M.Sc. in Computer Science, Sapienza University of Rome"
+
+  - name: "Giulio de Stefano"
+    year: 2014
+    program: "B.Sc. in Computer Science, Sapienza University of Rome"
+
+# International Visiting Students
+visiting_students:
+  - name: "Alejandra Monzon"
+    year: 2025
+    origin: "University of Havana"
+
+  - name: "Manuel Vilas"
+    year: 2025
+    origin: "University of Havana"
+
+  - name: "Rodrigo Garcia"
+    year: 2024
+    origin: "University of Havana"
+
+  - name: "Leynier Gutierrez"
+    year: 2024
+    origin: "University of Havana"
+    webpage: "https://leynier.dev"
+
+  - name: "Hiram Borbolla Hernandez"
+    year: 2023
+    origin: "University of Havana"
+
+  - name: "Yeneit Delgado Kios"
+    year: 2023
+    origin: "University of Havana"
+
+  - name: "Roberto Marti Cedeno"
+    year: 2023
+    origin: "University of Havana"
+
+  - name: "Ernesto Luis Estevanell Valladares"
+    year: 2022
+    origin: "University of Havana"
+
+  - name: "Daniel Alejandro Valdes Perez"
+    year: 2022
+    origin: "University of Havana"
+
+  - name: "Carlos Fleitas Aparicio"
+    year: 2021
+    origin: "University of Havana"
+
+  - name: "Mario Alfonso Prado-Romero"
+    year: 2020
+    origin: "University of Havana"
+
+  - name: "Juan Pablo Consuegra Ayala"
+    year: 2019
+    origin: "University of Havana"
+
+# External Collaborators
+external:
+  - name: "Prof. Antinisca Di Marco"
+    affiliation: "University of L'Aquila"
+
+  - name: "Giordano d'Aloisio"
+    affiliation: "University of L'Aquila"
+
+  - name: "Francesca Marzi"
+    affiliation: "University of L'Aquila"

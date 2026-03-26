@@ -1,0 +1,41 @@
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h3>Prof. Giovanni Stilo</h3>
+        <p>Professor of Computer Science<br>Luiss University of Rome</p>
+        <p>Founder of the <a href="https://aiimlab.org" target="_blank" rel="noopener">AIIM Research Collective</a></p>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="{{ '/research' | relative_url }}">Research Projects</a></li>
+          <li><a href="{{ '/publications' | relative_url }}">Publications</a></li>
+          <li><a href="{{ '/people' | relative_url }}">Students &amp; Collaborators</a></li>
+          <li><a href="{{ '/events' | relative_url }}">Events &amp; Workshops</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Connect</h3>
+        <div class="social-links">
+          <a href="https://scholar.google.com/citations?hl=en&user=uTyaicMAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+          <a href="https://github.com/aiim-research" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://www.linkedin.com/company/artificial-intelligence-information-mining" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="mailto:gstilo@luiss.it" aria-label="Email"><i class="fas fa-envelope"></i> gstilo@luiss.it</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; {{ 'now' | date: "%Y" }} Giovanni Stilo. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.querySelector('.nav-toggle').addEventListener('click', function() {
+  const nav = document.querySelector('.site-nav');
+  const expanded = this.getAttribute('aria-expanded') === 'true';
+  this.setAttribute('aria-expanded', !expanded);
+  nav.classList.toggle('is-open');
+});
+</script>

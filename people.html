@@ -1,0 +1,96 @@
+---
+layout: page
+title: "People & Supervision"
+description: "Students, postdoctoral researchers, and collaborators supervised by Prof. Giovanni Stilo at Luiss University of Rome and University of L'Aquila."
+permalink: /people/
+---
+
+<p style="margin-bottom: 2rem; font-size: 0.95rem; color: var(--color-text-light);">
+  Prof. Stilo has supervised and mentored a diverse group of researchers at all career stages, from undergraduate students to postdoctoral researchers, across multiple institutions including Luiss University of Rome, University of L'Aquila, Sapienza University of Rome, George Mason University, and international visiting programs.
+</p>
+
+<!-- Current Researchers -->
+<div class="people-section">
+  <h3><i class="fas fa-flask"></i> Current Researchers</h3>
+  <div class="people-grid">
+    {% for person in site.data.people.postdocs %}
+    <div class="person-card">
+      <div class="person-info">
+        <h4>{% if person.webpage %}<a href="{{ person.webpage }}" target="_blank" rel="noopener">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+        <p>Postdoctoral Researcher &middot; {{ person.affiliation }}</p>
+        {% if person.github %}<p><a href="https://github.com/{{ person.github }}" target="_blank" rel="noopener"><i class="fab fa-github"></i> {{ person.github }}</a></p>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Current PhD Students -->
+<div class="people-section">
+  <h3><i class="fas fa-user-graduate"></i> Current PhD Students</h3>
+  <div class="people-grid">
+    {% for person in site.data.people.phd_students %}
+    <div class="person-card">
+      <div class="person-info">
+        <h4>{% if person.webpage %}<a href="{{ person.webpage }}" target="_blank" rel="noopener">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+        <p>PhD Student &middot; {{ person.affiliation }}</p>
+        {% if person.github %}<p><a href="https://github.com/{{ person.github }}" target="_blank" rel="noopener"><i class="fab fa-github"></i> {{ person.github }}</a></p>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- PhD Alumni -->
+<div class="people-section">
+  <h3><i class="fas fa-award"></i> PhD Alumni</h3>
+  <div class="people-grid">
+    {% for person in site.data.people.phd_alumni %}
+    <div class="person-card">
+      <div class="person-info">
+        <h4>{% if person.webpage %}<a href="{{ person.webpage }}" target="_blank" rel="noopener">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h4>
+        <p>{{ person.affiliation }} ({{ person.thesis_year }})</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- MSc Alumni -->
+<div class="people-section">
+  <h3><i class="fas fa-graduation-cap"></i> Master's Thesis Alumni</h3>
+  <ul class="people-list">
+    {% for person in site.data.people.msc_alumni %}
+    <li>
+      <strong>{{ person.name }}</strong>
+      <span class="person-year">&middot; {{ person.program }} ({{ person.year }})</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<!-- International Visiting Students -->
+<div class="people-section">
+  <h3><i class="fas fa-globe"></i> International Visiting Students</h3>
+  <ul class="people-list">
+    {% for person in site.data.people.visiting_students %}
+    <li>
+      {% if person.webpage %}<a href="{{ person.webpage }}" target="_blank" rel="noopener"><strong>{{ person.name }}</strong></a>{% else %}<strong>{{ person.name }}</strong>{% endif %}
+      <span class="person-year">&middot; {{ person.origin }} ({{ person.year }})</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<!-- External Collaborators -->
+<div class="people-section">
+  <h3><i class="fas fa-handshake"></i> External Collaborators</h3>
+  <ul class="people-list">
+    {% for person in site.data.people.external %}
+    <li>
+      <strong>{{ person.name }}</strong>
+      <span class="person-year">&middot; {{ person.affiliation }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

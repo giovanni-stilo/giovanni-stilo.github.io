@@ -1,0 +1,18 @@
+---
+layout: page
+title: "News"
+description: "Latest news, announcements, and updates from Prof. Giovanni Stilo's research activities in AI, Machine Learning, and Explainable AI."
+permalink: /news/
+---
+
+<ul class="news-list all-news">
+  {% for post in site.posts %}
+  <li class="news-item">
+    <span class="news-date">{{ post.date | date: "%b %d, %Y" }}</span>
+    <div>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      {% if post.description %}<p>{{ post.description | strip_html | truncate: 200 }}</p>{% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ul>

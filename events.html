@@ -1,0 +1,122 @@
+---
+layout: page
+title: "Workshops & Events"
+description: "Academic workshops and events organized by Prof. Giovanni Stilo, including BIAS@ECIR, DELTA@KDD, WIPE-OUT@ECML-PKDD, SynDAiTE, and tutorials at major AI conferences."
+permalink: /events/
+---
+
+<p style="margin-bottom: 2rem; font-size: 0.95rem; color: var(--color-text-light);">
+  Prof. Stilo has organized and co-organized numerous international workshops, tutorials, and events at premier AI and data mining conferences.
+</p>
+
+<div class="events-grid">
+  {% assign events_by_date = site.events | sort: 'last-updated' | reverse %}
+  {% for event in events_by_date %}
+    {% if event.status != "inactive" %}
+    <a href="{{ event.url | relative_url }}" class="event-card" style="text-decoration:none;color:inherit;">
+      {% if event.image %}
+      <div class="event-card-img">
+        <img src="{{ event.image }}" alt="{{ event.title }}" loading="lazy">
+      </div>
+      {% endif %}
+      <div class="event-card-body">
+        <h3>{{ event.title }}</h3>
+        {% if event.description %}<p>{{ event.description | strip_html | truncate: 150 }}</p>{% endif %}
+      </div>
+    </a>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<h2 class="section-title" style="margin-top: 3rem;">Workshop Series</h2>
+
+<div class="card-grid">
+  <div class="card">
+    <span class="card-tag fairness">2020--2023</span>
+    <h3>BIAS @ ECIR</h3>
+    <p>International Workshop on Algorithmic Bias in Search and Recommendation, co-located with ECIR. Four successful editions addressing fairness, transparency, and social impacts of search and recommendation systems.</p>
+  </div>
+  <div class="card">
+    <span class="card-tag unlearning">2025--2026</span>
+    <h3>WIPE-OUT @ ECML-PKDD</h3>
+    <p>Workshop on Innovations, Privacy-preservation, and Evaluations Of machine Unlearning Techniques. Focusing on selective data removal from AI models for privacy, bias mitigation, and regulatory compliance.</p>
+  </div>
+  <div class="card">
+    <span class="card-tag general">2025--2026</span>
+    <h3>SynDAiTE @ ECML-PKDD</h3>
+    <p>Workshop on Synthetic Data for AI Trustworthiness and Evolution. Exploring the role of synthetic data in building trustworthy and adaptable AI systems.</p>
+  </div>
+  <div class="card">
+    <span class="card-tag general">2024</span>
+    <h3>DELTA @ KDD</h3>
+    <p>Workshop on Discovering Drift Phenomena in Evolving Data Landscapes at KDD 2024. Covering drift detection, data streams, and adaptive machine learning.</p>
+  </div>
+</div>
+
+<h2 class="section-title" style="margin-top: 3rem;">Tutorials & Invited Talks</h2>
+
+<ul class="news-list">
+  <li class="news-item">
+    <span class="news-date">2025</span>
+    <div>
+      <h3>Tutorial on Graph Counterfactual Explainability</h3>
+      <p>ECML-PKDD 2025, Porto, Portugal</p>
+    </div>
+  </li>
+  <li class="news-item">
+    <span class="news-date">2025</span>
+    <div>
+      <h3>Machine Unlearning: Theory, Methods, and Evaluations with Hands-On Insights</h3>
+      <p>ESSAI 2025</p>
+    </div>
+  </li>
+  <li class="news-item">
+    <span class="news-date">2024</span>
+    <div>
+      <h3>Invited Talk: Bias, Fairness, and Explainability: Building Trust in AI Systems</h3>
+      <p>Technical University of Munich (TUM)</p>
+    </div>
+  </li>
+  <li class="news-item">
+    <span class="news-date">2024</span>
+    <div>
+      <h3>Tutorial on Discovering Drift Phenomena in Evolving Landscape</h3>
+      <p>KDD 2024, Barcelona, Spain</p>
+    </div>
+  </li>
+  <li class="news-item">
+    <span class="news-date">2024</span>
+    <div>
+      <h3>Tutorial and Lab on Graph Counterfactual Explainability</h3>
+      <p>AAAI 2024, Vancouver, Canada</p>
+    </div>
+  </li>
+  <li class="news-item">
+    <span class="news-date">2023</span>
+    <div>
+      <h3>Keynote: Graphs' Counterfactual Explainability Landscape</h3>
+      <p>XAI.it 2023 (co-located with AIxIA 2023), Rome, Italy</p>
+    </div>
+  </li>
+  <li class="news-item">
+    <span class="news-date">2023</span>
+    <div>
+      <h3>Invited Talk: Uncovering Gender Bias in Academia</h3>
+      <p>AI-GAP 2023, L'Aquila, Italy</p>
+    </div>
+  </li>
+  <li class="news-item">
+    <span class="news-date">2020</span>
+    <div>
+      <h3>Tutorial: Challenges and Solutions to Student Dropout Prediction in Online Courses</h3>
+      <p>CIKM 2020</p>
+    </div>
+  </li>
+  <li class="news-item">
+    <span class="news-date">2020</span>
+    <div>
+      <h3>CLAIRE AI COVID-19 Initiative Presentation</h3>
+      <p>Euro DIG 2020, The Hague</p>
+    </div>
+  </li>
+</ul>

@@ -1,0 +1,61 @@
+---
+layout: page
+title: "Research Projects"
+description: "Research projects by Prof. Giovanni Stilo covering Explainable AI, Machine Unlearning, Algorithmic Fairness, Graph Neural Networks, and Data Mining."
+permalink: /research/
+---
+
+<div class="card-grid">
+  {% assign projects_by_date = site.projects | sort: 'last-updated' | reverse %}
+  {% for project in projects_by_date %}
+    {% if project.status != "inactive" %}
+    <div class="card">
+      {% if project.image %}
+      <div style="text-align:center; margin-bottom: 1rem;">
+        <img src="{{ project.image }}" alt="{{ project.title }}" style="max-height: 80px; border-radius: 4px;" loading="lazy">
+      </div>
+      {% endif %}
+      <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+      {% if project.description %}<p>{{ project.description | strip_html | truncate: 200 }}</p>{% endif %}
+      {% if project.no-link != true %}
+      <a href="{{ project.url | relative_url }}" class="card-link">Details <i class="fas fa-arrow-right"></i></a>
+      {% endif %}
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<h2 class="section-title" style="margin-top: 3rem;">Open-Source Software & Datasets</h2>
+
+<div class="card-grid">
+  <div class="card">
+    <span class="card-tag xai">Framework</span>
+    <h3>GRETEL</h3>
+    <p>Graph Counterfactual Explanation Evaluation Framework. An open-source platform for developing and testing GCE methods with built-in datasets, models, and evaluation metrics.</p>
+    <a href="https://github.com/aiim-research/GRETEL" target="_blank" rel="noopener" class="card-link"><i class="fab fa-github"></i> View on GitHub</a>
+  </div>
+  <div class="card">
+    <span class="card-tag unlearning">Framework</span>
+    <h3>ERASURE</h3>
+    <p>Machine Unlearning framework with extensible components for custom unlearning techniques, synthetic datasets, evaluation metrics, and ML model integration.</p>
+    <a href="https://github.com/aiim-research/ERASURE" target="_blank" rel="noopener" class="card-link"><i class="fab fa-github"></i> View on GitHub</a>
+  </div>
+  <div class="card">
+    <span class="card-tag general">Dataset</span>
+    <h3>CLAIRE COVID-19 Dataset</h3>
+    <p>A multi-source biomedical network integrating clinical evidence on COVID-19 with genomic and proteomic data for relational and graph-based learning methods.</p>
+    <a href="https://github.com/CLAIRE-COVID-T4/covid-data" target="_blank" rel="noopener" class="card-link"><i class="fab fa-github"></i> View on GitHub</a>
+  </div>
+  <div class="card">
+    <span class="card-tag general">Dataset</span>
+    <h3>MNIST4OD</h3>
+    <p>Large-scale dataset suitable for Outlier Detection tasks, based on the MNIST dataset, with controlled outlier ratios for benchmarking anomaly detection methods.</p>
+    <a href="https://figshare.com/articles/MNIST_dataset_for_Outliers_Detection_-_MNIST4OD_/9954986/2" target="_blank" rel="noopener" class="card-link"><i class="fas fa-database"></i> View on Figshare</a>
+  </div>
+  <div class="card">
+    <span class="card-tag general">Dataset</span>
+    <h3>Wiki-MID</h3>
+    <p>LOD-compliant multi-domain interests dataset with ~500K Twitter users and 90 average preferences per user across music, books, movies, sport, politics, and more.</p>
+    <a href="http://wikimid.tweets.di.uniroma1.it/wikimid/" target="_blank" rel="noopener" class="card-link"><i class="fas fa-external-link-alt"></i> Access Dataset</a>
+  </div>
+</div>

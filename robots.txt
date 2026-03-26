@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://giovanni-stilo.github.io/sitemap.xml
