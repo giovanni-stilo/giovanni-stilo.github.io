@@ -30,3 +30,5 @@ WIPE-OUT 2026 is a leading venue for researchers working on selective data remov
 - Flavio Giobergia (Polytechnic of Turin)
 - Francesco Gullo (University of L'Aquila)
 - Giovanni Stilo (Luiss University of Rome)
+
+[Full event page on AIIM Lab](https://aiimlab.org/events/ECML_PKDD_2026_WIPE-OUT_2_Workshop_on_Machine_Unlearning_and_Privacy_Preservation){:target="_blank"}

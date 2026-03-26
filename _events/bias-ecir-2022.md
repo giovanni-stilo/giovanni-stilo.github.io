@@ -16,4 +16,4 @@ Creating search and recommendation algorithms that are efficient and effective h
 - Mirko Marras
 - Giovanni Stilo
 
-[Workshop website](https://biasinrecsys.github.io/ecir2022/){:target="_blank"}
+[Workshop website](https://biasinrecsys.github.io/ecir2022/){:target="_blank"} | [AIIM Lab page](https://aiimlab.org/events/bias-ECIR2022){:target="_blank"}

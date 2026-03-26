@@ -24,3 +24,5 @@ As AI adoption soars, so do concerns over data privacy, ethics, and regulatory c
 - Flavio Giobergia (Polytechnic of Turin)
 - Francesco Gullo (University of L'Aquila)
 - Giovanni Stilo (Luiss University of Rome)
+
+[Full event page on AIIM Lab](https://aiimlab.org/events/ECML_PKDD_2025_WIPE-OUT_Innovations_Privacy-preservation_Evaluations_Machine_Unlearning_Techniques){:target="_blank"}

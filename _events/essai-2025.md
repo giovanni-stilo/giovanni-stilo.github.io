@@ -20,3 +20,5 @@ This PhD course explored Machine Unlearning, covering its theoretical foundation
 - State-of-the-art unlearning techniques
 - Evaluation metrics and benchmarking
 - Hands-on practical sessions with the ERASURE framework
+
+[Full event page on AIIM Lab](https://aiimlab.org/events/ESSAI_2025_Machine_Unlearning_Theory_Methods_and_Evaluations_with_Hands-On_Insights){:target="_blank"}

@@ -20,3 +20,5 @@ The lab covered foundational concepts in Graph Counterfactual Explainability, pr
 ## Highlights
 
 Based on the ACM Computing Survey: *A Survey on Graph Counterfactual Explanations: Definitions, Methods, Evaluation, and Research Challenges* (ACM CSUR, 2024).
+
+[Full event page on AIIM Lab](https://aiimlab.org/events/AAAI_2024_Digging_into_the_Landscape_of_Graphs_Counterfactual_Explainability){:target="_blank"}

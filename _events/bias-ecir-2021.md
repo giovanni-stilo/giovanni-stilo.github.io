@@ -18,4 +18,4 @@ BIAS 2021 was the second edition of this dedicated event at ECIR, following a ve
 - Mirko Marras
 - Giovanni Stilo
 
-[Workshop website](https://biasinrecsys.github.io/ecir2021/){:target="_blank"}
+[Workshop website](https://biasinrecsys.github.io/ecir2021/){:target="_blank"} | [AIIM Lab page](https://aiimlab.org/events/bias-ECIR2021){:target="_blank"}

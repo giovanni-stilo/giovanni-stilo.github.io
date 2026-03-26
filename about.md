@@ -29,7 +29,7 @@ Prof. Stilo's research spans several cutting-edge areas of AI and Machine Learni
 
 ## Academic Roles & Service
 
-- **Workshop Organization:** Co-organizer of BIAS@ECIR (2020--2023), DELTA@KDD 2024, WIPE-OUT@ECML-PKDD (2025, 2026), SynDAiTE@ECML-PKDD (2025, 2026), WEB&GRAPH@WSDM 2026
+- **Workshop Organization:** Co-organizer of BIAS@ECIR (2020--2023), DELTA@KDD 2024, WIPE-OUT@ECML-PKDD (2025, 2026), SoMePeAS@ECIR (2017, 2019), SoAPS@ECIR 2018, SIR@CIKM 2018, SERecSys@ICDM (2016, 2017)
 - **National Research Infrastructure:** Responsible for WP1 and national coordinator of WP5 in the **SoBigData.it** PNRR project, strengthening Italy's research infrastructure for responsible data science
 - **Tutorial Delivery:** Tutorials at AAAI 2024, KDD 2024, ECML-PKDD 2025, CIKM 2020, ESSAI 2025
 - **Session Chair:** KDD 2020 (Autoencoders Session)

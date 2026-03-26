@@ -15,4 +15,4 @@ The aim of this workshop was to collect ideas on social interaction-based recomm
 
 - Giovanni Stilo
 
-[Workshop website](http://sir.di.uniroma1.it/){:target="_blank"}
+[Workshop website](http://sir.di.uniroma1.it/){:target="_blank"} | [AIIM Lab page](https://aiimlab.org/events/sir-CIKM2018){:target="_blank"}

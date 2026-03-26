@@ -14,3 +14,5 @@ During this presentation, Prof. Stilo took the audience on a journey across the 
 ## Speaker
 
 - Giovanni Stilo
+
+[Full event page on AIIM Lab](https://aiimlab.org/events/AIxIA_XAI.it_2023_Graphs_Counterfactual_Explainability_Landscape_current_state_frontiers){:target="_blank"}

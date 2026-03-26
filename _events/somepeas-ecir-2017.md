@@ -15,4 +15,4 @@ This workshop aimed to collect novel ideas in this field and to provide a common
 
 - Giovanni Stilo
 
-[Workshop website](http://somepeas.di.uniroma1.it/somepeas-ws2017.html){:target="_blank"}
+[Workshop website](http://somepeas.di.uniroma1.it/somepeas-ws2017.html){:target="_blank"} | [AIIM Lab page](https://aiimlab.org/events/somepeas-ECIR2017){:target="_blank"}

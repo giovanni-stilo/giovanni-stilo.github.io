@@ -24,3 +24,5 @@ The workshop explored discovering drift phenomena in evolving data landscapes, c
 - Ylenia Rotalinti (Brunel University London)
 - Ananya Joshi (Carnegie Mellon University)
 - Giovanni Stilo (Luiss University of Rome)
+
+[Full event page on AIIM Lab](https://aiimlab.org/events/KDD_2024_Discovering_Drift_Phenomena_in_Evolving_Landscape){:target="_blank"}

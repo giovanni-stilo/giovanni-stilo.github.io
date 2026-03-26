@@ -26,3 +26,5 @@ Graph Neural Networks (GNNs) have proven highly effective in graph-related tasks
 - Latest advancements and research frontiers
 
 Based on the ACM Computing Survey: *A Survey on Graph Counterfactual Explanations: Definitions, Methods, Evaluation, and Research Challenges* (ACM CSUR, 2024).
+
+[Full event page on AIIM Lab](https://aiimlab.org/events/ECML_PKDD_2025_Unraveling_Graph_Counterfactual_Explainability_from_Theoretical_Foundations_to_Technical_Mastery){:target="_blank"}

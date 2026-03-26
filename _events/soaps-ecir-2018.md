@@ -15,4 +15,4 @@ This workshop aimed to collect novel ideas in this field and to provide a common
 
 - Giovanni Stilo
 
-[Workshop website](http://soaps.di.uniroma1.it/){:target="_blank"}
+[Workshop website](http://soaps.di.uniroma1.it/){:target="_blank"} | [AIIM Lab page](https://aiimlab.org/events/soaps-ECIR2018){:target="_blank"}

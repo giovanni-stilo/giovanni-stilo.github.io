@@ -14,3 +14,5 @@ This tutorial addressed challenges and solutions to the student dropout predicti
 - Bardh Prenkaj
 - Giovanni Stilo
 - Lorenzo Madeddu
+
+[Full event page on AIIM Lab](https://aiimlab.org/events/sdp-cikm2020){:target="_blank"}

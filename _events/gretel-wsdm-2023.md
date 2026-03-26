@@ -14,3 +14,5 @@ This demo discussed the challenges of interpreting Graph Neural Networks (GNNs) 
 - Mario Alfonso Prado-Romero
 - Bardh Prenkaj
 - Giovanni Stilo
+
+[Full event page on AIIM Lab](https://aiimlab.org/events/gretel-wsdm2023){:target="_blank"}

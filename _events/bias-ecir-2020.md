@@ -18,4 +18,4 @@ Being able to detect, measure, characterize, and mitigate these biases while kee
 - Mirko Marras
 - Giovanni Stilo
 
-[Workshop website](http://bias.disim.univaq.it/){:target="_blank"}
+[Workshop website](http://bias.disim.univaq.it/){:target="_blank"} | [AIIM Lab page](https://aiimlab.org/events/bias-ECIR2020){:target="_blank"}
