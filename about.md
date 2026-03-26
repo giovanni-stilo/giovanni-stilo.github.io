@@ -67,19 +67,19 @@ In 2024, he was recognized as one of the **Top 500 Most Influential Italians in 
 
 ## Research Focus
 
-Prof. Stilo's research spans several cutting-edge areas of AI and Machine Learning:
+Prof. Stilo's research spans several areas of AI and Machine Learning, with a primary focus on addressing real-world problems that require large-scale data processing:
 
-- **Graph Counterfactual Explainability (GCE):** Developing methods and frameworks (GRETEL, RSGG-CE) to explain Graph Neural Network decisions through counterfactual reasoning, published at top venues including AAAI, ACM Computing Surveys, WSDM, and ECML-PKDD.
+- **Graph Counterfactual Explainability (GCE):** Developing methods and frameworks (GRETEL, RSGG-CE) to explain Graph Neural Network decisions through counterfactual reasoning. Published at AAAI, ACM Computing Surveys, WSDM, ECML-PKDD, CIKM, and IJCAI.
 
-- **Machine Unlearning:** Pioneering research on selective data removal from trained models (ERASURE framework, ForSId problem), addressing GDPR compliance and responsible AI. Published in Machine Learning (Springer).
+- **Machine Unlearning:** Research on selective data removal from trained models (ERASURE framework, Forget-Set Identification problem), addressing GDPR compliance and responsible AI. Published in Machine Learning (Springer) and at CIKM/IJCAI.
 
-- **Algorithmic Bias & Fairness:** Founding and co-organizing the BIAS workshop series at ECIR (2020--2023), and developing debiasing techniques for classification and NLP (RAZOR, Debiaser).
+- **Algorithmic Fairness & Bias:** Founding the BIAS workshop series at ECIR (2020--2023), developing debiasing techniques for classification (Debiaser, IPM), and studying gender gaps in academia and enterprise social networks (JSS, Social Networks).
 
-- **Concept Drift & Data Streams:** Organizing the DELTA workshop at KDD 2024, advancing methods for detecting and adapting to evolving data distributions.
+- **Health Informatics & Computational Biology:** Syndromic surveillance from social media (AIIM, PLoS One, BMC Infectious Diseases), drug repurposing via deep graph networks (IEEE TETC), disease-gene prediction (BIBM, SAC), and contributing to the CLAIRE COVID-19 Task Force.
 
-- **Network Medicine & Bioinformatics:** Contributing to the CLAIRE COVID-19 Task Force, developing graph-based methods for drug repurposing and disease-gene prediction.
+- **Temporal & Social Mining:** Efficient temporal mining of micro-blog texts for event discovery (DMKD), hashtag sense clustering (Computational Linguistics), topic detection in news providers (IDA), and buzzing story discovery in anomalous temporal graphs (WIJ).
 
-- **Social Network Analysis & Recommender Systems:** Research on temporal mining, semantic recommendation (Wiki-MID dataset), and social influence dynamics.
+- **Recommender Systems & User Profiling:** Semantic recommendation for micro-blog users, automatic acquisition of user interest taxonomies (Web Semantics), multi-domain interest datasets (Wiki-MID at ISWC), topic recommenders for journalists (IRJ), and enterprise social network analytics (ICWSM, CSCWD).
 
 ## Scientific Community Service
 
