@@ -7,9 +7,63 @@ permalink: /about/
 
 ## Biography
 
-**Giovanni Stilo** is a Professor of Computer Science at **Luiss University of Rome**, Italy. He is the founder and coordinator of the **AIIM (Artificial Intelligence & Information Mining) Research Collective**, an interdisciplinary group of researchers sharing a common interest in Artificial Intelligence, Data Mining, and Machine Learning.
+**Giovanni Stilo** is an Associate Professor in the Department of AI, Data and Decision Sciences at **Luiss Guido Carli International University** and a Core Faculty member of **Luiss Business School**, where he serves as Scientific Director of the Major in Applied Artificial Intelligence for Business. He is the founder and coordinator of the **AIIM (Artificial Intelligence & Information Mining) Research Collective**, an interdisciplinary group of researchers sharing a common interest in AI, Data Mining, and Machine Learning.
 
-In 2024, Professor Stilo was recognized as one of the **Top 500 Most Influential Italians in Artificial Intelligence**, a testament to his significant contributions to the field.
+Previously, he served as Associate Professor at the University of L'Aquila (2018--2025), where he also coordinated the Master's Degree Program in Applied Data Science (2021--2025). From 2012 to 2018 he held research positions at Sapienza University of Rome, and in 2014 he was a Visiting Researcher at Yahoo Labs in Barcelona, Spain.
+
+In 2024, he was recognized as one of the **Top 500 Most Influential Italians in Artificial Intelligence**.
+
+## Education
+
+| Year | Degree | Institution |
+|------|--------|-------------|
+| 2013 | **Ph.D. in Computer Science** | University of L'Aquila |
+|      | *Techniques for an Unordered World* (Advisor: Prof. Michele Flammini) | |
+| 2008 | **M.Sc. in Computer Science** — 110/110 *summa cum laude* | "Tor Vergata" University of Rome |
+| 2006 | **B.Sc. in Computer Science** — 110/110 *summa cum laude* | "Tor Vergata" University of Rome |
+
+## Career Timeline
+
+- **Sept 2025 -- present:** Associate Professor & Core Faculty, Luiss University / Luiss Business School; Scientific Director, Major in Applied AI for Business
+- **Dec 2021 -- Aug 2025:** Associate Professor, University of L'Aquila; Head of the M.Sc. in Applied Data Science (2021--2025)
+- **Dec 2018 -- Dec 2021:** Assistant Professor (Tenure Track), University of L'Aquila
+- **Jul 2016 -- Dec 2018:** Assistant Professor, Sapienza University of Rome
+- **2014 -- 2016:** Post-doctoral Research Fellow, Sapienza University of Rome
+- **May -- Nov 2014:** Visiting Research Fellow, Yahoo Labs, Barcelona, Spain (Web Mining group)
+- **2013 -- 2015:** Research Contracts, Pediatric Hospital Bambino Gesu (e-Health data mining)
+- **2010 -- 2012:** Assistant Professor (Short Term), "Tor Vergata" University of Rome
+- **2009 -- 2013:** Ph.D. Student, University of L'Aquila
+- **2009 -- 2012:** Applied Research Fellow, Nestor s.c.a.r.l. Laboratory (Information Retrieval)
+- **2007 -- 2008:** Project Contracts, Ministry of Justice (SIDIP/DIGIT evaluation)
+
+## Awards & Honors
+
+- **AI Consultant, Italian Data Protection Authority (GPDP)** -- Winner of the comparative procedure for AI consultancy contracts
+- **National Scientific Qualification -- Full Professor** (Sector 09/H1 comp.-eng.), 2023--2034
+- **National Scientific Qualification -- Associate Professor** (Sectors 01/B1 comp.-science and 09/H1 comp.-eng.), 2019--2028
+- **Top 500 Italians Who Matter in AI** -- Featured by *Repubblica* (2024)
+- **Senior Program Committee Recognition** -- CIKM 2024
+- **Best Student Paper Award** -- CSCWD 2017 ("Detecting Network Leaders in Enterprises")
+- **TREC 2008 -- 2nd Place** in the Legal Track, NIST, Gaithersburg, Maryland
+- **Degree Award** by Confindustria and A.I.C.A. for best works in I.C.T. research (2009)
+- **Ministry of Cultural Heritage Expert** -- Included in the official list of experts for development and management of computer applications (2011--2013)
+- **IEEE Member** since 2016
+
+## International Collaborations & Visiting
+
+**Visiting Positions:**
+- **Technical University of Munich** (Jul 2024) -- Hosted by Prof. Gjergji Kasneci, collaboration on Responsible and Trustworthy AI
+- **University of Havana, Cuba** (Dec 2019 -- Jan 2020) -- Visiting Professor, collaboration on topic detection and discovery
+- **Yahoo Labs, Barcelona** (May -- Nov 2014) -- Visiting Researcher, Web Mining group led by Prof. Ricardo Baeza-Yates
+
+**International Cooperation Agreements:**
+- **University of Havana, Cuba** -- Established 2013, renewed March 2024. Supervised 10+ visiting students over the years
+- **George Mason University, USA** -- Established March 2023. Collaboration on anomaly detection, social network mining, and multiplex networks (with Prof. Carlotta Domeniconi)
+
+**Research Collaborations:**
+- **CLAIRE** (Confederation of Laboratories for AI Research in Europe) -- COVID-19 Task Force, bioinformatics and molecular data analysis
+- **Ludovico Boratto** (Eurecat Foundation, Barcelona) -- Workshop/journal co-organization on social media and search technologies (2016--2023)
+- **Linguistic Computing Laboratory** (Sapienza, Prof. Paola Velardi & Prof. Roberto Navigli) -- Event discovery, semantic recommenders, e-Health (2012--2020)
 
 ## Research Focus
 
@@ -27,13 +81,22 @@ Prof. Stilo's research spans several cutting-edge areas of AI and Machine Learni
 
 - **Social Network Analysis & Recommender Systems:** Research on temporal mining, semantic recommendation (Wiki-MID dataset), and social influence dynamics.
 
-## Academic Roles & Service
+## Scientific Community Service
 
-- **Workshop Organization:** Co-organizer of BIAS@ECIR (2020--2023), DELTA@KDD 2024, WIPE-OUT@ECML-PKDD (2025, 2026), SoMePeAS@ECIR (2017, 2019), SoAPS@ECIR 2018, SIR@CIKM 2018, SERecSys@ICDM (2016, 2017)
-- **National Research Infrastructure:** Responsible for WP1 and national coordinator of WP5 in the **SoBigData.it** PNRR project, strengthening Italy's research infrastructure for responsible data science
-- **Tutorial Delivery:** Tutorials at AAAI 2024, KDD 2024, ECML-PKDD 2025, CIKM 2020, ESSAI 2025
-- **Session Chair:** KDD 2020 (Autoencoders Session)
-- **Invited Speaker:** TU Munich, XAI.it 2023 (AIxIA), AI-GAP 2023, Euro DIG 2020
+**Editorial Roles:**
+- **Associate Editor**, Knowledge and Information Systems (KAIS), Springer (since 2025)
+- **Volume Editor**, DELTA '25 LNCS Vol. 15013; BIAS-CCIS '22 Vol. 1610; BIAS-CCIS '21 Vol. 1418; BIAS-CCIS '20 Vol. 1245
+- **Guest Editor**, Special Issues in IPM, ECML/PKDD journal track, Information Retrieval Journal
+
+**Conference Organization:**
+- **PC Co-Chair**, CIKM 2025
+- **Workshop Chair**, WSDM 2026
+- **Program Chair**, itaDATA 2024
+- **Research Track Chair**, ICDM 2021
+- **DC Co-Chair**, UMAP 2022
+- **Student Travel Awards Chair**, CIKM 2024
+
+**Program Committees (Senior PC):** ECAI, IJCAI, CIKM, SDM, and more
 
 ## The AIIM Collective
 

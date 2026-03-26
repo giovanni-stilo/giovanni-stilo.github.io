@@ -13,11 +13,6 @@ faculty:
 
 # Postdoctoral Researchers
 postdocs:
-  - name: "Dr. Bardh Prenkaj"
-    affiliation: "Technical University of Munich"
-    webpage: "https://bardhprenkaj.netlify.app/"
-    github: "bardhprenkaj"
-
   - name: "Matteo Spezialetti"
     affiliation: "University of L'Aquila"
     webpage: "https://scholar.google.com/citations?user=UfLxHp8AAAAJ"
@@ -48,9 +43,18 @@ phd_alumni:
     affiliation: "Ph.D. at GSSI"
     webpage: "https://scholar.google.es/citations?hl=en&user=NPie5kEAAAAJ"
 
+  - name: "Dr. Giordano D'Aloisio"
+    thesis_year: 2025
+    affiliation: "Ph.D. at University of L'Aquila"
+
   - name: "Hamed Sarvari"
-    thesis_year: 2022
+    thesis_year: 2023
     affiliation: "Ph.D. at George Mason University"
+
+  - name: "Dr. Bardh Prenkaj"
+    thesis_year: 2022
+    affiliation: "Now at Technical University of Munich"
+    webpage: "https://bardhprenkaj.netlify.app/"
 
   - name: "Dr. Lorenzo Madeddu"
     thesis_year: 2022
@@ -154,7 +158,7 @@ msc_alumni:
     program: "M.Sc. in Mathematics, Sapienza University of Rome"
 
   - name: "Bardh Prenkaj"
-    year: 2017
+    year: 2018
     program: "M.Sc. in Computer Science, Sapienza University of Rome"
 
   - name: "Valentina Pizzo"
@@ -172,6 +176,14 @@ msc_alumni:
   - name: "Claudio Rauso"
     year: 2015
     program: "M.Sc. in Computer Science, Sapienza University of Rome"
+
+  - name: "Pierfabio Sanna"
+    year: 2017
+    program: "B.Sc. in Computer Science, Sapienza University of Rome"
+
+  - name: "Bardh Prenkaj"
+    year: 2016
+    program: "B.Sc. in Computer Science, Sapienza University of Rome"
 
   - name: "Giulio de Stefano"
     year: 2014
@@ -229,12 +241,4 @@ visiting_students:
     origin: "University of Havana"
 
 # External Collaborators
-external:
-  - name: "Prof. Antinisca Di Marco"
-    affiliation: "University of L'Aquila"
-
-  - name: "Giordano d'Aloisio"
-    affiliation: "University of L'Aquila"
-
-  - name: "Francesca Marzi"
-    affiliation: "University of L'Aquila"
+external: []
