@@ -700,6 +700,121 @@ p { margin-bottom: 1rem; }
   opacity: 0.5;
 }
 
+/* --- Avatar Initials --- */
+.avatar {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #fff;
+  flex-shrink: 0;
+  letter-spacing: -0.02em;
+}
+
+.avatar-indigo { background: linear-gradient(135deg, #6366f1, #818cf8); }
+.avatar-violet { background: linear-gradient(135deg, #7c3aed, #a78bfa); }
+.avatar-rose { background: linear-gradient(135deg, #e11d48, #fb7185); }
+.avatar-amber { background: linear-gradient(135deg, #d97706, #fbbf24); }
+.avatar-emerald { background: linear-gradient(135deg, #059669, #34d399); }
+.avatar-cyan { background: linear-gradient(135deg, #0891b2, #22d3ee); }
+.avatar-blue { background: linear-gradient(135deg, #2563eb, #60a5fa); }
+.avatar-fuchsia { background: linear-gradient(135deg, #c026d3, #e879f9); }
+.avatar-slate { background: linear-gradient(135deg, #475569, #94a3b8); }
+.avatar-teal { background: linear-gradient(135deg, #0d9488, #5eead4); }
+
+.person-card {
+  display: flex;
+  gap: 1rem;
+  padding: 1.1rem;
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  align-items: center;
+  transition: all var(--transition);
+}
+
+.person-card:hover {
+  border-color: rgba(99,102,241,0.25);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.person-badge {
+  display: inline-block;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-top: 0.3rem;
+}
+
+.badge-phd { background: #ede9fe; color: #6d28d9; }
+.badge-postdoc { background: #e0f2fe; color: #0369a1; }
+.badge-alumni { background: #ecfdf5; color: #047857; }
+
+/* --- Section Icons --- */
+.section-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 0.6rem;
+  font-size: 1.1rem;
+}
+
+.section-icon.indigo { background: var(--color-accent-glow); color: var(--color-accent); }
+.section-icon.emerald { background: #ecfdf5; color: #059669; }
+.section-icon.amber { background: #fef3c7; color: #d97706; }
+.section-icon.rose { background: #ffe4e6; color: #e11d48; }
+.section-icon.violet { background: #ede9fe; color: #7c3aed; }
+
+/* --- Service page timeline dots --- */
+.timeline-item {
+  position: relative;
+  padding-left: 1.5rem;
+  padding-bottom: 1.2rem;
+  border-left: 2px solid var(--color-border);
+}
+
+.timeline-item:last-child { border-left-color: transparent; padding-bottom: 0; }
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -5px;
+  top: 0.4rem;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-accent);
+}
+
+.timeline-year {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  margin-bottom: 0.15rem;
+}
+
+.timeline-title {
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: var(--color-primary);
+}
+
+.timeline-detail {
+  font-size: 0.82rem;
+  color: var(--color-text-light);
+}
+
 /* --- Tables (About page) --- */
 table {
   width: 100%;
