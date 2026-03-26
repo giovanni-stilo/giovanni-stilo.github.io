@@ -1,12 +1,13 @@
 ---
 title: "WIPE-OUT 2026: 2nd Workshop on Machine Unlearning and Privacy Preservation"
-description: "WIPE-OUT 2026 at ECML-PKDD 2026 in Naples, Italy. Focusing on Machine Unlearning for privacy, bias mitigation, and regulatory compliance."
+description: "WIPE-OUT 2026 at ECML-PKDD 2026, September 7, 2026, Naples, Italy. Focusing on Machine Unlearning for privacy, bias mitigation, and regulatory compliance."
 layout: event
-image: "https://ecmlpkdd.org/_next/static/media/ecml-pkdd.93f4d432.svg"
 last-updated: 2026-09-07
 ---
 
 The **2nd Workshop on Machine Unlearning and Privacy Preservation (WIPE-OUT 2026)** is co-located with ECML-PKDD 2026, taking place on **September 7, 2026 in Naples, Italy**.
+
+WIPE-OUT 2026 is a leading venue for researchers working on selective data removal, privacy preservation, and the right to be forgotten in AI. This second edition brings together experts in unlearning theory, large language models, computer vision, recommender systems, privacy, and systems to advance the state of the art in machine unlearning.
 
 ## Topics of Interest
 
