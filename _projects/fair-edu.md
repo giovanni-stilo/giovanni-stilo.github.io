@@ -10,6 +10,7 @@ people:
   - Antinisca Di Marco
   - Giovanni Stilo
 layout: project
+image: "https://aiimlab.org/img/projects/FAIR-EDU_Logo.jpeg"
 last-updated: 2022-11-15
 ---
 
