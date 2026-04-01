@@ -7,7 +7,7 @@ people:
   - Bardh Prenkaj
   - Giovanni Stilo
 layout: project
-image: "https://aiimlab.org/img/projects/logo_gengce_bn.png"
+image: "/assets/img/projects/logo_gengce_bn.png"
 last-updated: 2024-02-27
 ---
 

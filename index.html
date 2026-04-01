@@ -8,19 +8,21 @@ description: "Personal academic website of Professor Giovanni Stilo. Expert in A
 <section class="hero">
   <div class="container">
     <div class="hero-inner">
-      <img src="/assets/img/profile.jpeg" alt="Professor Giovanni Stilo" class="hero-photo" width="200" height="200">
+      <div class="hero-photo-wrapper">
+        <img src="/assets/img/profile.jpeg" alt="Professor Giovanni Stilo" class="hero-photo" width="170" height="170">
+      </div>
       <div class="hero-content">
         <h1>Giovanni Stilo</h1>
         <p class="hero-subtitle">Professor of Computer Science</p>
         <p class="hero-affiliation">
-          <strong>Luiss University of Rome</strong> &middot; Founder of the <a href="https://aiimlab.org" target="_blank" rel="noopener" style="color:#fff;text-decoration:underline">AIIM Research Collective</a>
+          <strong>Luiss University of Rome</strong> &middot; Founder of the <a href="https://aiimlab.org" target="_blank" rel="noopener">AIIM Research Collective</a>
         </p>
         <div class="hero-links">
-          <a href="https://scholar.google.com/citations?hl=en&user=uTyaicMAAAAJ" target="_blank" rel="noopener"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+          <a href="https://scholar.google.com/citations?hl=en&user=uTyaicMAAAAJ" target="_blank" rel="noopener"><i class="fas fa-graduation-cap"></i> Scholar</a>
           <a href="https://github.com/aiim-research" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
-          <a href="https://www.linkedin.com/company/artificial-intelligence-information-mining" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="https://www.linkedin.com/in/giovanni-stilo-7986b816/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
           <a href="mailto:gstilo@luiss.it"><i class="fas fa-envelope"></i> Contact</a>
-          <a href="/about"><i class="fas fa-file-alt"></i> Full Bio</a>
+          <a href="/about"><i class="fas fa-user"></i> Full Bio</a>
         </div>
       </div>
     </div>
@@ -32,47 +34,8 @@ description: "Personal academic website of Professor Giovanni Stilo. Expert in A
   <i class="fas fa-award"></i> Recognized among the <strong>Top 500 Most Influential Italians in Artificial Intelligence</strong> (2024)
 </div>
 
-<!-- Research Areas -->
-<section class="section">
-  <div class="container">
-    <h2 class="section-title">Research Areas</h2>
-    <div class="research-areas">
-      <div class="research-area">
-        <i class="fas fa-project-diagram"></i>
-        <h3>Graph Counterfactual Explainability</h3>
-        <p>Methods and frameworks (GRETEL, RSGG-CE) for explaining GNN decisions through counterfactual reasoning</p>
-      </div>
-      <div class="research-area">
-        <i class="fas fa-eraser"></i>
-        <h3>Machine Unlearning</h3>
-        <p>Selective data removal from trained models (ERASURE, ForSId) for GDPR compliance and responsible AI</p>
-      </div>
-      <div class="research-area">
-        <i class="fas fa-balance-scale"></i>
-        <h3>Algorithmic Fairness</h3>
-        <p>Detecting and mitigating bias in classification, search, and recommendation (BIAS workshop series, Debiaser)</p>
-      </div>
-      <div class="research-area">
-        <i class="fas fa-heartbeat"></i>
-        <h3>Health Informatics</h3>
-        <p>Syndromic surveillance from social media, drug repurposing via graph networks, disease-gene prediction</p>
-      </div>
-      <div class="research-area">
-        <i class="fas fa-clock"></i>
-        <h3>Temporal &amp; Social Mining</h3>
-        <p>Event discovery, hashtag sense clustering, topic detection in social streams and news media</p>
-      </div>
-      <div class="research-area">
-        <i class="fas fa-users"></i>
-        <h3>Recommender Systems</h3>
-        <p>Semantic recommendation, user profiling via taxonomies (Wiki-MID), enterprise social network analysis</p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- Impact Stats -->
-<section class="section" style="background: var(--color-highlight); padding: 2.5rem 0;">
+<section class="section-alt stats-section">
   <div class="container">
     <div class="stats-bar">
       <div class="stat-item">
@@ -95,8 +58,47 @@ description: "Personal academic website of Professor Giovanni Stilo. Expert in A
   </div>
 </section>
 
-<!-- Selected Projects -->
+<!-- Research Areas -->
 <section class="section">
+  <div class="container">
+    <h2 class="section-title">Research Areas</h2>
+    <div class="research-areas">
+      <div class="research-area">
+        <div class="research-area-icon"><i class="fas fa-project-diagram"></i></div>
+        <h3>Graph Counterfactual Explainability</h3>
+        <p>Methods and frameworks (GRETEL, RSGG-CE) for explaining GNN decisions through counterfactual reasoning</p>
+      </div>
+      <div class="research-area">
+        <div class="research-area-icon"><i class="fas fa-eraser"></i></div>
+        <h3>Machine Unlearning</h3>
+        <p>Selective data removal from trained models (ERASURE, ForSId) for GDPR compliance and responsible AI</p>
+      </div>
+      <div class="research-area">
+        <div class="research-area-icon"><i class="fas fa-balance-scale"></i></div>
+        <h3>Algorithmic Fairness</h3>
+        <p>Detecting and mitigating bias in classification, search, and recommendation systems</p>
+      </div>
+      <div class="research-area">
+        <div class="research-area-icon"><i class="fas fa-heartbeat"></i></div>
+        <h3>Health Informatics</h3>
+        <p>Syndromic surveillance from social media, drug repurposing via graph networks, disease-gene prediction</p>
+      </div>
+      <div class="research-area">
+        <div class="research-area-icon"><i class="fas fa-clock"></i></div>
+        <h3>Temporal &amp; Social Mining</h3>
+        <p>Event discovery, hashtag sense clustering, topic detection in social streams and news media</p>
+      </div>
+      <div class="research-area">
+        <div class="research-area-icon"><i class="fas fa-users"></i></div>
+        <h3>Recommender Systems</h3>
+        <p>Semantic recommendation, user profiling via taxonomies, enterprise social network analysis</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Projects -->
+<section class="section section-alt">
   <div class="container">
     <h2 class="section-title">Featured Projects</h2>
     <div class="card-grid">
@@ -130,7 +132,7 @@ description: "Personal academic website of Professor Giovanni Stilo. Expert in A
 </section>
 
 <!-- Recent News -->
-<section class="section" style="background: var(--color-highlight); padding: 3rem 0;">
+<section class="section">
   <div class="container">
     <h2 class="section-title">Recent News</h2>
     <ul class="news-list">
@@ -148,8 +150,8 @@ description: "Personal academic website of Professor Giovanni Stilo. Expert in A
   </div>
 </section>
 
-<!-- Upcoming Events -->
-<section class="section">
+<!-- Workshops & Events -->
+<section class="section section-alt">
   <div class="container">
     <h2 class="section-title">Workshops & Events</h2>
     <div class="events-grid">

@@ -7,7 +7,7 @@ people:
   - Bardh Prenkaj
   - Giovanni Stilo
 layout: project
-image: "https://aiimlab.org/img/projects/gretel_logo_lollipop.jpeg"
+image: "/assets/img/projects/gretel_logo_lollipop.jpeg"
 last-updated: 2024-09-13
 ---
 
