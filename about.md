@@ -62,8 +62,7 @@ In 2024, he was recognized as one of the **Top 500 Most Influential Italians in 
 
 **Research Collaborations:**
 - **CLAIRE** (Confederation of Laboratories for AI Research in Europe) -- COVID-19 Task Force, bioinformatics and molecular data analysis
-- **Ludovico Boratto** (Eurecat Foundation, Barcelona) -- Workshop/journal co-organization on social media and search technologies (2016--2023)
-- **Linguistic Computing Laboratory** (Sapienza, Prof. Paola Velardi & Prof. Roberto Navigli) -- Event discovery, semantic recommenders, e-Health (2012--2020)
+
 
 ## Research Focus
 
