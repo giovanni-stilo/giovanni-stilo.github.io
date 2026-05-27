@@ -34,7 +34,7 @@ sitemap:
   {% for post in site.events %}
     {% unless post.status == "inactive" %}
     <url>
-      <loc>{{ site.url }}{{ post.url }}.html</loc>
+      <loc>{{ site.url }}{{ post.url }}</loc>
       {% if post.sitemap.lastmod %}
         <lastmod>{{ post.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
       {% elsif post.date %}
@@ -59,7 +59,7 @@ sitemap:
   {% for post in site.projects %}
     {% unless post.status == "inactive" %}
     <url>
-      <loc>{{ site.url }}{{ post.url }}.html</loc>
+      <loc>{{ site.url }}{{ post.url }}</loc>
       {% if post.sitemap.lastmod %}
         <lastmod>{{ post.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
       {% elsif post.date %}
@@ -82,13 +82,9 @@ sitemap:
   {% endfor %}
   <!--   STATIC -->
   {% for page in site.pages %}
-    {% unless page.sitemap.exclude == "yes" or page.name == "feed.xml" or page.name contains "css"%}
+    {% unless page.sitemap.exclude == "yes" or page.url contains ".xml" or page.url contains ".txt" or page.name == "404.html" or page.name contains "google" or page.name contains "css" %}
     <url>
-      {% if  page.url  == "/" %}
-      <loc>{{ site.url }}{{ page.url }}index.html</loc>
-      {% else %}
-      <loc>{{ site.url }}{{ page.url }}.html</loc>
-      {% endif %}
+      <loc>{{ site.url }}{{ page.url }}</loc>
       {% if page.sitemap.lastmod %}
         <lastmod>{{ page.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
       {% elsif page.date %}
