@@ -35,6 +35,7 @@ phd_students:
 # PhD Alumni
 phd_alumni:
   - name: "Dr. Andrea D'Angelo"
+    thesis_year: 2026
     affiliation: "Ph.D. at University of L'Aquila"
 
   - name: "Dr. Mario A. Prado-Romero"
