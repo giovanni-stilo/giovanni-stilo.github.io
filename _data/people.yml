@@ -31,17 +31,16 @@ phd_students:
     affiliation: "University of L'Aquila"
     webpage: "https://www.linkedin.com/in/giuseppe-costanzo-020750279"
 
-  - name: "Andrea D'Angelo"
-    affiliation: "University of L'Aquila"
-    webpage: "https://andrea-dangelo.com"
-    github: "dangeloandrea14"
 
 # PhD Alumni
 phd_alumni:
+  - name: "Dr. Andrea D'Angelo"
+    affiliation: "University of Aarhus"
+    github: "dangeloandrea14"
+
   - name: "Dr. Mario A. Prado-Romero"
     thesis_year: 2025
-    affiliation: "Ph.D. at GSSI"
-    webpage: "https://scholar.google.es/citations?hl=en&user=NPie5kEAAAAJ"
+    affiliation: "Fondazione Gran Sasso Tech"
 
   - name: "Dr. Giordano D'Aloisio"
     thesis_year: 2025
@@ -53,23 +52,19 @@ phd_alumni:
 
   - name: "Dr. Bardh Prenkaj"
     thesis_year: 2022
-    affiliation: "Now at Technical University of Munich"
-    webpage: "https://bardhprenkaj.netlify.app/"
+    affiliation: "None"
 
   - name: "Dr. Lorenzo Madeddu"
     thesis_year: 2022
-    affiliation: "Now at AstraZeneca"
-    webpage: "https://www.lorenzomadeddu.com/"
+    affiliation: "AstraZeneca"
 
   - name: "Dr. Giorgia Di Tommaso"
     thesis_year: 2019
-    affiliation: "Now at Enel Group"
-    webpage: "https://it.linkedin.com/in/giorgia-di-tommaso"
+    affiliation: "Enel Group"
 
   - name: "Prof. Jose Camacho Collados"
     thesis_year: 2018
-    affiliation: "Now at Cardiff University"
-    webpage: "http://josecamachocollados.com/"
+    affiliation: "Cardiff University"
 
 # MSc Alumni
 msc_alumni:
