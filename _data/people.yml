@@ -35,12 +35,11 @@ phd_students:
 # PhD Alumni
 phd_alumni:
   - name: "Dr. Andrea D'Angelo"
-    affiliation: "University of Aarhus"
-    github: "dangeloandrea14"
+    affiliation: "Ph.D. at University of L'Aquila"
 
   - name: "Dr. Mario A. Prado-Romero"
     thesis_year: 2025
-    affiliation: "Fondazione Gran Sasso Tech"
+    affiliation: "Ph.D. at Gran Sasso Science Institute"
 
   - name: "Dr. Giordano D'Aloisio"
     thesis_year: 2025
@@ -52,19 +51,19 @@ phd_alumni:
 
   - name: "Dr. Bardh Prenkaj"
     thesis_year: 2022
-    affiliation: "None"
+    affiliation: "Ph.D. at Sapienza University"
 
   - name: "Dr. Lorenzo Madeddu"
     thesis_year: 2022
-    affiliation: "AstraZeneca"
+    affiliation: "Ph.D. at Sapienza University"
 
   - name: "Dr. Giorgia Di Tommaso"
     thesis_year: 2019
-    affiliation: "Enel Group"
+    affiliation: "Ph.D. at Sapienza University"
 
   - name: "Prof. Jose Camacho Collados"
     thesis_year: 2018
-    affiliation: "Cardiff University"
+    affiliation: "Ph.D. at Sapienza University"
 
 # MSc Alumni
 msc_alumni:
