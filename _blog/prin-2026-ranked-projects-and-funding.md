@@ -418,9 +418,11 @@ and replaces DDG 32. The PE7 tables are counted once.
     if(!cy)return;
     stopLayout();
     layout=cy.layout({name:'cose',animate:!window.matchMedia('(prefers-reduced-motion: reduce)').matches,
-      animationThreshold:0,refresh:20,randomize,fit:true,padding:38,componentSpacing:100,
-      nodeRepulsion:()=>16000,idealEdgeLength:edge=>70+90*(1-edge.data('weight')),
-      edgeElasticity:()=>50,gravity:0.6,numIter:600,initialTemp:120,coolingFactor:0.98,minTemp:1,
+      animationThreshold:0,refresh:20,randomize,fit:true,padding:38,componentSpacing:220,
+      // Give highly connected institutions more room in the dense network core.
+      nodeRepulsion:node=>65000*(1+Math.sqrt(node.degree())),
+      idealEdgeLength:edge=>160+140*(1-edge.data('weight')),
+      edgeElasticity:()=>160,gravity:0.08,numIter:1400,initialTemp:180,coolingFactor:0.995,minTemp:1,
       ready:()=>setLayoutStatus(true),stop:()=>setLayoutStatus(false)});
     layout.run();
   }
@@ -471,8 +473,8 @@ and replaces DDG 32. The PE7 tables are counted once.
     const options=document.createDocumentFragment();
     current.nodes.forEach(n=>{const option=document.createElement('option');option.value=n.name;options.appendChild(option);});
     el('prin-network-institutions').replaceChildren(options);
-    const graphElements=[...current.nodes.map(n=>({data:{...n,shortName:label(n),displayLabel:label(n),size:16+5*Math.sqrt(n.projects)},position:{x:450+n.x*350,y:330+n.y*260}})),
-      ...visibleEdges.map(e=>({data:{...e,id:`${e.source}-${e.target}`,width:0.7+12*Math.sqrt(e.weight)}}))];
+    const graphElements=[...current.nodes.map(n=>({data:{...n,shortName:label(n),displayLabel:label(n),size:10+1.6*Math.sqrt(n.projects)},position:{x:450+n.x*350,y:330+n.y*260}})),
+      ...visibleEdges.map(e=>({data:{...e,id:`${e.source}-${e.target}`,width:0.6+5*Math.sqrt(e.weight)}}))];
     if(cy){cy.destroy();cy=null;}
     el('prin-network-fallback-image').src=`{{ '/assets/img/prin-networks/' | relative_url }}${current.scope}.png`;
     el('prin-network-fallback-image').alt=`${current.scope} collaboration map: ${current.nodes.length} institutions and ${current.edges.length} ties; denominator ${current.projects} fundable projects.`;
@@ -483,11 +485,11 @@ and replaces DDG 32. The PE7 tables are counted once.
     cy=window.cytoscape({container:el('prin-network-canvas'),elements:graphElements,layout:{name:'preset'},
       minZoom:0.08,maxZoom:6,boxSelectionEnabled:false,
       style:[
-        {selector:'node',style:{'background-color':'#246080','border-color':'#fff','border-width':1.5,'width':'data(size)','height':'data(size)',
-          'label':'data(displayLabel)','font-size':9,'color':'#17324a','text-wrap':'wrap','text-max-width':105,'text-valign':'bottom','text-margin-y':4,'min-zoomed-font-size':7}},
-        {selector:'edge',style:{'width':'data(width)','line-color':'#23785c','opacity':0.4,'curve-style':'straight'}},
+        {selector:'node',style:{'background-color':'#246080','border-color':'#fff','border-width':1,'width':'data(size)','height':'data(size)',
+          'label':'data(displayLabel)','font-size':8.5,'color':'#17324a','text-wrap':'wrap','text-max-width':90,'text-valign':'bottom','text-margin-y':3,'min-zoomed-font-size':7}},
+        {selector:'edge',style:{'width':'data(width)','line-color':'#23785c','opacity':0.32,'curve-style':'straight'}},
         {selector:'.dim',style:{'opacity':0.12}},
-        {selector:'node.focus',style:{'border-color':'#e29b31','border-width':4,'z-index':10}},
+        {selector:'node.focus',style:{'border-color':'#e29b31','border-width':2.5,'z-index':10}},
         {selector:'edge.focus',style:{'opacity':0.9,'line-color':'#d9801d','z-index':9}}
       ]});
     cy.on('tap','node',event=>focusNode(event.target));
