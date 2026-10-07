@@ -1,0 +1,39 @@
+---
+layout: page
+title: "Blog"
+description: "Research notes, explanations, and perspectives on artificial intelligence, machine learning, and the questions that connect them."
+permalink: /blog/
+---
+
+<p class="blog-intro">A space to explore research ideas, explain concepts, and think through open questions. From artificial intelligence and machine learning to the practice of research itself.</p>
+
+{% assign articles = site.blog | sort: 'date' | reverse %}
+{% unless site.unpublished %}
+  {% assign articles = articles | where_exp: 'article', 'article.published != false' %}
+{% endunless %}
+{% if articles.size > 0 %}
+<div class="blog-list">
+  {% for article in articles %}
+  <article class="blog-entry">
+    <div class="blog-meta">
+      <time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: "%B %d, %Y" }}</time>
+      {% if article.published == false %}<span class="blog-draft">Draft — for review</span>{% endif %}
+    </div>
+    <h2><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></h2>
+    {% if article.description %}<p>{{ article.description | escape }}</p>{% endif %}
+    {% if article.tags.size > 0 %}
+    <ul class="blog-tags" aria-label="Topics">
+      {% for tag in article.tags %}<li>{{ tag | escape }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+    <a class="blog-read-more" href="{{ article.url | relative_url }}">Read article<span class="sr-only">: {{ article.title | escape }}</span> <span aria-hidden="true">→</span></a>
+  </article>
+  {% endfor %}
+</div>
+{% else %}
+<div class="blog-empty">
+  <h2>Coming soon</h2>
+  <p>Research notes and perspectives are on the way.</p>
+  <a href="{{ '/research/' | relative_url }}">Explore current research <span aria-hidden="true">→</span></a>
+</div>
+{% endif %}

@@ -18,6 +18,7 @@
         <li><a href="{{ '/events' | relative_url }}" {% if page.url == '/events/' %}class="active"{% endif %}>Events</a></li>
         <li><a href="{{ '/service' | relative_url }}" {% if page.url == '/service/' %}class="active"{% endif %}>Service</a></li>
         <li><a href="{{ '/news' | relative_url }}" {% if page.url == '/news/' %}class="active"{% endif %}>News</a></li>
+        <li><a href="{{ '/blog/' | relative_url }}" {% if page.url == '/blog/' or page.collection == 'blog' %}class="active" aria-current="page"{% endif %}>Blog</a></li>
       </ul>
     </nav>
   </div>

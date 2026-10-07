@@ -30,6 +30,9 @@ plugins:
 
 # Collections
 collections:
+  blog:
+    output: true
+    permalink: /blog/:path/
   projects:
     output: true
     permalink: /projects/:path/
@@ -39,6 +42,14 @@ collections:
 
 # Defaults
 defaults:
+  - scope:
+      path: ""
+      type: "blog"
+    values:
+      layout: "blog-post"
+      author: "Giovanni Stilo"
+      seo:
+        type: BlogPosting
   - scope:
       path: ""
       type: "posts"
@@ -67,3 +78,4 @@ exclude:
   - vendor
   - priv_site-main
   - README.md
+  - templates

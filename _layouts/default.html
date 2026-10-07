@@ -4,6 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% seo %}
+  {% if page.collection == 'blog' and page.published == false %}
+  <meta name="robots" content="noindex, nofollow">
+  {% endif %}
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="48x48">
   <link rel="icon" href="{{ '/assets/img/favicon/favicon.svg' | relative_url }}" type="image/svg+xml">

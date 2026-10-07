@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="container">
+  <article class="page-content post-content blog-post">
+    <nav class="blog-breadcrumbs" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+        <li aria-current="page">{{ page.title | escape }}</li>
+      </ol>
+    </nav>
+    <header class="post-header">
+      {% if page.published == false %}<p class="blog-draft">Draft — for review</p>{% endif %}
+      <h1 class="page-title">{{ page.title | escape }}</h1>
+      {% if page.description %}<p class="blog-summary">{{ page.description | escape }}</p>{% endif %}
+      <div class="blog-meta">
+        <span>{{ page.author | default: site.author | escape }}</span>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+        {% if page.last_modified_at %}
+        <span>Updated <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time></span>
+        {% endif %}
+      </div>
+      {% if page.tags.size > 0 %}
+      <ul class="blog-tags" aria-label="Topics">
+        {% for tag in page.tags %}<li>{{ tag | escape }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+    </header>
+    <div class="blog-body">
+      {{ content }}
+    </div>
+    <footer class="blog-post-footer">
+      <a href="{{ '/blog/' | relative_url }}"><span aria-hidden="true">←</span> Back to Blog</a>
+    </footer>
+  </article>
+</div>
