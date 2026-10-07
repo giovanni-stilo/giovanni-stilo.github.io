@@ -16,7 +16,7 @@ part of the call. I hope this overview offers a useful starting point for
 reading the results, while leaving the interpretation close to the evidence.
 
 > **AI processing note:** The PDFs were extracted and aggregated with AI assistance.
-> Results are indicative; please verify them against the official documents before relying on them.
+> Analysis are indicative; please verify them against the official documents before relying on them.
 
 ## Methodology
 
