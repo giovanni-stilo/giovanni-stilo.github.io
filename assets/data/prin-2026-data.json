@@ -1,0 +1,3585 @@
+{
+  "as_of": "2026-10-07",
+  "scope": "15 sectors in the supplied local PDFs",
+  "sectors": [
+    {
+      "sector": "LS2",
+      "ranked": 8,
+      "funded": 5,
+      "unfunded": 3,
+      "rate": 0.625,
+      "institutions": 17,
+      "amount": 5431137
+    },
+    {
+      "sector": "LS3",
+      "ranked": 7,
+      "funded": 4,
+      "unfunded": 3,
+      "rate": 0.5714285714285714,
+      "institutions": 11,
+      "amount": 4669992
+    },
+    {
+      "sector": "LS4",
+      "ranked": 16,
+      "funded": 12,
+      "unfunded": 4,
+      "rate": 0.75,
+      "institutions": 32,
+      "amount": 12091756
+    },
+    {
+      "sector": "LS7",
+      "ranked": 28,
+      "funded": 17,
+      "unfunded": 11,
+      "rate": 0.6071428571428571,
+      "institutions": 41,
+      "amount": 17876517
+    },
+    {
+      "sector": "PE1",
+      "ranked": 8,
+      "funded": 5,
+      "unfunded": 3,
+      "rate": 0.625,
+      "institutions": 17,
+      "amount": 5516870
+    },
+    {
+      "sector": "PE2",
+      "ranked": 12,
+      "funded": 6,
+      "unfunded": 6,
+      "rate": 0.5,
+      "institutions": 21,
+      "amount": 6993474
+    },
+    {
+      "sector": "PE3",
+      "ranked": 8,
+      "funded": 5,
+      "unfunded": 3,
+      "rate": 0.625,
+      "institutions": 15,
+      "amount": 5142740
+    },
+    {
+      "sector": "PE7",
+      "ranked": 18,
+      "funded": 11,
+      "unfunded": 7,
+      "rate": 0.6111111111111112,
+      "institutions": 29,
+      "amount": 11448788
+    },
+    {
+      "sector": "PE8",
+      "ranked": 22,
+      "funded": 14,
+      "unfunded": 8,
+      "rate": 0.6363636363636364,
+      "institutions": 34,
+      "amount": 16458886
+    },
+    {
+      "sector": "PE9",
+      "ranked": 8,
+      "funded": 4,
+      "unfunded": 4,
+      "rate": 0.5,
+      "institutions": 14,
+      "amount": 4292671
+    },
+    {
+      "sector": "PE10",
+      "ranked": 14,
+      "funded": 9,
+      "unfunded": 5,
+      "rate": 0.6428571428571429,
+      "institutions": 21,
+      "amount": 9237033
+    },
+    {
+      "sector": "PE11",
+      "ranked": 10,
+      "funded": 6,
+      "unfunded": 4,
+      "rate": 0.6,
+      "institutions": 21,
+      "amount": 6491047
+    },
+    {
+      "sector": "SH4",
+      "ranked": 16,
+      "funded": 8,
+      "unfunded": 8,
+      "rate": 0.5,
+      "institutions": 20,
+      "amount": 8120980
+    },
+    {
+      "sector": "SH5",
+      "ranked": 16,
+      "funded": 9,
+      "unfunded": 7,
+      "rate": 0.5625,
+      "institutions": 29,
+      "amount": 10215141
+    },
+    {
+      "sector": "SH6",
+      "ranked": 14,
+      "funded": 9,
+      "unfunded": 5,
+      "rate": 0.6428571428571429,
+      "institutions": 27,
+      "amount": 9245266
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Consiglio Nazionale delle Ricerche",
+      "tax": "80054330586",
+      "projects": 44,
+      "led": 8,
+      "units": 44,
+      "amount": 10848262
+    },
+    {
+      "name": "Università degli Studi di ROMA \"La Sapienza\"",
+      "tax": "80209930587",
+      "projects": 47,
+      "led": 7,
+      "units": 47,
+      "amount": 9565134
+    },
+    {
+      "name": "Università degli Studi di PADOVA",
+      "tax": "80006480281",
+      "projects": 29,
+      "led": 9,
+      "units": 29,
+      "amount": 6439971
+    },
+    {
+      "name": "Università degli Studi di TORINO",
+      "tax": "80088230018",
+      "projects": 28,
+      "led": 5,
+      "units": 28,
+      "amount": 6311164
+    },
+    {
+      "name": "Alma Mater Studiorum - Università di BOLOGNA",
+      "tax": "80007010376",
+      "projects": 22,
+      "led": 3,
+      "units": 22,
+      "amount": 4865146
+    },
+    {
+      "name": "Università degli Studi di Napoli Federico II",
+      "tax": "00876220633",
+      "projects": 23,
+      "led": 6,
+      "units": 23,
+      "amount": 4759521
+    },
+    {
+      "name": "Università degli Studi di MILANO",
+      "tax": "80012650158",
+      "projects": 20,
+      "led": 9,
+      "units": 20,
+      "amount": 4297948
+    },
+    {
+      "name": "Università degli Studi di FIRENZE",
+      "tax": "01279680480",
+      "projects": 17,
+      "led": 4,
+      "units": 17,
+      "amount": 3722365
+    },
+    {
+      "name": "Università di PISA",
+      "tax": "80003670504",
+      "projects": 17,
+      "led": 2,
+      "units": 17,
+      "amount": 3641881
+    },
+    {
+      "name": "Politecnico di TORINO",
+      "tax": "00518460019",
+      "projects": 14,
+      "led": 7,
+      "units": 14,
+      "amount": 3457922
+    },
+    {
+      "name": "Politecnico di MILANO",
+      "tax": "80057930150",
+      "projects": 16,
+      "led": 2,
+      "units": 16,
+      "amount": 3415126
+    },
+    {
+      "name": "Università degli Studi di ROMA \"Tor Vergata\"",
+      "tax": "80213750583",
+      "projects": 17,
+      "led": 0,
+      "units": 17,
+      "amount": 3225471
+    },
+    {
+      "name": "Università degli Studi di TRENTO",
+      "tax": "00340520220",
+      "projects": 14,
+      "led": 4,
+      "units": 14,
+      "amount": 2970989
+    },
+    {
+      "name": "Università degli Studi di SALERNO",
+      "tax": "80018670655",
+      "projects": 13,
+      "led": 3,
+      "units": 13,
+      "amount": 2946479
+    },
+    {
+      "name": "Università degli Studi di MILANO-BICOCCA",
+      "tax": "12621570154",
+      "projects": 12,
+      "led": 7,
+      "units": 12,
+      "amount": 2855857
+    },
+    {
+      "name": "Università degli Studi della Campania \"Luigi Vanvitelli\"",
+      "tax": "02044190615",
+      "projects": 12,
+      "led": 2,
+      "units": 12,
+      "amount": 2597463
+    },
+    {
+      "name": "Università degli Studi di PARMA",
+      "tax": "00308780345",
+      "projects": 13,
+      "led": 1,
+      "units": 13,
+      "amount": 2568846
+    },
+    {
+      "name": "Università degli Studi ROMA TRE",
+      "tax": "04400441004",
+      "projects": 12,
+      "led": 3,
+      "units": 12,
+      "amount": 2552953
+    },
+    {
+      "name": "Università degli Studi di CATANIA",
+      "tax": "02772010878",
+      "projects": 13,
+      "led": 3,
+      "units": 13,
+      "amount": 2504047
+    },
+    {
+      "name": "Università degli Studi di PERUGIA",
+      "tax": "00448820548",
+      "projects": 11,
+      "led": 0,
+      "units": 11,
+      "amount": 2364763
+    },
+    {
+      "name": "Università degli Studi di PALERMO",
+      "tax": "80023730825",
+      "projects": 10,
+      "led": 3,
+      "units": 10,
+      "amount": 2245677
+    },
+    {
+      "name": "Università degli Studi di GENOVA",
+      "tax": "00754150100",
+      "projects": 10,
+      "led": 0,
+      "units": 10,
+      "amount": 2078941
+    },
+    {
+      "name": "Università degli Studi di PAVIA",
+      "tax": "80007270186",
+      "projects": 9,
+      "led": 2,
+      "units": 9,
+      "amount": 1928567
+    },
+    {
+      "name": "Istituto Nazionale di Fisica Nucleare",
+      "tax": "84001850589",
+      "projects": 6,
+      "led": 0,
+      "units": 6,
+      "amount": 1816854
+    },
+    {
+      "name": "Università degli Studi di SIENA",
+      "tax": "80002070524",
+      "projects": 7,
+      "led": 5,
+      "units": 7,
+      "amount": 1804469
+    },
+    {
+      "name": "Università degli Studi del PIEMONTE ORIENTALE",
+      "tax": "94021400026",
+      "projects": 7,
+      "led": 0,
+      "units": 7,
+      "amount": 1604202
+    },
+    {
+      "name": "Università degli Studi di VERONA",
+      "tax": "93009870234",
+      "projects": 6,
+      "led": 3,
+      "units": 6,
+      "amount": 1578093
+    },
+    {
+      "name": "UNISR - Università Vita Salute San Raffaele",
+      "tax": "97187560152",
+      "projects": 6,
+      "led": 2,
+      "units": 6,
+      "amount": 1479572
+    },
+    {
+      "name": "Università degli Studi di TRIESTE",
+      "tax": "80013890324",
+      "projects": 7,
+      "led": 3,
+      "units": 7,
+      "amount": 1468341
+    },
+    {
+      "name": "Università degli Studi di BARI ALDO MORO",
+      "tax": "80002170720",
+      "projects": 7,
+      "led": 0,
+      "units": 7,
+      "amount": 1444665
+    },
+    {
+      "name": "Università Cattolica del Sacro Cuore",
+      "tax": "02133120150",
+      "projects": 7,
+      "led": 1,
+      "units": 7,
+      "amount": 1406669
+    },
+    {
+      "name": "Università degli Studi di MESSINA",
+      "tax": "80004070837",
+      "projects": 7,
+      "led": 0,
+      "units": 7,
+      "amount": 1400822
+    },
+    {
+      "name": "Università degli Studi di BRESCIA",
+      "tax": "98007650173",
+      "projects": 7,
+      "led": 0,
+      "units": 7,
+      "amount": 1292761
+    },
+    {
+      "name": "Istituto Nazionale di Astrofisica",
+      "tax": "97220210583",
+      "projects": 4,
+      "led": 1,
+      "units": 4,
+      "amount": 1272321
+    },
+    {
+      "name": "Università degli Studi INSUBRIA Varese-Como",
+      "tax": "95039180120",
+      "projects": 6,
+      "led": 1,
+      "units": 6,
+      "amount": 1240115
+    },
+    {
+      "name": "Università degli Studi dell'AQUILA",
+      "tax": "01021630668",
+      "projects": 6,
+      "led": 1,
+      "units": 6,
+      "amount": 1112124
+    },
+    {
+      "name": "Università degli Studi di CASSINO e del LAZIO MERIDIONALE",
+      "tax": "81006500607",
+      "projects": 6,
+      "led": 2,
+      "units": 6,
+      "amount": 1080621
+    },
+    {
+      "name": "Università degli Studi di NAPOLI \"Parthenope\"",
+      "tax": "80018240632",
+      "projects": 5,
+      "led": 1,
+      "units": 5,
+      "amount": 1051109
+    },
+    {
+      "name": "Scuola Internazionale Superiore di Studi Avanzati di TRIESTE",
+      "tax": "80035060328",
+      "projects": 5,
+      "led": 2,
+      "units": 5,
+      "amount": 1049147
+    },
+    {
+      "name": "Università della CALABRIA",
+      "tax": "80003950781",
+      "projects": 5,
+      "led": 0,
+      "units": 5,
+      "amount": 904346
+    },
+    {
+      "name": "Università degli Studi di MODENA e REGGIO EMILIA",
+      "tax": "00427620364",
+      "projects": 4,
+      "led": 0,
+      "units": 4,
+      "amount": 870578
+    },
+    {
+      "name": "Università degli Studi di FOGGIA",
+      "tax": "94045260711",
+      "projects": 5,
+      "led": 0,
+      "units": 5,
+      "amount": 849447
+    },
+    {
+      "name": "UNICUSANO Università degli Studi Niccolò Cusano -Telematica Roma",
+      "tax": "09073721004",
+      "projects": 4,
+      "led": 0,
+      "units": 4,
+      "amount": 798694
+    },
+    {
+      "name": "LINK CAMPUS University",
+      "tax": "11933781004",
+      "projects": 5,
+      "led": 0,
+      "units": 5,
+      "amount": 797780
+    },
+    {
+      "name": "Università degli Studi di CAGLIARI",
+      "tax": "80019600925",
+      "projects": 4,
+      "led": 2,
+      "units": 4,
+      "amount": 789411
+    },
+    {
+      "name": "Università degli Studi di FERRARA",
+      "tax": "80007370382",
+      "projects": 4,
+      "led": 0,
+      "units": 4,
+      "amount": 763993
+    },
+    {
+      "name": "Università degli Studi di CAMERINO",
+      "tax": "81001910439",
+      "projects": 4,
+      "led": 1,
+      "units": 4,
+      "amount": 763650
+    },
+    {
+      "name": "Gran Sasso Science Institute - Scuola di dottorato internazionale",
+      "tax": "01984560662",
+      "projects": 3,
+      "led": 2,
+      "units": 3,
+      "amount": 734940
+    },
+    {
+      "name": "Scuola IMT Alti Studi - LUCCA",
+      "tax": "92037570469",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 710042
+    },
+    {
+      "name": "Politecnico di BARI",
+      "tax": "93051590722",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 657720
+    },
+    {
+      "name": "Università degli Studi \"G. d'Annunzio\" CHIETI-PESCARA",
+      "tax": "93002750698",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 610264
+    },
+    {
+      "name": "Università Telematica \"E-CAMPUS\"",
+      "tax": "90027520130",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 586804
+    },
+    {
+      "name": "Università degli Studi della TUSCIA",
+      "tax": "80029030568",
+      "projects": 2,
+      "led": 2,
+      "units": 2,
+      "amount": 540843
+    },
+    {
+      "name": "Università Ca' Foscari VENEZIA",
+      "tax": "80007720271",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 516372
+    },
+    {
+      "name": "HUMANITAS University",
+      "tax": "97692990159",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 506510
+    },
+    {
+      "name": "Università Politecnica delle MARCHE",
+      "tax": "00382520427",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 499548
+    },
+    {
+      "name": "Università \"Campus Bio-Medico\" di ROMA",
+      "tax": "97087620585",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 499375
+    },
+    {
+      "name": "Istituto Nazionale Geofisica e Vulcanologia",
+      "tax": "06838821004",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 453469
+    },
+    {
+      "name": "Università Telematica PEGASO",
+      "tax": "05411471211",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 449916
+    },
+    {
+      "name": "Istituto Nazionale di Ricerca Metrologica",
+      "tax": "09261710017",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 438258
+    },
+    {
+      "name": "Università degli Studi \"Magna Graecia\" di CATANZARO",
+      "tax": "97026980793",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 436031
+    },
+    {
+      "name": "Istituto Nazionale di Oceanografia e di Geofisica Sperimentale",
+      "tax": "00055590327",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 387539
+    },
+    {
+      "name": "Università degli Studi di Urbino Carlo Bo",
+      "tax": "82002850418",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 359583
+    },
+    {
+      "name": "UniCamillus - Saint Camillus International University of Health Sciences",
+      "tax": "97962900581",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 335991
+    },
+    {
+      "name": "Università Telematica San Raffaele Roma",
+      "tax": "97471900155",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 334933
+    },
+    {
+      "name": "Università del SALENTO",
+      "tax": "80008870752",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 317756
+    },
+    {
+      "name": "I.U.S.S. - Istituto Universitario di Studi Superiori - PAVIA",
+      "tax": "96049740184",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 313551
+    },
+    {
+      "name": "Università degli Studi di NAPOLI \"L'Orientale\"",
+      "tax": "00297640633",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 257073
+    },
+    {
+      "name": "Scuola Superiore Meridionale",
+      "tax": "95315120634",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 249626
+    },
+    {
+      "name": "Università per Stranieri di PERUGIA",
+      "tax": "80002630541",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 244890
+    },
+    {
+      "name": "Università degli Studi di UDINE",
+      "tax": "80014550307",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 241037
+    },
+    {
+      "name": "LUM \"Giuseppe Degennaro\"",
+      "tax": "93135780729",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 223975
+    },
+    {
+      "name": "Scuola Normale Superiore di PISA",
+      "tax": "80005050507",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 211398
+    },
+    {
+      "name": "Università degli Studi del MOLISE",
+      "tax": "92008370709",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 208372
+    },
+    {
+      "name": "Università IUAV di VENEZIA",
+      "tax": "80009280274",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 204999
+    },
+    {
+      "name": "Università degli Studi di SASSARI",
+      "tax": "00196350904",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 193941
+    },
+    {
+      "name": "Università degli Studi del SANNIO di BENEVENTO",
+      "tax": "01114010620",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 162540
+    },
+    {
+      "name": "ACCADEMIA DI BELLE ARTI DI FROSINONE",
+      "tax": "80006930608",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 161707
+    },
+    {
+      "name": "Università degli Studi di MACERATA",
+      "tax": "00177050432",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 140885
+    },
+    {
+      "name": "Università degli Studi di TERAMO",
+      "tax": "92012890676",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 125524
+    },
+    {
+      "name": "Università degli Studi della BASILICATA",
+      "tax": "96003410766",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 112609
+    }
+  ],
+  "bySector": [
+    {
+      "tax": "80006930608",
+      "sector": "PE7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 161707
+    },
+    {
+      "tax": "80007010376",
+      "sector": "LS3",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 485689
+    },
+    {
+      "tax": "80007010376",
+      "sector": "LS4",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 348289
+    },
+    {
+      "tax": "80007010376",
+      "sector": "LS7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 181119
+    },
+    {
+      "tax": "80007010376",
+      "sector": "PE1",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 408373
+    },
+    {
+      "tax": "80007010376",
+      "sector": "PE2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 222224
+    },
+    {
+      "tax": "80007010376",
+      "sector": "PE7",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 246086
+    },
+    {
+      "tax": "80007010376",
+      "sector": "PE8",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 628455
+    },
+    {
+      "tax": "80007010376",
+      "sector": "PE9",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 159941
+    },
+    {
+      "tax": "80007010376",
+      "sector": "PE10",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 310151
+    },
+    {
+      "tax": "80007010376",
+      "sector": "SH4",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 421891
+    },
+    {
+      "tax": "80007010376",
+      "sector": "SH5",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 714317
+    },
+    {
+      "tax": "80007010376",
+      "sector": "SH6",
+      "projects": 3,
+      "led": 1,
+      "units": 3,
+      "amount": 738611
+    },
+    {
+      "tax": "80054330586",
+      "sector": "LS2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 274545
+    },
+    {
+      "tax": "80054330586",
+      "sector": "LS3",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 512463
+    },
+    {
+      "tax": "80054330586",
+      "sector": "LS4",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 333008
+    },
+    {
+      "tax": "80054330586",
+      "sector": "LS7",
+      "projects": 6,
+      "led": 0,
+      "units": 6,
+      "amount": 1243316
+    },
+    {
+      "tax": "80054330586",
+      "sector": "PE2",
+      "projects": 3,
+      "led": 2,
+      "units": 3,
+      "amount": 1305208
+    },
+    {
+      "tax": "80054330586",
+      "sector": "PE3",
+      "projects": 4,
+      "led": 2,
+      "units": 4,
+      "amount": 1303294
+    },
+    {
+      "tax": "80054330586",
+      "sector": "PE7",
+      "projects": 4,
+      "led": 0,
+      "units": 4,
+      "amount": 925316
+    },
+    {
+      "tax": "80054330586",
+      "sector": "PE8",
+      "projects": 6,
+      "led": 2,
+      "units": 6,
+      "amount": 1514849
+    },
+    {
+      "tax": "80054330586",
+      "sector": "PE10",
+      "projects": 6,
+      "led": 1,
+      "units": 6,
+      "amount": 1381334
+    },
+    {
+      "tax": "80054330586",
+      "sector": "PE11",
+      "projects": 4,
+      "led": 1,
+      "units": 4,
+      "amount": 942740
+    },
+    {
+      "tax": "80054330586",
+      "sector": "SH4",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 564919
+    },
+    {
+      "tax": "80054330586",
+      "sector": "SH5",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 249788
+    },
+    {
+      "tax": "80054330586",
+      "sector": "SH6",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 297482
+    },
+    {
+      "tax": "01984560662",
+      "sector": "PE1",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 191776
+    },
+    {
+      "tax": "01984560662",
+      "sector": "PE9",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 543164
+    },
+    {
+      "tax": "97692990159",
+      "sector": "LS4",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 506510
+    },
+    {
+      "tax": "96049740184",
+      "sector": "SH5",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 313551
+    },
+    {
+      "tax": "97220210583",
+      "sector": "PE9",
+      "projects": 4,
+      "led": 1,
+      "units": 4,
+      "amount": 1272321
+    },
+    {
+      "tax": "84001850589",
+      "sector": "PE2",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 1134061
+    },
+    {
+      "tax": "84001850589",
+      "sector": "PE8",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 233292
+    },
+    {
+      "tax": "84001850589",
+      "sector": "PE9",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 260788
+    },
+    {
+      "tax": "84001850589",
+      "sector": "PE11",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 188713
+    },
+    {
+      "tax": "00055590327",
+      "sector": "PE10",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 387539
+    },
+    {
+      "tax": "09261710017",
+      "sector": "PE2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 294318
+    },
+    {
+      "tax": "09261710017",
+      "sector": "PE7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 143940
+    },
+    {
+      "tax": "06838821004",
+      "sector": "PE10",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 453469
+    },
+    {
+      "tax": "11933781004",
+      "sector": "LS4",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 235853
+    },
+    {
+      "tax": "11933781004",
+      "sector": "LS7",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 424185
+    },
+    {
+      "tax": "11933781004",
+      "sector": "PE7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 137742
+    },
+    {
+      "tax": "93135780729",
+      "sector": "LS7",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 223975
+    },
+    {
+      "tax": "93051590722",
+      "sector": "PE7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 200916
+    },
+    {
+      "tax": "93051590722",
+      "sector": "PE8",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 456804
+    },
+    {
+      "tax": "80057930150",
+      "sector": "LS3",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 197975
+    },
+    {
+      "tax": "80057930150",
+      "sector": "PE1",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 195142
+    },
+    {
+      "tax": "80057930150",
+      "sector": "PE3",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 401205
+    },
+    {
+      "tax": "80057930150",
+      "sector": "PE7",
+      "projects": 4,
+      "led": 1,
+      "units": 4,
+      "amount": 763393
+    },
+    {
+      "tax": "80057930150",
+      "sector": "PE8",
+      "projects": 6,
+      "led": 1,
+      "units": 6,
+      "amount": 1439704
+    },
+    {
+      "tax": "80057930150",
+      "sector": "PE9",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 174116
+    },
+    {
+      "tax": "80057930150",
+      "sector": "PE11",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 243591
+    },
+    {
+      "tax": "00518460019",
+      "sector": "PE7",
+      "projects": 3,
+      "led": 1,
+      "units": 3,
+      "amount": 815709
+    },
+    {
+      "tax": "00518460019",
+      "sector": "PE8",
+      "projects": 4,
+      "led": 2,
+      "units": 4,
+      "amount": 950961
+    },
+    {
+      "tax": "00518460019",
+      "sector": "PE10",
+      "projects": 3,
+      "led": 1,
+      "units": 3,
+      "amount": 753544
+    },
+    {
+      "tax": "00518460019",
+      "sector": "PE11",
+      "projects": 4,
+      "led": 3,
+      "units": 4,
+      "amount": 937708
+    },
+    {
+      "tax": "92037570469",
+      "sector": "SH4",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 710042
+    },
+    {
+      "tax": "80035060328",
+      "sector": "PE1",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 374498
+    },
+    {
+      "tax": "80035060328",
+      "sector": "PE9",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 433497
+    },
+    {
+      "tax": "80035060328",
+      "sector": "SH4",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 241152
+    },
+    {
+      "tax": "80005050507",
+      "sector": "PE1",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 211398
+    },
+    {
+      "tax": "95315120634",
+      "sector": "SH6",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 249626
+    },
+    {
+      "tax": "97962900581",
+      "sector": "LS7",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 335991
+    },
+    {
+      "tax": "09073721004",
+      "sector": "PE7",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 425299
+    },
+    {
+      "tax": "09073721004",
+      "sector": "PE8",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 182932
+    },
+    {
+      "tax": "09073721004",
+      "sector": "SH5",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 190463
+    },
+    {
+      "tax": "97187560152",
+      "sector": "LS2",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 273205
+    },
+    {
+      "tax": "97187560152",
+      "sector": "LS4",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 336522
+    },
+    {
+      "tax": "97187560152",
+      "sector": "LS7",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 405355
+    },
+    {
+      "tax": "97187560152",
+      "sector": "PE3",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 186895
+    },
+    {
+      "tax": "97187560152",
+      "sector": "SH5",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 277595
+    },
+    {
+      "tax": "97087620585",
+      "sector": "LS3",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 176084
+    },
+    {
+      "tax": "97087620585",
+      "sector": "LS4",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 323291
+    },
+    {
+      "tax": "80007720271",
+      "sector": "PE3",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 357935
+    },
+    {
+      "tax": "80007720271",
+      "sector": "SH6",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 158437
+    },
+    {
+      "tax": "02133120150",
+      "sector": "LS4",
+      "projects": 3,
+      "led": 1,
+      "units": 3,
+      "amount": 603178
+    },
+    {
+      "tax": "02133120150",
+      "sector": "PE7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 184693
+    },
+    {
+      "tax": "02133120150",
+      "sector": "PE11",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 235643
+    },
+    {
+      "tax": "02133120150",
+      "sector": "SH5",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 383155
+    },
+    {
+      "tax": "93002750698",
+      "sector": "LS4",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 191758
+    },
+    {
+      "tax": "93002750698",
+      "sector": "LS7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 186312
+    },
+    {
+      "tax": "93002750698",
+      "sector": "SH4",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 232194
+    },
+    {
+      "tax": "97026980793",
+      "sector": "LS4",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 126258
+    },
+    {
+      "tax": "97026980793",
+      "sector": "LS7",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 309773
+    },
+    {
+      "tax": "92008370709",
+      "sector": "PE8",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 208372
+    },
+    {
+      "tax": "94021400026",
+      "sector": "LS2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 250042
+    },
+    {
+      "tax": "94021400026",
+      "sector": "LS4",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 235959
+    },
+    {
+      "tax": "94021400026",
+      "sector": "LS7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 184026
+    },
+    {
+      "tax": "94021400026",
+      "sector": "PE2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 196642
+    },
+    {
+      "tax": "94021400026",
+      "sector": "PE11",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 233982
+    },
+    {
+      "tax": "94021400026",
+      "sector": "SH5",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 242959
+    },
+    {
+      "tax": "94021400026",
+      "sector": "SH6",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 260592
+    },
+    {
+      "tax": "01114010620",
+      "sector": "LS7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 162540
+    },
+    {
+      "tax": "01021630668",
+      "sector": "LS2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 234663
+    },
+    {
+      "tax": "01021630668",
+      "sector": "LS7",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 378301
+    },
+    {
+      "tax": "01021630668",
+      "sector": "PE3",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 99143
+    },
+    {
+      "tax": "01021630668",
+      "sector": "PE7",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 238491
+    },
+    {
+      "tax": "01021630668",
+      "sector": "SH6",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 161526
+    },
+    {
+      "tax": "96003410766",
+      "sector": "PE11",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 112609
+    },
+    {
+      "tax": "02044190615",
+      "sector": "LS2",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 400000
+    },
+    {
+      "tax": "02044190615",
+      "sector": "LS4",
+      "projects": 5,
+      "led": 0,
+      "units": 5,
+      "amount": 963173
+    },
+    {
+      "tax": "02044190615",
+      "sector": "LS7",
+      "projects": 6,
+      "led": 1,
+      "units": 6,
+      "amount": 1234290
+    },
+    {
+      "tax": "80029030568",
+      "sector": "PE8",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 251352
+    },
+    {
+      "tax": "80029030568",
+      "sector": "PE10",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 289491
+    },
+    {
+      "tax": "80002170720",
+      "sector": "LS4",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 147461
+    },
+    {
+      "tax": "80002170720",
+      "sector": "LS7",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 396148
+    },
+    {
+      "tax": "80002170720",
+      "sector": "SH5",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 570223
+    },
+    {
+      "tax": "80002170720",
+      "sector": "SH6",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 330833
+    },
+    {
+      "tax": "98007650173",
+      "sector": "LS2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 201961
+    },
+    {
+      "tax": "98007650173",
+      "sector": "LS4",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 164157
+    },
+    {
+      "tax": "98007650173",
+      "sector": "LS7",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 399547
+    },
+    {
+      "tax": "98007650173",
+      "sector": "PE2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 165080
+    },
+    {
+      "tax": "98007650173",
+      "sector": "PE7",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 362016
+    },
+    {
+      "tax": "80019600925",
+      "sector": "LS7",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 507761
+    },
+    {
+      "tax": "80019600925",
+      "sector": "PE2",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 225153
+    },
+    {
+      "tax": "80019600925",
+      "sector": "PE9",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 56497
+    },
+    {
+      "tax": "81001910439",
+      "sector": "LS7",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 180596
+    },
+    {
+      "tax": "81001910439",
+      "sector": "PE10",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 236205
+    },
+    {
+      "tax": "81001910439",
+      "sector": "PE11",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 346849
+    },
+    {
+      "tax": "81006500607",
+      "sector": "PE7",
+      "projects": 4,
+      "led": 1,
+      "units": 4,
+      "amount": 721381
+    },
+    {
+      "tax": "81006500607",
+      "sector": "PE8",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 359240
+    },
+    {
+      "tax": "02772010878",
+      "sector": "LS4",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 465465
+    },
+    {
+      "tax": "02772010878",
+      "sector": "LS7",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 372302
+    },
+    {
+      "tax": "02772010878",
+      "sector": "PE7",
+      "projects": 4,
+      "led": 0,
+      "units": 4,
+      "amount": 777450
+    },
+    {
+      "tax": "02772010878",
+      "sector": "PE8",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 200000
+    },
+    {
+      "tax": "02772010878",
+      "sector": "PE11",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 172114
+    },
+    {
+      "tax": "02772010878",
+      "sector": "SH5",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 202995
+    },
+    {
+      "tax": "02772010878",
+      "sector": "SH6",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 313721
+    },
+    {
+      "tax": "80007370382",
+      "sector": "PE1",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 182388
+    },
+    {
+      "tax": "80007370382",
+      "sector": "SH4",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 219523
+    },
+    {
+      "tax": "80007370382",
+      "sector": "SH5",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 203319
+    },
+    {
+      "tax": "80007370382",
+      "sector": "SH6",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 158763
+    },
+    {
+      "tax": "01279680480",
+      "sector": "LS4",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 369672
+    },
+    {
+      "tax": "01279680480",
+      "sector": "LS7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 230130
+    },
+    {
+      "tax": "01279680480",
+      "sector": "PE2",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 515591
+    },
+    {
+      "tax": "01279680480",
+      "sector": "PE3",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 222029
+    },
+    {
+      "tax": "01279680480",
+      "sector": "PE7",
+      "projects": 3,
+      "led": 2,
+      "units": 3,
+      "amount": 668740
+    },
+    {
+      "tax": "01279680480",
+      "sector": "PE8",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 197947
+    },
+    {
+      "tax": "01279680480",
+      "sector": "PE10",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 253738
+    },
+    {
+      "tax": "01279680480",
+      "sector": "SH5",
+      "projects": 4,
+      "led": 0,
+      "units": 4,
+      "amount": 964876
+    },
+    {
+      "tax": "01279680480",
+      "sector": "SH6",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 299642
+    },
+    {
+      "tax": "94045260711",
+      "sector": "LS4",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 137901
+    },
+    {
+      "tax": "94045260711",
+      "sector": "LS7",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 574615
+    },
+    {
+      "tax": "94045260711",
+      "sector": "PE7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 136931
+    },
+    {
+      "tax": "00754150100",
+      "sector": "LS2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 200000
+    },
+    {
+      "tax": "00754150100",
+      "sector": "LS4",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 161805
+    },
+    {
+      "tax": "00754150100",
+      "sector": "PE2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 178665
+    },
+    {
+      "tax": "00754150100",
+      "sector": "PE8",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 243669
+    },
+    {
+      "tax": "00754150100",
+      "sector": "PE9",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 179829
+    },
+    {
+      "tax": "00754150100",
+      "sector": "PE10",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 403751
+    },
+    {
+      "tax": "00754150100",
+      "sector": "PE11",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 267706
+    },
+    {
+      "tax": "00754150100",
+      "sector": "SH5",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 188433
+    },
+    {
+      "tax": "00754150100",
+      "sector": "SH6",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 255083
+    },
+    {
+      "tax": "00177050432",
+      "sector": "SH5",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 140885
+    },
+    {
+      "tax": "80004070837",
+      "sector": "LS4",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 162237
+    },
+    {
+      "tax": "80004070837",
+      "sector": "PE8",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 233921
+    },
+    {
+      "tax": "80004070837",
+      "sector": "PE10",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 239179
+    },
+    {
+      "tax": "80004070837",
+      "sector": "SH4",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 197437
+    },
+    {
+      "tax": "80004070837",
+      "sector": "SH5",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 568048
+    },
+    {
+      "tax": "80012650158",
+      "sector": "LS2",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 568781
+    },
+    {
+      "tax": "80012650158",
+      "sector": "LS3",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 498384
+    },
+    {
+      "tax": "80012650158",
+      "sector": "LS4",
+      "projects": 4,
+      "led": 2,
+      "units": 4,
+      "amount": 688633
+    },
+    {
+      "tax": "80012650158",
+      "sector": "LS7",
+      "projects": 4,
+      "led": 2,
+      "units": 4,
+      "amount": 887187
+    },
+    {
+      "tax": "80012650158",
+      "sector": "PE1",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 187989
+    },
+    {
+      "tax": "80012650158",
+      "sector": "PE2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 183969
+    },
+    {
+      "tax": "80012650158",
+      "sector": "PE3",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 439435
+    },
+    {
+      "tax": "80012650158",
+      "sector": "PE9",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 217453
+    },
+    {
+      "tax": "80012650158",
+      "sector": "PE10",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 212697
+    },
+    {
+      "tax": "80012650158",
+      "sector": "PE11",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 219884
+    },
+    {
+      "tax": "80012650158",
+      "sector": "SH4",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 193536
+    },
+    {
+      "tax": "12621570154",
+      "sector": "LS4",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 166670
+    },
+    {
+      "tax": "12621570154",
+      "sector": "LS7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 159054
+    },
+    {
+      "tax": "12621570154",
+      "sector": "PE1",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 193474
+    },
+    {
+      "tax": "12621570154",
+      "sector": "PE2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 184669
+    },
+    {
+      "tax": "12621570154",
+      "sector": "PE3",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 185477
+    },
+    {
+      "tax": "12621570154",
+      "sector": "PE10",
+      "projects": 4,
+      "led": 1,
+      "units": 4,
+      "amount": 1250529
+    },
+    {
+      "tax": "12621570154",
+      "sector": "SH4",
+      "projects": 3,
+      "led": 3,
+      "units": 3,
+      "amount": 715984
+    },
+    {
+      "tax": "00427620364",
+      "sector": "LS2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 266350
+    },
+    {
+      "tax": "00427620364",
+      "sector": "PE8",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 240000
+    },
+    {
+      "tax": "00427620364",
+      "sector": "PE10",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 163257
+    },
+    {
+      "tax": "00427620364",
+      "sector": "SH6",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 200971
+    },
+    {
+      "tax": "00297640633",
+      "sector": "SH6",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 257073
+    },
+    {
+      "tax": "80018240632",
+      "sector": "PE7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 137742
+    },
+    {
+      "tax": "80018240632",
+      "sector": "PE8",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 379020
+    },
+    {
+      "tax": "80018240632",
+      "sector": "PE10",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 359392
+    },
+    {
+      "tax": "80018240632",
+      "sector": "PE11",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 174955
+    },
+    {
+      "tax": "00876220633",
+      "sector": "LS2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 200000
+    },
+    {
+      "tax": "00876220633",
+      "sector": "LS4",
+      "projects": 3,
+      "led": 2,
+      "units": 3,
+      "amount": 582440
+    },
+    {
+      "tax": "00876220633",
+      "sector": "LS7",
+      "projects": 6,
+      "led": 2,
+      "units": 6,
+      "amount": 1227031
+    },
+    {
+      "tax": "00876220633",
+      "sector": "PE7",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 375515
+    },
+    {
+      "tax": "00876220633",
+      "sector": "PE8",
+      "projects": 7,
+      "led": 2,
+      "units": 7,
+      "amount": 1667399
+    },
+    {
+      "tax": "00876220633",
+      "sector": "PE10",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 206216
+    },
+    {
+      "tax": "00876220633",
+      "sector": "PE11",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 150613
+    },
+    {
+      "tax": "00876220633",
+      "sector": "SH5",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 350307
+    },
+    {
+      "tax": "80006480281",
+      "sector": "LS2",
+      "projects": 2,
+      "led": 2,
+      "units": 2,
+      "amount": 652641
+    },
+    {
+      "tax": "80006480281",
+      "sector": "LS3",
+      "projects": 4,
+      "led": 2,
+      "units": 4,
+      "amount": 1166121
+    },
+    {
+      "tax": "80006480281",
+      "sector": "LS4",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 184772
+    },
+    {
+      "tax": "80006480281",
+      "sector": "LS7",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 421321
+    },
+    {
+      "tax": "80006480281",
+      "sector": "PE2",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 256019
+    },
+    {
+      "tax": "80006480281",
+      "sector": "PE3",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 356002
+    },
+    {
+      "tax": "80006480281",
+      "sector": "PE7",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 634744
+    },
+    {
+      "tax": "80006480281",
+      "sector": "PE8",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 649664
+    },
+    {
+      "tax": "80006480281",
+      "sector": "PE9",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 165144
+    },
+    {
+      "tax": "80006480281",
+      "sector": "PE10",
+      "projects": 3,
+      "led": 1,
+      "units": 3,
+      "amount": 523937
+    },
+    {
+      "tax": "80006480281",
+      "sector": "PE11",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 128128
+    },
+    {
+      "tax": "80006480281",
+      "sector": "SH4",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 240288
+    },
+    {
+      "tax": "80006480281",
+      "sector": "SH5",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 405400
+    },
+    {
+      "tax": "80006480281",
+      "sector": "SH6",
+      "projects": 3,
+      "led": 1,
+      "units": 3,
+      "amount": 655790
+    },
+    {
+      "tax": "80023730825",
+      "sector": "LS2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 234419
+    },
+    {
+      "tax": "80023730825",
+      "sector": "LS4",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 278369
+    },
+    {
+      "tax": "80023730825",
+      "sector": "PE2",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 382950
+    },
+    {
+      "tax": "80023730825",
+      "sector": "PE8",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 193779
+    },
+    {
+      "tax": "80023730825",
+      "sector": "PE11",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 408006
+    },
+    {
+      "tax": "80023730825",
+      "sector": "SH5",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 315692
+    },
+    {
+      "tax": "80023730825",
+      "sector": "SH6",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 432462
+    },
+    {
+      "tax": "00308780345",
+      "sector": "LS2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 229615
+    },
+    {
+      "tax": "00308780345",
+      "sector": "LS7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 181897
+    },
+    {
+      "tax": "00308780345",
+      "sector": "PE1",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 186501
+    },
+    {
+      "tax": "00308780345",
+      "sector": "PE2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 196713
+    },
+    {
+      "tax": "00308780345",
+      "sector": "PE3",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 146729
+    },
+    {
+      "tax": "00308780345",
+      "sector": "PE7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 196932
+    },
+    {
+      "tax": "00308780345",
+      "sector": "PE8",
+      "projects": 3,
+      "led": 1,
+      "units": 3,
+      "amount": 599268
+    },
+    {
+      "tax": "00308780345",
+      "sector": "PE11",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 258549
+    },
+    {
+      "tax": "00308780345",
+      "sector": "SH4",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 265942
+    },
+    {
+      "tax": "00308780345",
+      "sector": "SH5",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 172226
+    },
+    {
+      "tax": "00308780345",
+      "sector": "SH6",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 134474
+    },
+    {
+      "tax": "80007270186",
+      "sector": "LS7",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 297991
+    },
+    {
+      "tax": "80007270186",
+      "sector": "PE1",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 387722
+    },
+    {
+      "tax": "80007270186",
+      "sector": "PE7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 200916
+    },
+    {
+      "tax": "80007270186",
+      "sector": "PE8",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 445378
+    },
+    {
+      "tax": "80007270186",
+      "sector": "SH5",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 429899
+    },
+    {
+      "tax": "80007270186",
+      "sector": "SH6",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 166661
+    },
+    {
+      "tax": "00448820548",
+      "sector": "LS2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 311894
+    },
+    {
+      "tax": "00448820548",
+      "sector": "LS3",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 295894
+    },
+    {
+      "tax": "00448820548",
+      "sector": "LS7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 220103
+    },
+    {
+      "tax": "00448820548",
+      "sector": "PE7",
+      "projects": 4,
+      "led": 0,
+      "units": 4,
+      "amount": 615078
+    },
+    {
+      "tax": "00448820548",
+      "sector": "PE8",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 723526
+    },
+    {
+      "tax": "00448820548",
+      "sector": "SH5",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 198268
+    },
+    {
+      "tax": "80209930587",
+      "sector": "LS2",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 445498
+    },
+    {
+      "tax": "80209930587",
+      "sector": "LS4",
+      "projects": 10,
+      "led": 2,
+      "units": 10,
+      "amount": 2011494
+    },
+    {
+      "tax": "80209930587",
+      "sector": "LS7",
+      "projects": 10,
+      "led": 1,
+      "units": 10,
+      "amount": 2105734
+    },
+    {
+      "tax": "80209930587",
+      "sector": "PE1",
+      "projects": 4,
+      "led": 0,
+      "units": 4,
+      "amount": 746482
+    },
+    {
+      "tax": "80209930587",
+      "sector": "PE2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 232019
+    },
+    {
+      "tax": "80209930587",
+      "sector": "PE3",
+      "projects": 3,
+      "led": 1,
+      "units": 3,
+      "amount": 635341
+    },
+    {
+      "tax": "80209930587",
+      "sector": "PE8",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 594080
+    },
+    {
+      "tax": "80209930587",
+      "sector": "PE9",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 239989
+    },
+    {
+      "tax": "80209930587",
+      "sector": "PE10",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 223904
+    },
+    {
+      "tax": "80209930587",
+      "sector": "PE11",
+      "projects": 4,
+      "led": 1,
+      "units": 4,
+      "amount": 741588
+    },
+    {
+      "tax": "80209930587",
+      "sector": "SH4",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 556990
+    },
+    {
+      "tax": "80209930587",
+      "sector": "SH5",
+      "projects": 3,
+      "led": 2,
+      "units": 3,
+      "amount": 674706
+    },
+    {
+      "tax": "80209930587",
+      "sector": "SH6",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 357309
+    },
+    {
+      "tax": "80213750583",
+      "sector": "LS3",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 466329
+    },
+    {
+      "tax": "80213750583",
+      "sector": "LS4",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 527029
+    },
+    {
+      "tax": "80213750583",
+      "sector": "PE1",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 564352
+    },
+    {
+      "tax": "80213750583",
+      "sector": "PE2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 219722
+    },
+    {
+      "tax": "80213750583",
+      "sector": "PE3",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 163801
+    },
+    {
+      "tax": "80213750583",
+      "sector": "PE7",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 381561
+    },
+    {
+      "tax": "80213750583",
+      "sector": "PE8",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 398999
+    },
+    {
+      "tax": "80213750583",
+      "sector": "PE11",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 134088
+    },
+    {
+      "tax": "80213750583",
+      "sector": "SH4",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 369590
+    },
+    {
+      "tax": "80018670655",
+      "sector": "LS7",
+      "projects": 3,
+      "led": 1,
+      "units": 3,
+      "amount": 691043
+    },
+    {
+      "tax": "80018670655",
+      "sector": "PE7",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 444572
+    },
+    {
+      "tax": "80018670655",
+      "sector": "PE8",
+      "projects": 4,
+      "led": 1,
+      "units": 4,
+      "amount": 795502
+    },
+    {
+      "tax": "80018670655",
+      "sector": "SH4",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 530321
+    },
+    {
+      "tax": "80018670655",
+      "sector": "SH5",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 236115
+    },
+    {
+      "tax": "80018670655",
+      "sector": "SH6",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 248926
+    },
+    {
+      "tax": "00196350904",
+      "sector": "PE11",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 193941
+    },
+    {
+      "tax": "80002070524",
+      "sector": "LS4",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 163935
+    },
+    {
+      "tax": "80002070524",
+      "sector": "LS7",
+      "projects": 2,
+      "led": 2,
+      "units": 2,
+      "amount": 633108
+    },
+    {
+      "tax": "80002070524",
+      "sector": "PE7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 174618
+    },
+    {
+      "tax": "80002070524",
+      "sector": "SH4",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 248700
+    },
+    {
+      "tax": "80002070524",
+      "sector": "SH5",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 387036
+    },
+    {
+      "tax": "80002070524",
+      "sector": "SH6",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 197072
+    },
+    {
+      "tax": "92012890676",
+      "sector": "LS7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 125524
+    },
+    {
+      "tax": "80088230018",
+      "sector": "LS2",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 440425
+    },
+    {
+      "tax": "80088230018",
+      "sector": "LS3",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 289705
+    },
+    {
+      "tax": "80088230018",
+      "sector": "LS4",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 481511
+    },
+    {
+      "tax": "80088230018",
+      "sector": "LS7",
+      "projects": 3,
+      "led": 1,
+      "units": 3,
+      "amount": 973635
+    },
+    {
+      "tax": "80088230018",
+      "sector": "PE1",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 400745
+    },
+    {
+      "tax": "80088230018",
+      "sector": "PE2",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 345333
+    },
+    {
+      "tax": "80088230018",
+      "sector": "PE3",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 342159
+    },
+    {
+      "tax": "80088230018",
+      "sector": "PE7",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 245589
+    },
+    {
+      "tax": "80088230018",
+      "sector": "PE9",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 157140
+    },
+    {
+      "tax": "80088230018",
+      "sector": "PE10",
+      "projects": 3,
+      "led": 1,
+      "units": 3,
+      "amount": 700733
+    },
+    {
+      "tax": "80088230018",
+      "sector": "SH4",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 485653
+    },
+    {
+      "tax": "80088230018",
+      "sector": "SH5",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 610512
+    },
+    {
+      "tax": "80088230018",
+      "sector": "SH6",
+      "projects": 3,
+      "led": 2,
+      "units": 3,
+      "amount": 838024
+    },
+    {
+      "tax": "00340520220",
+      "sector": "LS2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 247098
+    },
+    {
+      "tax": "00340520220",
+      "sector": "LS4",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 158609
+    },
+    {
+      "tax": "00340520220",
+      "sector": "LS7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 161510
+    },
+    {
+      "tax": "00340520220",
+      "sector": "PE1",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 166171
+    },
+    {
+      "tax": "00340520220",
+      "sector": "PE7",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 407665
+    },
+    {
+      "tax": "00340520220",
+      "sector": "PE8",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 409405
+    },
+    {
+      "tax": "00340520220",
+      "sector": "PE10",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 232505
+    },
+    {
+      "tax": "00340520220",
+      "sector": "SH4",
+      "projects": 4,
+      "led": 2,
+      "units": 4,
+      "amount": 966637
+    },
+    {
+      "tax": "00340520220",
+      "sector": "SH6",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 221389
+    },
+    {
+      "tax": "80013890324",
+      "sector": "LS3",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 279792
+    },
+    {
+      "tax": "80013890324",
+      "sector": "LS4",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 194295
+    },
+    {
+      "tax": "80013890324",
+      "sector": "LS7",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 247730
+    },
+    {
+      "tax": "80013890324",
+      "sector": "PE2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 197714
+    },
+    {
+      "tax": "80013890324",
+      "sector": "PE3",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 172714
+    },
+    {
+      "tax": "80013890324",
+      "sector": "PE9",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 163557
+    },
+    {
+      "tax": "80013890324",
+      "sector": "SH4",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 212539
+    },
+    {
+      "tax": "80014550307",
+      "sector": "PE8",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 241037
+    },
+    {
+      "tax": "82002850418",
+      "sector": "PE10",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 182613
+    },
+    {
+      "tax": "82002850418",
+      "sector": "SH6",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 176970
+    },
+    {
+      "tax": "93009870234",
+      "sector": "LS4",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 324954
+    },
+    {
+      "tax": "93009870234",
+      "sector": "LS7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 150825
+    },
+    {
+      "tax": "93009870234",
+      "sector": "PE1",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 185332
+    },
+    {
+      "tax": "93009870234",
+      "sector": "SH4",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 552346
+    },
+    {
+      "tax": "93009870234",
+      "sector": "SH6",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 364636
+    },
+    {
+      "tax": "95039180120",
+      "sector": "LS4",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 190075
+    },
+    {
+      "tax": "95039180120",
+      "sector": "LS7",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 304582
+    },
+    {
+      "tax": "95039180120",
+      "sector": "PE2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 179000
+    },
+    {
+      "tax": "95039180120",
+      "sector": "SH6",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 566458
+    },
+    {
+      "tax": "04400441004",
+      "sector": "LS7",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 311867
+    },
+    {
+      "tax": "04400441004",
+      "sector": "PE1",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 355344
+    },
+    {
+      "tax": "04400441004",
+      "sector": "PE2",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 159199
+    },
+    {
+      "tax": "04400441004",
+      "sector": "PE7",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 556037
+    },
+    {
+      "tax": "04400441004",
+      "sector": "PE8",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 201097
+    },
+    {
+      "tax": "04400441004",
+      "sector": "SH5",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 473851
+    },
+    {
+      "tax": "04400441004",
+      "sector": "SH6",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 495558
+    },
+    {
+      "tax": "80008870752",
+      "sector": "LS7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 118041
+    },
+    {
+      "tax": "80008870752",
+      "sector": "SH5",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 199715
+    },
+    {
+      "tax": "80003950781",
+      "sector": "LS7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 176553
+    },
+    {
+      "tax": "80003950781",
+      "sector": "PE3",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 130581
+    },
+    {
+      "tax": "80003950781",
+      "sector": "PE8",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 597212
+    },
+    {
+      "tax": "80003670504",
+      "sector": "LS3",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 301556
+    },
+    {
+      "tax": "80003670504",
+      "sector": "LS4",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 326473
+    },
+    {
+      "tax": "80003670504",
+      "sector": "LS7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 168537
+    },
+    {
+      "tax": "80003670504",
+      "sector": "PE1",
+      "projects": 3,
+      "led": 0,
+      "units": 3,
+      "amount": 579183
+    },
+    {
+      "tax": "80003670504",
+      "sector": "PE2",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 219225
+    },
+    {
+      "tax": "80003670504",
+      "sector": "PE7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 168009
+    },
+    {
+      "tax": "80003670504",
+      "sector": "PE8",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 205005
+    },
+    {
+      "tax": "80003670504",
+      "sector": "PE9",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 269235
+    },
+    {
+      "tax": "80003670504",
+      "sector": "PE10",
+      "projects": 2,
+      "led": 1,
+      "units": 2,
+      "amount": 472849
+    },
+    {
+      "tax": "80003670504",
+      "sector": "PE11",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 224632
+    },
+    {
+      "tax": "80003670504",
+      "sector": "SH6",
+      "projects": 3,
+      "led": 1,
+      "units": 3,
+      "amount": 707177
+    },
+    {
+      "tax": "80009280274",
+      "sector": "PE8",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 204999
+    },
+    {
+      "tax": "80002630541",
+      "sector": "PE8",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 244890
+    },
+    {
+      "tax": "00382520427",
+      "sector": "LS7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 232617
+    },
+    {
+      "tax": "00382520427",
+      "sector": "PE8",
+      "projects": 1,
+      "led": 1,
+      "units": 1,
+      "amount": 266931
+    },
+    {
+      "tax": "90027520130",
+      "sector": "PE11",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 175008
+    },
+    {
+      "tax": "90027520130",
+      "sector": "SH4",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 195296
+    },
+    {
+      "tax": "90027520130",
+      "sector": "SH5",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 216500
+    },
+    {
+      "tax": "05411471211",
+      "sector": "PE8",
+      "projects": 2,
+      "led": 0,
+      "units": 2,
+      "amount": 300197
+    },
+    {
+      "tax": "05411471211",
+      "sector": "SH5",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 149719
+    },
+    {
+      "tax": "97471900155",
+      "sector": "LS7",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 150345
+    },
+    {
+      "tax": "97471900155",
+      "sector": "SH5",
+      "projects": 1,
+      "led": 0,
+      "units": 1,
+      "amount": 184588
+    }
+  ]
+}

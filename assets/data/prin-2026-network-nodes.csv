@@ -1,0 +1,431 @@
+﻿scope,node_number,institution,tax_code,projects,led_as_pi,research_units,unique_partners,allocated_eur
+Overall,1,ACCADEMIA DI BELLE ARTI DI FROSINONE,80006930608,1,0,1,5,161707.0
+Overall,2,Alma Mater Studiorum - Università di BOLOGNA,80007010376,22,3,22,42,4865146.0
+Overall,3,Consiglio Nazionale delle Ricerche,80054330586,44,8,44,58,10848262.0
+Overall,4,Gran Sasso Science Institute - Scuola di dottorato internazionale,01984560662,3,2,3,10,734940.0
+Overall,5,HUMANITAS University,97692990159,3,0,3,10,506510.0
+Overall,6,I.U.S.S. - Istituto Universitario di Studi Superiori - PAVIA,96049740184,1,1,1,3,313551.0
+Overall,7,Istituto Nazionale di Astrofisica,97220210583,4,1,4,13,1272321.0
+Overall,8,Istituto Nazionale di Fisica Nucleare,84001850589,6,0,6,20,1816854.0
+Overall,9,Istituto Nazionale di Oceanografia e di Geofisica Sperimentale,00055590327,2,0,2,6,387539.0
+Overall,10,Istituto Nazionale di Ricerca Metrologica,09261710017,2,0,2,7,438258.0
+Overall,11,Istituto Nazionale Geofisica e Vulcanologia,06838821004,3,0,3,9,453469.0
+Overall,12,LINK CAMPUS University,11933781004,5,0,5,13,797780.0
+Overall,13,"LUM ""Giuseppe Degennaro""",93135780729,1,1,1,5,223975.0
+Overall,14,Politecnico di BARI,93051590722,3,0,3,10,657720.0
+Overall,15,Politecnico di MILANO,80057930150,16,2,16,30,3415126.0
+Overall,16,Politecnico di TORINO,00518460019,14,7,14,35,3457922.0
+Overall,17,Scuola IMT Alti Studi - LUCCA,92037570469,3,0,3,8,710042.0
+Overall,18,Scuola Internazionale Superiore di Studi Avanzati di TRIESTE,80035060328,5,2,5,15,1049147.0
+Overall,19,Scuola Normale Superiore di PISA,80005050507,1,1,1,5,211398.0
+Overall,20,Scuola Superiore Meridionale,95315120634,1,0,1,3,249626.0
+Overall,21,UniCamillus - Saint Camillus International University of Health Sciences,97962900581,2,0,2,9,335991.0
+Overall,22,UNICUSANO Università degli Studi Niccolò Cusano -Telematica Roma,09073721004,4,0,4,15,798694.0
+Overall,23,UNISR - Università Vita Salute San Raffaele,97187560152,6,2,6,20,1479572.0
+Overall,24,"Università ""Campus Bio-Medico"" di ROMA",97087620585,3,0,3,12,499375.0
+Overall,25,Università Ca' Foscari VENEZIA,80007720271,3,0,3,7,516372.0
+Overall,26,Università Cattolica del Sacro Cuore,02133120150,7,1,7,23,1406669.0
+Overall,27,"Università degli Studi ""G. d'Annunzio"" CHIETI-PESCARA",93002750698,3,0,3,12,610264.0
+Overall,28,"Università degli Studi ""Magna Graecia"" di CATANZARO",97026980793,3,0,3,11,436031.0
+Overall,29,Università degli Studi del MOLISE,92008370709,1,0,1,5,208372.0
+Overall,30,Università degli Studi del PIEMONTE ORIENTALE,94021400026,7,0,7,22,1604202.0
+Overall,31,Università degli Studi del SANNIO di BENEVENTO,01114010620,1,0,1,5,162540.0
+Overall,32,Università degli Studi dell'AQUILA,01021630668,6,1,6,18,1112124.0
+Overall,33,Università degli Studi della BASILICATA,96003410766,1,0,1,5,112609.0
+Overall,34,"Università degli Studi della Campania ""Luigi Vanvitelli""",02044190615,12,2,12,27,2597463.0
+Overall,35,Università degli Studi della TUSCIA,80029030568,2,2,2,7,540843.0
+Overall,36,Università degli Studi di BARI ALDO MORO,80002170720,7,0,7,21,1444665.0
+Overall,37,Università degli Studi di BRESCIA,98007650173,7,0,7,25,1292761.0
+Overall,38,Università degli Studi di CAGLIARI,80019600925,4,2,4,13,789411.0
+Overall,39,Università degli Studi di CAMERINO,81001910439,4,1,4,16,763650.0
+Overall,40,Università degli Studi di CASSINO e del LAZIO MERIDIONALE,81006500607,6,2,6,21,1080621.0
+Overall,41,Università degli Studi di CATANIA,02772010878,13,3,13,30,2504047.0
+Overall,42,Università degli Studi di FERRARA,80007370382,4,0,4,16,763993.0
+Overall,43,Università degli Studi di FIRENZE,01279680480,17,4,17,37,3722365.0
+Overall,44,Università degli Studi di FOGGIA,94045260711,5,0,5,21,849447.0
+Overall,45,Università degli Studi di GENOVA,00754150100,10,0,10,25,2078941.0
+Overall,46,Università degli Studi di MACERATA,00177050432,1,0,1,5,140885.0
+Overall,47,Università degli Studi di MESSINA,80004070837,7,0,7,22,1400822.0
+Overall,48,Università degli Studi di MILANO,80012650158,20,9,20,39,4297948.0
+Overall,49,Università degli Studi di MILANO-BICOCCA,12621570154,12,7,12,29,2855857.0
+Overall,50,Università degli Studi di MODENA e REGGIO EMILIA,00427620364,4,0,4,11,870578.0
+Overall,51,"Università degli Studi di NAPOLI ""L'Orientale""",00297640633,1,0,1,3,257073.0
+Overall,52,"Università degli Studi di NAPOLI ""Parthenope""",80018240632,5,1,5,19,1051109.0
+Overall,53,Università degli Studi di Napoli Federico II,00876220633,23,6,23,49,4759521.0
+Overall,54,Università degli Studi di PADOVA,80006480281,29,9,29,45,6439971.0
+Overall,55,Università degli Studi di PALERMO,80023730825,10,3,10,28,2245677.0
+Overall,56,Università degli Studi di PARMA,00308780345,13,1,13,30,2568846.0
+Overall,57,Università degli Studi di PAVIA,80007270186,9,2,9,31,1928567.0
+Overall,58,Università degli Studi di PERUGIA,00448820548,11,0,11,29,2364763.0
+Overall,59,"Università degli Studi di ROMA ""La Sapienza""",80209930587,47,7,47,62,9565134.0
+Overall,60,"Università degli Studi di ROMA ""Tor Vergata""",80213750583,17,0,17,41,3225471.0
+Overall,61,Università degli Studi di SALERNO,80018670655,13,3,13,33,2946479.0
+Overall,62,Università degli Studi di SASSARI,00196350904,1,0,1,4,193941.0
+Overall,63,Università degli Studi di SIENA,80002070524,7,5,7,23,1804469.0
+Overall,64,Università degli Studi di TERAMO,92012890676,1,0,1,4,125524.0
+Overall,65,Università degli Studi di TORINO,80088230018,28,5,28,41,6311164.0
+Overall,66,Università degli Studi di TRENTO,00340520220,14,4,14,37,2970989.0
+Overall,67,Università degli Studi di TRIESTE,80013890324,7,3,7,21,1468341.0
+Overall,68,Università degli Studi di UDINE,80014550307,1,0,1,5,241037.0
+Overall,69,Università degli Studi di Urbino Carlo Bo,82002850418,2,0,2,7,359583.0
+Overall,70,Università degli Studi di VERONA,93009870234,6,3,6,18,1578093.0
+Overall,71,Università degli Studi INSUBRIA Varese-Como,95039180120,6,1,6,20,1240115.0
+Overall,72,Università degli Studi ROMA TRE,04400441004,12,3,12,30,2552953.0
+Overall,73,Università del SALENTO,80008870752,2,0,2,9,317756.0
+Overall,74,Università della CALABRIA,80003950781,5,0,5,18,904346.0
+Overall,75,Università di PISA,80003670504,17,2,17,34,3641881.0
+Overall,76,Università IUAV di VENEZIA,80009280274,1,0,1,5,204999.0
+Overall,77,Università per Stranieri di PERUGIA,80002630541,1,1,1,4,244890.0
+Overall,78,Università Politecnica delle MARCHE,00382520427,2,1,2,7,499548.0
+Overall,79,"Università Telematica ""E-CAMPUS""",90027520130,3,0,3,13,586804.0
+Overall,80,Università Telematica PEGASO,05411471211,3,0,3,10,449916.0
+Overall,81,Università Telematica San Raffaele Roma,97471900155,2,0,2,8,334933.0
+LS2,3,Consiglio Nazionale delle Ricerche,80054330586,1,0,1,3,274545.0
+LS2,23,UNISR - Università Vita Salute San Raffaele,97187560152,1,1,1,4,273205.0
+LS2,30,Università degli Studi del PIEMONTE ORIENTALE,94021400026,1,0,1,3,250042.0
+LS2,32,Università degli Studi dell'AQUILA,01021630668,1,0,1,3,234663.0
+LS2,34,"Università degli Studi della Campania ""Luigi Vanvitelli""",02044190615,1,1,1,3,400000.0
+LS2,37,Università degli Studi di BRESCIA,98007650173,1,0,1,4,201961.0
+LS2,45,Università degli Studi di GENOVA,00754150100,1,0,1,3,200000.0
+LS2,48,Università degli Studi di MILANO,80012650158,2,1,2,6,568781.0
+LS2,50,Università degli Studi di MODENA e REGGIO EMILIA,00427620364,1,0,1,3,266350.0
+LS2,53,Università degli Studi di Napoli Federico II,00876220633,1,0,1,3,200000.0
+LS2,54,Università degli Studi di PADOVA,80006480281,2,2,2,5,652641.0
+LS2,55,Università degli Studi di PALERMO,80023730825,1,0,1,4,234419.0
+LS2,56,Università degli Studi di PARMA,00308780345,1,0,1,3,229615.0
+LS2,58,Università degli Studi di PERUGIA,00448820548,1,0,1,3,311894.0
+LS2,59,"Università degli Studi di ROMA ""La Sapienza""",80209930587,2,0,2,5,445498.0
+LS2,65,Università degli Studi di TORINO,80088230018,2,0,2,7,440425.0
+LS2,66,Università degli Studi di TRENTO,00340520220,1,0,1,4,247098.0
+LS3,2,Alma Mater Studiorum - Università di BOLOGNA,80007010376,2,0,2,6,485689.0
+LS3,3,Consiglio Nazionale delle Ricerche,80054330586,2,0,2,7,512463.0
+LS3,15,Politecnico di MILANO,80057930150,1,0,1,4,197975.0
+LS3,24,"Università ""Campus Bio-Medico"" di ROMA",97087620585,1,0,1,4,176084.0
+LS3,48,Università degli Studi di MILANO,80012650158,2,1,2,6,498384.0
+LS3,54,Università degli Studi di PADOVA,80006480281,4,2,4,10,1166121.0
+LS3,58,Università degli Studi di PERUGIA,00448820548,1,0,1,3,295894.0
+LS3,60,"Università degli Studi di ROMA ""Tor Vergata""",80213750583,2,0,2,6,466329.0
+LS3,65,Università degli Studi di TORINO,80088230018,1,0,1,3,289705.0
+LS3,67,Università degli Studi di TRIESTE,80013890324,1,1,1,4,279792.0
+LS3,75,Università di PISA,80003670504,1,0,1,3,301556.0
+LS4,2,Alma Mater Studiorum - Università di BOLOGNA,80007010376,2,0,2,7,348289.0
+LS4,3,Consiglio Nazionale delle Ricerche,80054330586,2,0,2,8,333008.0
+LS4,5,HUMANITAS University,97692990159,3,0,3,10,506510.0
+LS4,12,LINK CAMPUS University,11933781004,1,0,1,3,235853.0
+LS4,23,UNISR - Università Vita Salute San Raffaele,97187560152,2,0,2,9,336522.0
+LS4,24,"Università ""Campus Bio-Medico"" di ROMA",97087620585,2,0,2,9,323291.0
+LS4,26,Università Cattolica del Sacro Cuore,02133120150,3,1,3,13,603178.0
+LS4,27,"Università degli Studi ""G. d'Annunzio"" CHIETI-PESCARA",93002750698,1,0,1,4,191758.0
+LS4,28,"Università degli Studi ""Magna Graecia"" di CATANZARO",97026980793,1,0,1,5,126258.0
+LS4,30,Università degli Studi del PIEMONTE ORIENTALE,94021400026,1,0,1,3,235959.0
+LS4,34,"Università degli Studi della Campania ""Luigi Vanvitelli""",02044190615,5,0,5,16,963173.0
+LS4,36,Università degli Studi di BARI ALDO MORO,80002170720,1,0,1,5,147461.0
+LS4,37,Università degli Studi di BRESCIA,98007650173,1,0,1,5,164157.0
+LS4,41,Università degli Studi di CATANIA,02772010878,2,1,2,4,465465.0
+LS4,43,Università degli Studi di FIRENZE,01279680480,2,1,2,8,369672.0
+LS4,44,Università degli Studi di FOGGIA,94045260711,1,0,1,5,137901.0
+LS4,45,Università degli Studi di GENOVA,00754150100,1,0,1,5,161805.0
+LS4,47,Università degli Studi di MESSINA,80004070837,1,0,1,5,162237.0
+LS4,48,Università degli Studi di MILANO,80012650158,4,2,4,15,688633.0
+LS4,49,Università degli Studi di MILANO-BICOCCA,12621570154,1,1,1,5,166670.0
+LS4,53,Università degli Studi di Napoli Federico II,00876220633,3,2,3,12,582440.0
+LS4,54,Università degli Studi di PADOVA,80006480281,1,1,1,5,184772.0
+LS4,55,Università degli Studi di PALERMO,80023730825,1,0,1,3,278369.0
+LS4,59,"Università degli Studi di ROMA ""La Sapienza""",80209930587,10,2,10,26,2011494.0
+LS4,60,"Università degli Studi di ROMA ""Tor Vergata""",80213750583,3,0,3,12,527029.0
+LS4,63,Università degli Studi di SIENA,80002070524,1,0,1,5,163935.0
+LS4,65,Università degli Studi di TORINO,80088230018,3,0,3,12,481511.0
+LS4,66,Università degli Studi di TRENTO,00340520220,1,0,1,5,158609.0
+LS4,67,Università degli Studi di TRIESTE,80013890324,1,0,1,3,194295.0
+LS4,70,Università degli Studi di VERONA,93009870234,1,1,1,5,324954.0
+LS4,71,Università degli Studi INSUBRIA Varese-Como,95039180120,1,0,1,5,190075.0
+LS4,75,Università di PISA,80003670504,2,0,2,9,326473.0
+LS7,2,Alma Mater Studiorum - Università di BOLOGNA,80007010376,1,0,1,5,181119.0
+LS7,3,Consiglio Nazionale delle Ricerche,80054330586,6,0,6,16,1243316.0
+LS7,12,LINK CAMPUS University,11933781004,3,0,3,8,424185.0
+LS7,13,"LUM ""Giuseppe Degennaro""",93135780729,1,1,1,5,223975.0
+LS7,21,UniCamillus - Saint Camillus International University of Health Sciences,97962900581,2,0,2,9,335991.0
+LS7,23,UNISR - Università Vita Salute San Raffaele,97187560152,1,1,1,4,405355.0
+LS7,27,"Università degli Studi ""G. d'Annunzio"" CHIETI-PESCARA",93002750698,1,0,1,4,186312.0
+LS7,28,"Università degli Studi ""Magna Graecia"" di CATANZARO",97026980793,2,0,2,8,309773.0
+LS7,30,Università degli Studi del PIEMONTE ORIENTALE,94021400026,1,0,1,4,184026.0
+LS7,31,Università degli Studi del SANNIO di BENEVENTO,01114010620,1,0,1,5,162540.0
+LS7,32,Università degli Studi dell'AQUILA,01021630668,2,0,2,8,378301.0
+LS7,34,"Università degli Studi della Campania ""Luigi Vanvitelli""",02044190615,6,1,6,15,1234290.0
+LS7,36,Università degli Studi di BARI ALDO MORO,80002170720,2,0,2,7,396148.0
+LS7,37,Università degli Studi di BRESCIA,98007650173,2,0,2,9,399547.0
+LS7,38,Università degli Studi di CAGLIARI,80019600925,2,1,2,7,507761.0
+LS7,39,Università degli Studi di CAMERINO,81001910439,1,1,1,5,180596.0
+LS7,41,Università degli Studi di CATANIA,02772010878,2,1,2,8,372302.0
+LS7,43,Università degli Studi di FIRENZE,01279680480,1,0,1,4,230130.0
+LS7,44,Università degli Studi di FOGGIA,94045260711,3,0,3,12,574615.0
+LS7,48,Università degli Studi di MILANO,80012650158,4,2,4,14,887187.0
+LS7,49,Università degli Studi di MILANO-BICOCCA,12621570154,1,0,1,4,159054.0
+LS7,53,Università degli Studi di Napoli Federico II,00876220633,6,2,6,18,1227031.0
+LS7,54,Università degli Studi di PADOVA,80006480281,2,0,2,7,421321.0
+LS7,56,Università degli Studi di PARMA,00308780345,1,0,1,4,181897.0
+LS7,57,Università degli Studi di PAVIA,80007270186,1,1,1,3,297991.0
+LS7,58,Università degli Studi di PERUGIA,00448820548,1,0,1,4,220103.0
+LS7,59,"Università degli Studi di ROMA ""La Sapienza""",80209930587,10,1,10,26,2105734.0
+LS7,61,Università degli Studi di SALERNO,80018670655,3,1,3,10,691043.0
+LS7,63,Università degli Studi di SIENA,80002070524,2,2,2,7,633108.0
+LS7,64,Università degli Studi di TERAMO,92012890676,1,0,1,4,125524.0
+LS7,65,Università degli Studi di TORINO,80088230018,3,1,3,8,973635.0
+LS7,66,Università degli Studi di TRENTO,00340520220,1,0,1,5,161510.0
+LS7,67,Università degli Studi di TRIESTE,80013890324,1,1,1,4,247730.0
+LS7,70,Università degli Studi di VERONA,93009870234,1,0,1,5,150825.0
+LS7,71,Università degli Studi INSUBRIA Varese-Como,95039180120,2,0,2,9,304582.0
+LS7,72,Università degli Studi ROMA TRE,04400441004,2,0,2,9,311867.0
+LS7,73,Università del SALENTO,80008870752,1,0,1,4,118041.0
+LS7,74,Università della CALABRIA,80003950781,1,0,1,5,176553.0
+LS7,75,Università di PISA,80003670504,1,0,1,3,168537.0
+LS7,78,Università Politecnica delle MARCHE,00382520427,1,0,1,3,232617.0
+LS7,81,Università Telematica San Raffaele Roma,97471900155,1,0,1,5,150345.0
+PE1,2,Alma Mater Studiorum - Università di BOLOGNA,80007010376,1,1,1,3,408373.0
+PE1,4,Gran Sasso Science Institute - Scuola di dottorato internazionale,01984560662,1,1,1,5,191776.0
+PE1,15,Politecnico di MILANO,80057930150,1,0,1,5,195142.0
+PE1,18,Scuola Internazionale Superiore di Studi Avanzati di TRIESTE,80035060328,2,1,2,7,374498.0
+PE1,19,Scuola Normale Superiore di PISA,80005050507,1,1,1,5,211398.0
+PE1,42,Università degli Studi di FERRARA,80007370382,1,0,1,5,182388.0
+PE1,48,Università degli Studi di MILANO,80012650158,1,0,1,5,187989.0
+PE1,49,Università degli Studi di MILANO-BICOCCA,12621570154,1,1,1,5,193474.0
+PE1,56,Università degli Studi di PARMA,00308780345,1,0,1,5,186501.0
+PE1,57,Università degli Studi di PAVIA,80007270186,2,0,2,10,387722.0
+PE1,59,"Università degli Studi di ROMA ""La Sapienza""",80209930587,4,0,4,12,746482.0
+PE1,60,"Università degli Studi di ROMA ""Tor Vergata""",80213750583,3,0,3,14,564352.0
+PE1,65,Università degli Studi di TORINO,80088230018,2,0,2,7,400745.0
+PE1,66,Università degli Studi di TRENTO,00340520220,1,0,1,5,166171.0
+PE1,70,Università degli Studi di VERONA,93009870234,1,0,1,5,185332.0
+PE1,72,Università degli Studi ROMA TRE,04400441004,2,0,2,7,355344.0
+PE1,75,Università di PISA,80003670504,3,0,3,9,579183.0
+PE2,2,Alma Mater Studiorum - Università di BOLOGNA,80007010376,1,0,1,3,222224.0
+PE2,3,Consiglio Nazionale delle Ricerche,80054330586,3,2,3,8,1305208.0
+PE2,8,Istituto Nazionale di Fisica Nucleare,84001850589,3,0,3,11,1134061.0
+PE2,10,Istituto Nazionale di Ricerca Metrologica,09261710017,1,0,1,3,294318.0
+PE2,30,Università degli Studi del PIEMONTE ORIENTALE,94021400026,1,0,1,4,196642.0
+PE2,37,Università degli Studi di BRESCIA,98007650173,1,0,1,3,165080.0
+PE2,38,Università degli Studi di CAGLIARI,80019600925,1,1,1,4,225153.0
+PE2,43,Università degli Studi di FIRENZE,01279680480,2,0,2,5,515591.0
+PE2,45,Università degli Studi di GENOVA,00754150100,1,0,1,4,178665.0
+PE2,48,Università degli Studi di MILANO,80012650158,1,0,1,4,183969.0
+PE2,49,Università degli Studi di MILANO-BICOCCA,12621570154,1,0,1,5,184669.0
+PE2,54,Università degli Studi di PADOVA,80006480281,1,1,1,3,256019.0
+PE2,55,Università degli Studi di PALERMO,80023730825,2,1,2,6,382950.0
+PE2,56,Università degli Studi di PARMA,00308780345,1,0,1,3,196713.0
+PE2,59,"Università degli Studi di ROMA ""La Sapienza""",80209930587,1,0,1,3,232019.0
+PE2,60,"Università degli Studi di ROMA ""Tor Vergata""",80213750583,1,0,1,5,219722.0
+PE2,65,Università degli Studi di TORINO,80088230018,2,0,2,8,345333.0
+PE2,67,Università degli Studi di TRIESTE,80013890324,1,0,1,4,197714.0
+PE2,71,Università degli Studi INSUBRIA Varese-Como,95039180120,1,0,1,4,179000.0
+PE2,72,Università degli Studi ROMA TRE,04400441004,1,1,1,5,159199.0
+PE2,75,Università di PISA,80003670504,1,0,1,5,219225.0
+PE3,3,Consiglio Nazionale delle Ricerche,80054330586,4,2,4,13,1303294.0
+PE3,15,Politecnico di MILANO,80057930150,2,0,2,6,401205.0
+PE3,23,UNISR - Università Vita Salute San Raffaele,97187560152,1,0,1,4,186895.0
+PE3,25,Università Ca' Foscari VENEZIA,80007720271,2,0,2,6,357935.0
+PE3,32,Università degli Studi dell'AQUILA,01021630668,1,0,1,4,99143.0
+PE3,43,Università degli Studi di FIRENZE,01279680480,1,0,1,4,222029.0
+PE3,48,Università degli Studi di MILANO,80012650158,2,1,2,6,439435.0
+PE3,49,Università degli Studi di MILANO-BICOCCA,12621570154,1,1,1,4,185477.0
+PE3,54,Università degli Studi di PADOVA,80006480281,2,0,2,6,356002.0
+PE3,56,Università degli Studi di PARMA,00308780345,1,0,1,4,146729.0
+PE3,59,"Università degli Studi di ROMA ""La Sapienza""",80209930587,3,1,3,9,635341.0
+PE3,60,"Università degli Studi di ROMA ""Tor Vergata""",80213750583,1,0,1,4,163801.0
+PE3,65,Università degli Studi di TORINO,80088230018,2,0,2,8,342159.0
+PE3,67,Università degli Studi di TRIESTE,80013890324,1,0,1,4,172714.0
+PE3,74,Università della CALABRIA,80003950781,1,0,1,4,130581.0
+PE7,1,ACCADEMIA DI BELLE ARTI DI FROSINONE,80006930608,1,0,1,5,161707.0
+PE7,2,Alma Mater Studiorum - Università di BOLOGNA,80007010376,1,1,1,5,246086.0
+PE7,3,Consiglio Nazionale delle Ricerche,80054330586,4,0,4,12,925316.0
+PE7,10,Istituto Nazionale di Ricerca Metrologica,09261710017,1,0,1,5,143940.0
+PE7,12,LINK CAMPUS University,11933781004,1,0,1,5,137742.0
+PE7,14,Politecnico di BARI,93051590722,1,0,1,4,200916.0
+PE7,15,Politecnico di MILANO,80057930150,4,1,4,10,763393.0
+PE7,16,Politecnico di TORINO,00518460019,3,1,3,10,815709.0
+PE7,22,UNICUSANO Università degli Studi Niccolò Cusano -Telematica Roma,09073721004,2,0,2,7,425299.0
+PE7,26,Università Cattolica del Sacro Cuore,02133120150,1,0,1,5,184693.0
+PE7,32,Università degli Studi dell'AQUILA,01021630668,1,1,1,4,238491.0
+PE7,37,Università degli Studi di BRESCIA,98007650173,2,0,2,8,362016.0
+PE7,40,Università degli Studi di CASSINO e del LAZIO MERIDIONALE,81006500607,4,1,4,17,721381.0
+PE7,41,Università degli Studi di CATANIA,02772010878,4,0,4,9,777450.0
+PE7,43,Università degli Studi di FIRENZE,01279680480,3,2,3,11,668740.0
+PE7,44,Università degli Studi di FOGGIA,94045260711,1,0,1,5,136931.0
+PE7,52,"Università degli Studi di NAPOLI ""Parthenope""",80018240632,1,0,1,5,137742.0
+PE7,53,Università degli Studi di Napoli Federico II,00876220633,2,0,2,9,375515.0
+PE7,54,Università degli Studi di PADOVA,80006480281,3,0,3,12,634744.0
+PE7,56,Università degli Studi di PARMA,00308780345,1,0,1,4,196932.0
+PE7,57,Università degli Studi di PAVIA,80007270186,1,0,1,4,200916.0
+PE7,58,Università degli Studi di PERUGIA,00448820548,4,0,4,14,615078.0
+PE7,60,"Università degli Studi di ROMA ""Tor Vergata""",80213750583,2,0,2,7,381561.0
+PE7,61,Università degli Studi di SALERNO,80018670655,2,1,2,9,444572.0
+PE7,63,Università degli Studi di SIENA,80002070524,1,0,1,5,174618.0
+PE7,65,Università degli Studi di TORINO,80088230018,1,1,1,3,245589.0
+PE7,66,Università degli Studi di TRENTO,00340520220,2,1,2,9,407665.0
+PE7,72,Università degli Studi ROMA TRE,04400441004,2,1,2,6,556037.0
+PE7,75,Università di PISA,80003670504,1,0,1,5,168009.0
+PE8,2,Alma Mater Studiorum - Università di BOLOGNA,80007010376,3,0,3,13,628455.0
+PE8,3,Consiglio Nazionale delle Ricerche,80054330586,6,2,6,18,1514849.0
+PE8,8,Istituto Nazionale di Fisica Nucleare,84001850589,1,0,1,5,233292.0
+PE8,14,Politecnico di BARI,93051590722,2,0,2,6,456804.0
+PE8,15,Politecnico di MILANO,80057930150,6,1,6,14,1439704.0
+PE8,16,Politecnico di TORINO,00518460019,4,2,4,14,950961.0
+PE8,22,UNICUSANO Università degli Studi Niccolò Cusano -Telematica Roma,09073721004,1,0,1,5,182932.0
+PE8,29,Università degli Studi del MOLISE,92008370709,1,0,1,5,208372.0
+PE8,35,Università degli Studi della TUSCIA,80029030568,1,1,1,5,251352.0
+PE8,40,Università degli Studi di CASSINO e del LAZIO MERIDIONALE,81006500607,2,1,2,7,359240.0
+PE8,41,Università degli Studi di CATANIA,02772010878,1,0,1,5,200000.0
+PE8,43,Università degli Studi di FIRENZE,01279680480,1,0,1,5,197947.0
+PE8,45,Università degli Studi di GENOVA,00754150100,1,0,1,3,243669.0
+PE8,47,Università degli Studi di MESSINA,80004070837,1,0,1,4,233921.0
+PE8,50,Università degli Studi di MODENA e REGGIO EMILIA,00427620364,1,0,1,4,240000.0
+PE8,52,"Università degli Studi di NAPOLI ""Parthenope""",80018240632,2,0,2,8,379020.0
+PE8,53,Università degli Studi di Napoli Federico II,00876220633,7,2,7,22,1667399.0
+PE8,54,Università degli Studi di PADOVA,80006480281,3,0,3,12,649664.0
+PE8,55,Università degli Studi di PALERMO,80023730825,1,0,1,5,193779.0
+PE8,56,Università degli Studi di PARMA,00308780345,3,1,3,12,599268.0
+PE8,57,Università degli Studi di PAVIA,80007270186,2,0,2,9,445378.0
+PE8,58,Università degli Studi di PERUGIA,00448820548,3,0,3,11,723526.0
+PE8,59,"Università degli Studi di ROMA ""La Sapienza""",80209930587,3,0,3,13,594080.0
+PE8,60,"Università degli Studi di ROMA ""Tor Vergata""",80213750583,2,0,2,9,398999.0
+PE8,61,Università degli Studi di SALERNO,80018670655,4,1,4,15,795502.0
+PE8,66,Università degli Studi di TRENTO,00340520220,2,1,2,9,409405.0
+PE8,68,Università degli Studi di UDINE,80014550307,1,0,1,5,241037.0
+PE8,72,Università degli Studi ROMA TRE,04400441004,1,0,1,5,201097.0
+PE8,74,Università della CALABRIA,80003950781,3,0,3,14,597212.0
+PE8,75,Università di PISA,80003670504,1,0,1,5,205005.0
+PE8,76,Università IUAV di VENEZIA,80009280274,1,0,1,5,204999.0
+PE8,77,Università per Stranieri di PERUGIA,80002630541,1,1,1,4,244890.0
+PE8,78,Università Politecnica delle MARCHE,00382520427,1,1,1,5,266931.0
+PE8,80,Università Telematica PEGASO,05411471211,2,0,2,7,300197.0
+PE9,2,Alma Mater Studiorum - Università di BOLOGNA,80007010376,1,0,1,4,159941.0
+PE9,4,Gran Sasso Science Institute - Scuola di dottorato internazionale,01984560662,2,1,2,5,543164.0
+PE9,7,Istituto Nazionale di Astrofisica,97220210583,4,1,4,13,1272321.0
+PE9,8,Istituto Nazionale di Fisica Nucleare,84001850589,1,0,1,3,260788.0
+PE9,15,Politecnico di MILANO,80057930150,1,0,1,4,174116.0
+PE9,18,Scuola Internazionale Superiore di Studi Avanzati di TRIESTE,80035060328,2,1,2,7,433497.0
+PE9,38,Università degli Studi di CAGLIARI,80019600925,1,0,1,4,56497.0
+PE9,45,Università degli Studi di GENOVA,00754150100,1,0,1,5,179829.0
+PE9,48,Università degli Studi di MILANO,80012650158,1,1,1,5,217453.0
+PE9,54,Università degli Studi di PADOVA,80006480281,1,0,1,4,165144.0
+PE9,59,"Università degli Studi di ROMA ""La Sapienza""",80209930587,1,0,1,3,239989.0
+PE9,65,Università degli Studi di TORINO,80088230018,1,0,1,5,157140.0
+PE9,67,Università degli Studi di TRIESTE,80013890324,1,0,1,5,163557.0
+PE9,75,Università di PISA,80003670504,1,0,1,3,269235.0
+PE10,2,Alma Mater Studiorum - Università di BOLOGNA,80007010376,2,0,2,7,310151.0
+PE10,3,Consiglio Nazionale delle Ricerche,80054330586,6,1,6,16,1381334.0
+PE10,9,Istituto Nazionale di Oceanografia e di Geofisica Sperimentale,00055590327,2,0,2,6,387539.0
+PE10,11,Istituto Nazionale Geofisica e Vulcanologia,06838821004,3,0,3,9,453469.0
+PE10,16,Politecnico di TORINO,00518460019,3,1,3,8,753544.0
+PE10,35,Università degli Studi della TUSCIA,80029030568,1,1,1,3,289491.0
+PE10,39,Università degli Studi di CAMERINO,81001910439,1,0,1,3,236205.0
+PE10,43,Università degli Studi di FIRENZE,01279680480,1,1,1,5,253738.0
+PE10,45,Università degli Studi di GENOVA,00754150100,2,0,2,7,403751.0
+PE10,47,Università degli Studi di MESSINA,80004070837,1,0,1,3,239179.0
+PE10,48,Università degli Studi di MILANO,80012650158,1,0,1,3,212697.0
+PE10,49,Università degli Studi di MILANO-BICOCCA,12621570154,4,1,4,11,1250529.0
+PE10,50,Università degli Studi di MODENA e REGGIO EMILIA,00427620364,1,0,1,4,163257.0
+PE10,52,"Università degli Studi di NAPOLI ""Parthenope""",80018240632,1,1,1,3,359392.0
+PE10,53,Università degli Studi di Napoli Federico II,00876220633,1,0,1,4,206216.0
+PE10,54,Università degli Studi di PADOVA,80006480281,3,1,3,9,523937.0
+PE10,59,"Università degli Studi di ROMA ""La Sapienza""",80209930587,1,0,1,3,223904.0
+PE10,65,Università degli Studi di TORINO,80088230018,3,1,3,9,700733.0
+PE10,66,Università degli Studi di TRENTO,00340520220,1,0,1,3,232505.0
+PE10,69,Università degli Studi di Urbino Carlo Bo,82002850418,1,0,1,4,182613.0
+PE10,75,Università di PISA,80003670504,2,1,2,6,472849.0
+PE11,3,Consiglio Nazionale delle Ricerche,80054330586,4,1,4,15,942740.0
+PE11,8,Istituto Nazionale di Fisica Nucleare,84001850589,1,0,1,5,188713.0
+PE11,15,Politecnico di MILANO,80057930150,1,0,1,4,243591.0
+PE11,16,Politecnico di TORINO,00518460019,4,3,4,15,937708.0
+PE11,26,Università Cattolica del Sacro Cuore,02133120150,1,0,1,3,235643.0
+PE11,30,Università degli Studi del PIEMONTE ORIENTALE,94021400026,1,0,1,5,233982.0
+PE11,33,Università degli Studi della BASILICATA,96003410766,1,0,1,5,112609.0
+PE11,39,Università degli Studi di CAMERINO,81001910439,2,0,2,9,346849.0
+PE11,41,Università degli Studi di CATANIA,02772010878,1,0,1,5,172114.0
+PE11,45,Università degli Studi di GENOVA,00754150100,1,0,1,3,267706.0
+PE11,48,Università degli Studi di MILANO,80012650158,1,1,1,5,219884.0
+PE11,52,"Università degli Studi di NAPOLI ""Parthenope""",80018240632,1,0,1,5,174955.0
+PE11,53,Università degli Studi di Napoli Federico II,00876220633,1,0,1,5,150613.0
+PE11,54,Università degli Studi di PADOVA,80006480281,1,0,1,4,128128.0
+PE11,55,Università degli Studi di PALERMO,80023730825,2,0,2,8,408006.0
+PE11,56,Università degli Studi di PARMA,00308780345,1,0,1,4,258549.0
+PE11,59,"Università degli Studi di ROMA ""La Sapienza""",80209930587,4,1,4,14,741588.0
+PE11,60,"Università degli Studi di ROMA ""Tor Vergata""",80213750583,1,0,1,5,134088.0
+PE11,62,Università degli Studi di SASSARI,00196350904,1,0,1,4,193941.0
+PE11,75,Università di PISA,80003670504,1,0,1,4,224632.0
+PE11,79,"Università Telematica ""E-CAMPUS""",90027520130,1,0,1,5,175008.0
+SH4,2,Alma Mater Studiorum - Università di BOLOGNA,80007010376,2,0,2,7,421891.0
+SH4,3,Consiglio Nazionale delle Ricerche,80054330586,3,0,3,11,564919.0
+SH4,17,Scuola IMT Alti Studi - LUCCA,92037570469,3,0,3,8,710042.0
+SH4,18,Scuola Internazionale Superiore di Studi Avanzati di TRIESTE,80035060328,1,0,1,3,241152.0
+SH4,27,"Università degli Studi ""G. d'Annunzio"" CHIETI-PESCARA",93002750698,1,0,1,4,232194.0
+SH4,42,Università degli Studi di FERRARA,80007370382,1,0,1,3,219523.0
+SH4,47,Università degli Studi di MESSINA,80004070837,1,0,1,4,197437.0
+SH4,48,Università degli Studi di MILANO,80012650158,1,0,1,4,193536.0
+SH4,49,Università degli Studi di MILANO-BICOCCA,12621570154,3,3,3,10,715984.0
+SH4,54,Università degli Studi di PADOVA,80006480281,1,0,1,3,240288.0
+SH4,56,Università degli Studi di PARMA,00308780345,1,0,1,3,265942.0
+SH4,59,"Università degli Studi di ROMA ""La Sapienza""",80209930587,3,0,3,8,556990.0
+SH4,60,"Università degli Studi di ROMA ""Tor Vergata""",80213750583,2,0,2,7,369590.0
+SH4,61,Università degli Studi di SALERNO,80018670655,2,0,2,6,530321.0
+SH4,63,Università degli Studi di SIENA,80002070524,1,1,1,4,248700.0
+SH4,65,Università degli Studi di TORINO,80088230018,2,0,2,7,485653.0
+SH4,66,Università degli Studi di TRENTO,00340520220,4,2,4,12,966637.0
+SH4,67,Università degli Studi di TRIESTE,80013890324,1,1,1,4,212539.0
+SH4,70,Università degli Studi di VERONA,93009870234,2,1,2,6,552346.0
+SH4,79,"Università Telematica ""E-CAMPUS""",90027520130,1,0,1,4,195296.0
+SH5,2,Alma Mater Studiorum - Università di BOLOGNA,80007010376,3,0,3,11,714317.0
+SH5,3,Consiglio Nazionale delle Ricerche,80054330586,1,0,1,4,249788.0
+SH5,6,I.U.S.S. - Istituto Universitario di Studi Superiori - PAVIA,96049740184,1,1,1,3,313551.0
+SH5,22,UNICUSANO Università degli Studi Niccolò Cusano -Telematica Roma,09073721004,1,0,1,4,190463.0
+SH5,23,UNISR - Università Vita Salute San Raffaele,97187560152,1,0,1,3,277595.0
+SH5,26,Università Cattolica del Sacro Cuore,02133120150,2,0,2,8,383155.0
+SH5,30,Università degli Studi del PIEMONTE ORIENTALE,94021400026,1,0,1,4,242959.0
+SH5,36,Università degli Studi di BARI ALDO MORO,80002170720,3,0,3,11,570223.0
+SH5,41,Università degli Studi di CATANIA,02772010878,1,1,1,5,202995.0
+SH5,42,Università degli Studi di FERRARA,80007370382,1,0,1,4,203319.0
+SH5,43,Università degli Studi di FIRENZE,01279680480,4,0,4,13,964876.0
+SH5,45,Università degli Studi di GENOVA,00754150100,1,0,1,4,188433.0
+SH5,46,Università degli Studi di MACERATA,00177050432,1,0,1,5,140885.0
+SH5,47,Università degli Studi di MESSINA,80004070837,3,0,3,12,568048.0
+SH5,53,Università degli Studi di Napoli Federico II,00876220633,2,0,2,10,350307.0
+SH5,54,Università degli Studi di PADOVA,80006480281,2,1,2,8,405400.0
+SH5,55,Università degli Studi di PALERMO,80023730825,1,1,1,4,315692.0
+SH5,56,Università degli Studi di PARMA,00308780345,1,0,1,5,172226.0
+SH5,57,Università degli Studi di PAVIA,80007270186,2,1,2,8,429899.0
+SH5,58,Università degli Studi di PERUGIA,00448820548,1,0,1,4,198268.0
+SH5,59,"Università degli Studi di ROMA ""La Sapienza""",80209930587,3,2,3,12,674706.0
+SH5,61,Università degli Studi di SALERNO,80018670655,1,0,1,4,236115.0
+SH5,63,Università degli Studi di SIENA,80002070524,1,1,1,4,387036.0
+SH5,65,Università degli Studi di TORINO,80088230018,3,0,3,11,610512.0
+SH5,72,Università degli Studi ROMA TRE,04400441004,2,1,2,8,473851.0
+SH5,73,Università del SALENTO,80008870752,1,0,1,5,199715.0
+SH5,79,"Università Telematica ""E-CAMPUS""",90027520130,1,0,1,4,216500.0
+SH5,80,Università Telematica PEGASO,05411471211,1,0,1,4,149719.0
+SH5,81,Università Telematica San Raffaele Roma,97471900155,1,0,1,4,184588.0
+SH6,2,Alma Mater Studiorum - Università di BOLOGNA,80007010376,3,1,3,8,738611.0
+SH6,3,Consiglio Nazionale delle Ricerche,80054330586,2,0,2,8,297482.0
+SH6,20,Scuola Superiore Meridionale,95315120634,1,0,1,3,249626.0
+SH6,25,Università Ca' Foscari VENEZIA,80007720271,1,0,1,4,158437.0
+SH6,30,Università degli Studi del PIEMONTE ORIENTALE,94021400026,1,0,1,3,260592.0
+SH6,32,Università degli Studi dell'AQUILA,01021630668,1,0,1,4,161526.0
+SH6,36,Università degli Studi di BARI ALDO MORO,80002170720,1,0,1,3,330833.0
+SH6,41,Università degli Studi di CATANIA,02772010878,2,0,2,7,313721.0
+SH6,42,Università degli Studi di FERRARA,80007370382,1,0,1,5,158763.0
+SH6,43,Università degli Studi di FIRENZE,01279680480,2,0,2,7,299642.0
+SH6,45,Università degli Studi di GENOVA,00754150100,1,0,1,3,255083.0
+SH6,50,Università degli Studi di MODENA e REGGIO EMILIA,00427620364,1,0,1,4,200971.0
+SH6,51,"Università degli Studi di NAPOLI ""L'Orientale""",00297640633,1,0,1,3,257073.0
+SH6,54,Università degli Studi di PADOVA,80006480281,3,1,3,12,655790.0
+SH6,55,Università degli Studi di PALERMO,80023730825,2,1,2,7,432462.0
+SH6,56,Università degli Studi di PARMA,00308780345,1,0,1,4,134474.0
+SH6,57,Università degli Studi di PAVIA,80007270186,1,0,1,4,166661.0
+SH6,59,"Università degli Studi di ROMA ""La Sapienza""",80209930587,2,0,2,9,357309.0
+SH6,61,Università degli Studi di SALERNO,80018670655,1,0,1,3,248926.0
+SH6,63,Università degli Studi di SIENA,80002070524,1,1,1,4,197072.0
+SH6,65,Università degli Studi di TORINO,80088230018,3,2,3,11,838024.0
+SH6,66,Università degli Studi di TRENTO,00340520220,1,0,1,4,221389.0
+SH6,69,Università degli Studi di Urbino Carlo Bo,82002850418,1,0,1,3,176970.0
+SH6,70,Università degli Studi di VERONA,93009870234,1,1,1,3,364636.0
+SH6,71,Università degli Studi INSUBRIA Varese-Como,95039180120,2,1,2,7,566458.0
+SH6,72,Università degli Studi ROMA TRE,04400441004,2,0,2,5,495558.0
+SH6,75,Università di PISA,80003670504,3,1,3,10,707177.0
