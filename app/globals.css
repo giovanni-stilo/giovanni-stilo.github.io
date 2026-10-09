@@ -48,17 +48,17 @@
 
 /* shadcn tokens, mapped onto the brutalist palette in styles/site.css */
 :root {
-  --background: #f1ede4; /* paper */
+  --background: #faf7f1; /* paper */
   --foreground: #0a0a0a; /* ink */
-  --card: #fbf9f4;
+  --card: #fffefb;
   --card-foreground: #0a0a0a;
-  --popover: #fbf9f4;
+  --popover: #fffefb;
   --popover-foreground: #0a0a0a;
   --primary: #0a0a0a;
-  --primary-foreground: #f1ede4;
-  --secondary: #e8e3d7;
+  --primary-foreground: #faf7f1;
+  --secondary: #f1ece2;
   --secondary-foreground: #0a0a0a;
-  --muted: #e8e3d7;
+  --muted: #f1ece2;
   --muted-foreground: #6b665d;
   --accent: #ff4f00; /* signal orange */
   --accent-foreground: #0a0a0a;

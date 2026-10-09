@@ -3,7 +3,7 @@ import path from "node:path";
 import matter from "gray-matter";
 import { load as loadYaml } from "js-yaml";
 import { cache } from "react";
-import { renderMarkdown, preprocessLiquid } from "@/lib/markdown";
+import { renderMarkdown, renderHtml } from "@/lib/markdown";
 
 const CONTENT = path.join(process.cwd(), "content");
 
@@ -120,7 +120,7 @@ export function getPage(name: string): { html: string; data: Record<string, unkn
   const { data, content } = matter(
     fs.readFileSync(path.join(CONTENT, "pages", `${name}.html`), "utf8"),
   );
-  return { html: preprocessLiquid(content), data };
+  return { html: renderHtml(content), data };
 }
 
 export type Person = {

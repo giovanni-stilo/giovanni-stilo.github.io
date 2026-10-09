@@ -14,8 +14,8 @@
   --color-ink: #0a0a0a;
   --color-ink-2: #161616;
   --color-ink-3: #262626;
-  --color-paper: #f1ede4;
-  --color-paper-2: #e8e3d7;
+  --color-paper: #faf7f1;
+  --color-paper-2: #f1ece2;
   --color-signal: #ff4f00;
   --color-signal-dark: #c93d00;
   --color-acid: #d4ff3a;
@@ -27,8 +27,8 @@
   --color-accent: #0a0a0a;
   --color-accent-hover: #c93d00;
   --color-bg: var(--color-paper);
-  --color-surface: #fbf9f4;
-  --color-surface-warm: #fffdf8;
+  --color-surface: #fffefb;
+  --color-surface-warm: #ffffff;
   --color-text: #0a0a0a;
   --color-text-secondary: #3d3a35;
   --color-text-muted: #6b665d;
@@ -1463,6 +1463,87 @@ table td { vertical-align: top; }
 
 table tr:hover td { background: var(--color-acid); }
 
+/* Content tables (lib/markdown.ts adds .table-wrap / .rtable / data-label).
+   Words and figures never break mid-token inside a cell. */
+.table-wrap { margin-bottom: 2rem; overflow-x: auto; }
+.table-wrap table { margin-bottom: 0; }
+table td, table th { overflow-wrap: normal; word-break: normal; hyphens: manual; }
+table td { font-variant-numeric: tabular-nums; }
+
+/* Phones: each row becomes a labelled card. The first cell is the card's
+   title; the rest show their column name beside the value. */
+@media (max-width: 640px) {
+  .table-wrap { overflow: visible; }
+  table.rtable,
+  table.rtable tbody,
+  table.rtable tr,
+  table.rtable td { display: block; width: 100%; }
+  table.rtable { border: var(--rule); font-size: 0.92rem; }
+  table.rtable thead {
+    position: absolute; width: 1px; height: 1px; overflow: hidden;
+    clip: rect(0,0,0,0); white-space: nowrap;
+  }
+  table.rtable tr { padding: 0.85rem 1rem; border-bottom: 1.5px solid var(--color-ink); }
+  table.rtable tr:last-child { border-bottom: 0; }
+  table.rtable tr:hover td { background: transparent; }
+  /* Label floats in a fixed left gutter; the value keeps normal inline flow
+     (cells mixing text, links and emphasis stay one paragraph) and the
+     flow-root cell grows to fit whichever of the two is taller. */
+  table.rtable td {
+    display: flow-root;
+    padding: 0.2rem 0 0.2rem 7rem;
+    border: 0;
+    text-align: left !important;
+  }
+  table.rtable td::before {
+    content: attr(data-label);
+    float: left;
+    width: 6.25rem;
+    margin: 0.25rem 0 0 -7rem;
+    line-height: 1.25;
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+  }
+  table.rtable td:first-child {
+    padding-left: 0;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.05rem;
+    line-height: 1.2;
+    padding-bottom: 0.45rem;
+  }
+  table.rtable td:first-child::before { content: none; }
+  table.rtable td:empty { display: none; }
+}
+
+/* Display titles are huge; a single long word ("Infrastructure",
+   "Recommendation") must hyphenate rather than push the page sideways. */
+.page-title, .page-content h2, .section-title { overflow-wrap: break-word; hyphens: auto; }
+
+/* PRIN 2026 data grids: the site-wide header style paints text in paper
+   colour, invisible on these light headers. On phones, pin the first column
+   while the rest scrolls sideways. */
+.prin-report table th { color: var(--prin-ink, var(--color-ink)); }
+@media (max-width: 640px) {
+  .prin-report table { font-size: 0.82rem; }
+  .prin-report th:first-child,
+  .prin-report td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    box-shadow: 1.5px 0 0 var(--prin-border, #d5d9d5);
+  }
+  .prin-report th:first-child { z-index: 2; }
+  .prin-report tbody td:first-child { background: #fbfaf7; }
+  .prin-report tbody tr:nth-child(even) td:first-child { background: #f0f3ef; }
+  /* the article's inline style (unlayered) sets 240px; !important lets this layer win */
+  .prin-report #prin-institutions-table td:first-child { min-width: 150px !important; max-width: 180px; }
+}
+
 /* === ALL-NEWS PAGE === */
 .all-news .news-item {
   grid-template-columns: 150px 1fr;
@@ -1496,7 +1577,7 @@ table tr:hover td { background: var(--color-acid); }
 /* === FOOTER === */
 .site-footer {
   background: var(--color-ink);
-  color: rgba(241,237,228,0.75);
+  color: rgba(250,247,241,0.75);
   padding: 5rem 0 2rem;
   position: relative;
   overflow: hidden;
@@ -1513,7 +1594,7 @@ table tr:hover td { background: var(--color-acid); }
   line-height: 1;
   letter-spacing: -0.07em;
   color: transparent;
-  -webkit-text-stroke: 2px rgba(241,237,228,0.12);
+  -webkit-text-stroke: 2px rgba(250,247,241,0.12);
   pointer-events: none;
   user-select: none;
 }
@@ -1554,7 +1635,7 @@ table tr:hover td { background: var(--color-acid); }
 .footer-col p {
   font-size: 0.95rem;
   margin-bottom: 0.25rem;
-  color: rgba(241,237,228,0.75);
+  color: rgba(250,247,241,0.75);
 }
 
 .footer-col a { color: var(--color-acid); }
@@ -1583,7 +1664,7 @@ table tr:hover td { background: var(--color-acid); }
   font-family: var(--font-mono);
   font-size: 0.75rem;
   text-transform: uppercase;
-  color: rgba(241,237,228,0.5);
+  color: rgba(250,247,241,0.5);
   position: relative;
 }
 
