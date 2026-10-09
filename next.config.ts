@@ -1,5 +1,6 @@
 import type { NextConfig } from "next";
 
+
 // Static export for GitHub Pages. `trailingSlash` emits /about/index.html,
 // matching the URLs the Jekyll site already published.
 const nextConfig: NextConfig = {
