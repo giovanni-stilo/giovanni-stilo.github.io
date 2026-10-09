@@ -1,0 +1,111 @@
+/*
+ * Cascade order. The site's hand-written stylesheet (styles/site.css) lives in
+ * the `legacy` layer: it beats shadcn's base styles but loses to Tailwind
+ * utilities, so components/ui can be dropped in without fighting it.
+ * Tailwind's preflight is intentionally NOT imported — site.css ships its own
+ * reset, and preflight would restyle every existing element.
+ */
+@layer theme, base, legacy, components, utilities;
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@import "../styles/site.css" layer(legacy);
+
+@source "../components";
+@source "../app";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: "Archivo", "Helvetica Neue", Arial, system-ui, sans-serif;
+  --font-heading: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Space Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+}
+
+/* shadcn tokens, mapped onto the brutalist palette in styles/site.css */
+:root {
+  --background: #f1ede4; /* paper */
+  --foreground: #0a0a0a; /* ink */
+  --card: #fbf9f4;
+  --card-foreground: #0a0a0a;
+  --popover: #fbf9f4;
+  --popover-foreground: #0a0a0a;
+  --primary: #0a0a0a;
+  --primary-foreground: #f1ede4;
+  --secondary: #e8e3d7;
+  --secondary-foreground: #0a0a0a;
+  --muted: #e8e3d7;
+  --muted-foreground: #6b665d;
+  --accent: #ff4f00; /* signal orange */
+  --accent-foreground: #0a0a0a;
+  --destructive: #c93d00;
+  --border: #0a0a0a;
+  --input: #0a0a0a;
+  --ring: #ff4f00;
+  --radius: 0rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+}
+
+/*
+ * Home hero = SchlierenRig. Unlayered on purpose: these must override the
+ * rig's own utility classes (padding/alignment of its content wrapper) so the
+ * hero content lines up with the header's .container.
+ */
+.hero-rig {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.hero-rig > .z-10 {
+  flex: 1;
+  padding: 5rem 0 4.5rem;
+  align-items: stretch;
+}
+.hero-rig .hero-inner {
+  width: 100%;
+  font-family: var(--font);
+}
+/* Body-size text needs a paper backing to stay legible over the plume. */
+.hero-rig .hero-affiliation {
+  width: fit-content;
+  background: var(--color-paper);
+  box-shadow: 0 0 0 0.4rem var(--color-paper);
+}
+/* Fine blueprint grid fights the ASCII field; keep only the orange disc. */
+.hero-rig::before {
+  display: none;
+}
+@media (max-width: 760px) {
+  .hero-rig > .z-10 {
+    padding: 3.5rem 0;
+  }
+}

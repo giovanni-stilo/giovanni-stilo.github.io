@@ -1,0 +1,92 @@
+{
+  "series": [
+    {
+      "tag": "unlearning",
+      "label": "2025--2026",
+      "title": "WIPE-OUT @ ECML-PKDD",
+      "text": "Workshop on Innovations, Privacy-preservation, and Evaluations Of machine Unlearning Techniques. Focusing on selective data removal from AI models for privacy, bias mitigation, and regulatory compliance."
+    },
+    {
+      "tag": "general",
+      "label": "2024",
+      "title": "DELTA @ KDD",
+      "text": "Workshop on Discovering Drift Phenomena in Evolving Data Landscapes at KDD 2024. Covering drift detection, data streams, and adaptive machine learning."
+    },
+    {
+      "tag": "fairness",
+      "label": "2020--2023",
+      "title": "BIAS @ ECIR",
+      "text": "International Workshop on Algorithmic Bias in Search and Recommendation, co-located with ECIR. Four successful editions addressing fairness, transparency, and social impacts of search and recommendation systems."
+    },
+    {
+      "tag": "general",
+      "label": "2017--2019",
+      "title": "SoMePeAS / SoAPS @ ECIR",
+      "text": "Workshops on Social Media for Personalization and Search, and Social Aspects in Personalization and Search. Three editions exploring social signals for improved personalization and information retrieval."
+    },
+    {
+      "tag": "general",
+      "label": "2018",
+      "title": "SIR @ CIKM",
+      "text": "Workshop on Social Interaction-based Recommendation at CIKM 2018. Extending the classic notion of social recommendation by leveraging diverse social interaction data."
+    },
+    {
+      "tag": "general",
+      "label": "2016--2017",
+      "title": "SERecSys @ ICDM",
+      "text": "Workshop on Semantics-Enabled Recommender Systems. Two editions at ICDM exploring semantic knowledge to enrich recommendation processes."
+    }
+  ],
+  "talks": [
+    {
+      "year": "2025",
+      "title": "Tutorial: Unraveling Graph Counterfactual Explainability",
+      "venue": "ECML-PKDD 2025, Porto, Portugal"
+    },
+    {
+      "year": "2025",
+      "title": "PhD Course: Machine Unlearning -- Theory, Methods, and Evaluations",
+      "venue": "ESSAI 2025, European Summer School on AI"
+    },
+    {
+      "year": "2024",
+      "title": "Invited Talk: Bias, Fairness, and Explainability: Building Trust in AI Systems",
+      "venue": "Technical University of Munich (TUM)"
+    },
+    {
+      "year": "2024",
+      "title": "Tutorial: Graphs Counterfactual Explainability -- A Comprehensive Landscape",
+      "venue": "AAAI 2024, Vancouver, Canada"
+    },
+    {
+      "year": "2024",
+      "title": "Lab: Digging into the Landscape of Graphs Counterfactual Explainability",
+      "venue": "AAAI 2024, Vancouver, Canada"
+    },
+    {
+      "year": "2023",
+      "title": "Invited Talk: Graphs' Counterfactual Explainability Landscape",
+      "venue": "XAI.it 2023 (co-located with AIxIA 2023), Rome, Italy"
+    },
+    {
+      "year": "2023",
+      "title": "Demo: GRETEL -- Graph Counterfactual Explanation Framework",
+      "venue": "WSDM 2023"
+    },
+    {
+      "year": "2023",
+      "title": "Invited Talk: Uncovering Gender Bias in Academia",
+      "venue": "AI-GAP 2023, L'Aquila, Italy"
+    },
+    {
+      "year": "2020",
+      "title": "Tutorial: Challenges and Solutions to Student Dropout Prediction in Online Courses",
+      "venue": "CIKM 2020, Galway"
+    },
+    {
+      "year": "2020",
+      "title": "CLAIRE AI COVID-19 Initiative Presentation",
+      "venue": "Euro DIG 2020, The Hague"
+    }
+  ]
+}
