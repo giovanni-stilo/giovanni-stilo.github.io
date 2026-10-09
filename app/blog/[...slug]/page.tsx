@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { HtmlContent } from "@/components/site/html-content";
 import { JsonLd } from "@/components/site/json-ld";
 import { getBlogArticles, getPosts, renderDoc, formatLong, type Doc } from "@/lib/content";
-import { articleSchema, breadcrumbSchema, docMetadata } from "@/lib/seo";
+import { docGraph, docMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
 
 /**
@@ -100,10 +100,10 @@ export default async function BlogDocPage({ params }: PageProps<"/blog/[...slug]
   const isArticle = doc.collection === "blog";
   return (
     <>
-      <JsonLd data={articleSchema(doc)} />
       <JsonLd
-        data={breadcrumbSchema(
-          isArticle ? [{ name: "Blog", path: "/blog/" }, { name: doc.title, path: doc.url }] : [{ name: doc.title, path: doc.url }],
+        data={docGraph(
+          doc,
+          isArticle ? [{ name: "Blog", path: "/blog/" }, { name: doc.title, path: doc.url }] : [{ name: "News", path: "/news/" }, { name: doc.title, path: doc.url }],
         )}
       />
       {isArticle ? <Article doc={doc} /> : <NewsPost doc={doc} />}

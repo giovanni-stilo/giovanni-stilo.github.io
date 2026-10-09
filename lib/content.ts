@@ -4,6 +4,7 @@ import matter from "gray-matter";
 import { load as loadYaml } from "js-yaml";
 import { cache } from "react";
 import { renderMarkdown, renderHtml } from "@/lib/markdown";
+import { lastModified } from "@/lib/dates";
 
 const CONTENT = path.join(process.cwd(), "content");
 
@@ -26,8 +27,20 @@ export type Doc = {
   published: boolean;
   inactive: boolean;
   noLink: boolean;
+  /** events: ISO dates and place, when the source states them */
+  startDate?: string;
+  endDate?: string;
+  location?: string;
+  /** projects: people involved */
+  people: string[];
+  /** last real change (git history) */
+  modified?: Date;
+  file: string;
   body: string;
 };
+
+const isoDay = (v: unknown) =>
+  v instanceof Date ? v.toISOString().slice(0, 10) : typeof v === "string" && v ? v : undefined;
 
 const toDate = (v: unknown): Date | undefined => {
   if (v instanceof Date) return v;
@@ -77,6 +90,12 @@ function readCollection(collection: Doc["collection"]): Doc[] {
         published: data.published !== false,
         inactive: data.status === "inactive",
         noLink: data["no-link"] === true,
+        startDate: isoDay(data.start_date),
+        endDate: isoDay(data.end_date),
+        location: data.location,
+        people: Array.isArray(data.people) ? data.people.map(String) : [],
+        modified: lastModified(`content/${collection}/${file}`),
+        file: `content/${collection}/${file}`,
         body: content,
       } satisfies Doc;
     });
@@ -111,16 +130,16 @@ export function findDoc(docs: Doc[], slug: string) {
 export const renderDoc = (doc: Doc) => renderMarkdown(doc.body);
 
 /** Standalone pages kept as content files: Markdown (about) or HTML fragments. */
-export function getPage(name: string): { html: string; data: Record<string, unknown> } {
+export function getPage(name: string): { html: string; data: Record<string, unknown>; modified?: Date } {
   const md = path.join(CONTENT, "pages", `${name}.md`);
   if (fs.existsSync(md)) {
     const { data, content } = matter(fs.readFileSync(md, "utf8"));
-    return { html: renderMarkdown(content), data };
+    return { html: renderMarkdown(content), data, modified: lastModified(`content/pages/${name}.md`) };
   }
   const { data, content } = matter(
     fs.readFileSync(path.join(CONTENT, "pages", `${name}.html`), "utf8"),
   );
-  return { html: renderHtml(content), data };
+  return { html: renderHtml(content), data, modified: lastModified(`content/pages/${name}.html`) };
 }
 
 export type Person = {

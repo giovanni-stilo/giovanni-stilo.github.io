@@ -1,7 +1,8 @@
 import { PageShell } from "@/components/site/page-shell";
 import { JsonLd } from "@/components/site/json-ld";
 import { getPeople, type Person } from "@/lib/content";
-import { breadcrumbSchema, pageMetadata } from "@/lib/seo";
+import { collectionGraph, pageMetadata } from "@/lib/seo";
+import { lastModified } from "@/lib/dates";
 
 const title = "People & Supervision";
 
@@ -66,7 +67,7 @@ export default function PeoplePage() {
   const people = getPeople();
   return (
     <PageShell title={title}>
-      <JsonLd data={breadcrumbSchema([{ name: title, path: "/people/" }])} />
+      <JsonLd data={collectionGraph("/people/", title, metadata.description as string, lastModified("content/data/people.yml"))} />
       <p style={{ marginBottom: "2rem", fontSize: "0.95rem", color: "var(--color-text-secondary)" }}>
         Prof. Stilo has supervised and mentored researchers at all career stages &mdash; from undergraduate students to postdoctoral researchers &mdash; across Luiss University, University of L&apos;Aquila, Sapienza University of Rome, George Mason University, and international visiting programs.
       </p>

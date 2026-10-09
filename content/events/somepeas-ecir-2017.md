@@ -3,6 +3,7 @@ title: "SoMePeAS: Workshop on Social Media for Personalization and Search (ECIR 
 description: "Workshop on Social Media for Personalization and Search at ECIR 2017, April 9, 2017."
 layout: event
 last-updated: 2017-04-09
+start_date: 2017-04-09
 ---
 
 **Workshop at the 39th European Conference on Information Retrieval (ECIR 2017)**, April 9, 2017.

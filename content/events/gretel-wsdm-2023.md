@@ -3,6 +3,7 @@ title: "GRETEL Demo: Developing and Evaluating Graph Counterfactual Explanations
 description: "Demo presentation of the GRETEL framework for Graph Counterfactual Explanation at WSDM 2023, March 2, 2023."
 layout: event
 last-updated: 2023-03-02
+start_date: 2023-03-02
 ---
 
 **Demo at WSDM 2023: The 16th ACM International Conference on Web Search and Data Mining**, March 2, 2023.

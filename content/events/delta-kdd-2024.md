@@ -3,6 +3,8 @@ title: "DELTA 2024: Discovering Drift Phenomena in Evolving Landscape"
 description: "Workshop on drift detection and data streams at KDD 2024, August 26, 2024, Barcelona, Spain."
 layout: event
 last-updated: 2024-08-26
+start_date: 2024-08-26
+location: "Barcelona, Spain"
 ---
 
 The **DELTA 2024** workshop at KDD 2024 addressed cutting-edge challenges in drift detection, data streams, and adaptive machine learning, held on **August 26, 2024 in Barcelona, Spain**.

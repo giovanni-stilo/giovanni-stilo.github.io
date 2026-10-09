@@ -3,7 +3,8 @@ import { PageShell } from "@/components/site/page-shell";
 import { JsonLd } from "@/components/site/json-ld";
 import { InfoCard } from "@/components/site/card";
 import { getProjects, stripHtml, truncate } from "@/lib/content";
-import { breadcrumbSchema, pageMetadata } from "@/lib/seo";
+import { collectionGraph, docEntity, pageMetadata } from "@/lib/seo";
+import { lastModified } from "@/lib/dates";
 import research from "@/content/data/research.json";
 
 const title = "Research Projects";
@@ -19,7 +20,7 @@ export default function ResearchPage() {
   const projects = getProjects().filter((p) => !p.inactive);
   return (
     <PageShell title={title}>
-      <JsonLd data={breadcrumbSchema([{ name: title, path: "/research/" }])} />
+      <JsonLd data={collectionGraph("/research/", title, metadata.description as string, lastModified("app/research/page.tsx", "content/projects", "content/data/research.json"), projects.map(docEntity))} />
       <div className="card-grid">
         {projects.map((project) => (
           <div className="card" key={project.url}>

@@ -5,7 +5,7 @@ import { SiteFooter } from "@/components/site/site-footer";
 import { ScrollProgress } from "@/components/site/scroll-progress";
 import { MotionLayer } from "@/components/site/motion-layer";
 import { JsonLd } from "@/components/site/json-ld";
-import { personSchema } from "@/lib/seo";
+import { aiimNode, graph, personNode, websiteNode } from "@/lib/seo";
 import { site } from "@/lib/site";
 import "./globals.css";
 
@@ -42,7 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Space+Mono:wght@400;700&display=swap"
         />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-        <JsonLd data={personSchema} />
+        <JsonLd data={graph(personNode(), aiimNode(), websiteNode())} />
       </head>
       <body>
         <ScrollProgress />

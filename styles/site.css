@@ -1702,6 +1702,11 @@ table td { font-variant-numeric: tabular-nums; }
     display: none;
     border-bottom: var(--rule);
     box-shadow: 0 12px 0 rgba(10,10,10,0.15);
+    /* never taller than the visible screen below the 64px header: scroll inside */
+    max-height: calc(100vh - 64px);
+    max-height: calc(100dvh - 64px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
   }
 
   .site-nav.is-open { display: block; }
@@ -1709,14 +1714,21 @@ table td { font-variant-numeric: tabular-nums; }
   .nav-list { flex-direction: column; height: auto; }
 
   .nav-list a {
-    padding: 1rem 1.25rem;
-    font-size: 1.3rem;
+    padding: 0.8rem 1.25rem;
+    font-size: 1.15rem;
     font-family: var(--font-display);
     font-weight: 900;
     letter-spacing: -0.02em;
     border-top: 1.5px solid var(--color-ink);
     width: 100%;
   }
+}
+
+/* Phones: two-column menu so all ten sections fit on one screen */
+@media (max-width: 640px) {
+  .nav-list { display: grid; grid-template-columns: 1fr 1fr; }
+  .nav-list li:nth-child(odd) a { border-right: 1.5px solid var(--color-ink); }
+  .nav-list a { padding: 0.85rem 1rem; font-size: 1.05rem; }
 }
 
 @media (max-width: 960px) {
@@ -1780,4 +1792,51 @@ table td { font-variant-numeric: tabular-nums; }
   }
   html { scroll-behavior: auto; }
   .motion-ready [data-reveal] { opacity: 1; transform: none; }
+}
+
+/* === ANSWER-FIRST BLOCKS (About: at a glance + FAQ) === */
+.at-a-glance {
+  border: var(--rule);
+  background: var(--color-paper);
+  box-shadow: var(--shadow-hard);
+  padding: 1.75rem 2rem;
+  margin: 0 0 3rem;
+}
+.at-a-glance h2 { margin-top: 0; }
+.at-a-glance-lead { font-size: 1.08rem; line-height: 1.55; margin-bottom: 1.25rem; }
+.at-a-glance dl { display: grid; gap: 0; border-top: 1.5px solid var(--color-ink); }
+.at-a-glance dl > div {
+  display: grid;
+  grid-template-columns: 11rem 1fr;
+  gap: 1rem;
+  padding: 0.6rem 0;
+  border-bottom: 1.5px solid var(--color-border-light);
+}
+.at-a-glance dt {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  padding-top: 0.2rem;
+}
+.at-a-glance dd { margin: 0; }
+
+.faq { margin-top: 3.5rem; }
+.faq-item { border-top: 1.5px solid var(--color-ink); padding: 1.1rem 0 0.4rem; }
+.faq-item h3 { font-size: 1.15rem; margin-bottom: 0.45rem; }
+.faq-item p { margin-bottom: 0.6rem; }
+
+.page-updated {
+  margin: 3rem 0 0;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--color-text-muted);
+}
+
+@media (max-width: 640px) {
+  .at-a-glance { padding: 1.25rem 1.1rem; box-shadow: 4px 4px 0 var(--color-ink); }
+  .at-a-glance dl > div { grid-template-columns: 1fr; gap: 0.15rem; }
 }

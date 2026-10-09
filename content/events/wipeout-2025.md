@@ -3,6 +3,8 @@ title: "WIPE-OUT 2025: Workshop on Machine Unlearning Techniques"
 description: "First edition of the WIPE-OUT workshop on Innovations, Privacy-preservation, and Evaluations Of machine Unlearning Techniques at ECML-PKDD 2025, September 15, 2025, Porto, Portugal."
 layout: event
 last-updated: 2025-09-15
+start_date: 2025-09-15
+location: "Porto, Portugal"
 ---
 
 The **Workshop on Innovations, Privacy-preservation, and Evaluations Of machine Unlearning Techniques (WIPE-OUT 2025)** was co-located with ECML-PKDD 2025, September 15, 2025, Porto, Portugal.

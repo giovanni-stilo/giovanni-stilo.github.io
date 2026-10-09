@@ -2,7 +2,8 @@ import Link from "next/link";
 import { PageShell } from "@/components/site/page-shell";
 import { JsonLd } from "@/components/site/json-ld";
 import { getPosts, formatShort, stripHtml, truncate } from "@/lib/content";
-import { breadcrumbSchema, pageMetadata } from "@/lib/seo";
+import { collectionGraph, docEntity, pageMetadata } from "@/lib/seo";
+import { lastModified } from "@/lib/dates";
 
 const title = "News";
 
@@ -16,7 +17,7 @@ export const metadata = pageMetadata({
 export default function NewsPage() {
   return (
     <PageShell title={title}>
-      <JsonLd data={breadcrumbSchema([{ name: title, path: "/news/" }])} />
+      <JsonLd data={collectionGraph("/news/", title, metadata.description as string, lastModified("content/posts"), getPosts().map(docEntity))} />
       <ul className="news-list all-news">
         {getPosts().map((post) => (
           <li className="news-item" key={post.url}>

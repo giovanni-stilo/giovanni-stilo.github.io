@@ -3,6 +3,7 @@ title: "SoAPS: Workshop on Social Aspects in Personalization and Search (ECIR 20
 description: "Workshop on Social Aspects in Personalization and Search at ECIR 2018, March 26, 2018."
 layout: event
 last-updated: 2018-03-26
+start_date: 2018-03-26
 ---
 
 **Workshop at the 40th European Conference on Information Retrieval (ECIR 2018)**, March 26, 2018.

@@ -3,6 +3,7 @@ title: "SIR: Workshop on Social Interaction-based Recommendation (CIKM 2018)"
 description: "Workshop on Social Interaction-based Recommendation at CIKM 2018, October 22, 2018."
 layout: event
 last-updated: 2018-10-22
+start_date: 2018-10-22
 ---
 
 **Workshop at the 27th International Conference on Information and Knowledge Management (CIKM 2018)**, October 22, 2018.

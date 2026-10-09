@@ -3,7 +3,8 @@ import { PageShell } from "@/components/site/page-shell";
 import { JsonLd } from "@/components/site/json-ld";
 import { InfoCard } from "@/components/site/card";
 import { getEvents, stripHtml, truncate } from "@/lib/content";
-import { breadcrumbSchema, pageMetadata } from "@/lib/seo";
+import { collectionGraph, docEntity, pageMetadata } from "@/lib/seo";
+import { lastModified } from "@/lib/dates";
 import data from "@/content/data/events.json";
 
 const title = "Workshops & Events";
@@ -19,7 +20,7 @@ export default function EventsPage() {
   const events = getEvents().filter((e) => !e.inactive);
   return (
     <PageShell title={title}>
-      <JsonLd data={breadcrumbSchema([{ name: title, path: "/events/" }])} />
+      <JsonLd data={collectionGraph("/events/", title, metadata.description as string, lastModified("app/events/page.tsx", "content/events", "content/data/events.json"), events.map(docEntity))} />
       <p style={{ marginBottom: "2rem", fontSize: "0.95rem", color: "var(--color-text-secondary)" }}>
         Prof. Stilo has organized and co-organized numerous international workshops, tutorials, and events at premier AI and data mining conferences.
       </p>

@@ -3,6 +3,7 @@ title: "BIAS 2022: Third International Workshop on Algorithmic Bias in Search an
 description: "Third edition of the BIAS workshop at the 44th European Conference on Information Retrieval (ECIR 2022), April 10, 2022."
 layout: event
 last-updated: 2022-04-10
+start_date: 2022-04-10
 ---
 
 The **Third International Workshop on Algorithmic Bias in Search and Recommendation (BIAS 2022)** was co-located with the 44th European Conference on Information Retrieval (ECIR 2022) on April 10, 2022.

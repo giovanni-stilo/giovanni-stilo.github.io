@@ -3,6 +3,7 @@ title: "SoMePeAS: Third Workshop on Social Media for Personalization and Search 
 description: "Third edition of the SoMePeAS workshop at ECIR 2019, April 14, 2019."
 layout: event
 last-updated: 2019-04-14
+start_date: 2019-04-14
 ---
 
 **Workshop at the 41st European Conference on Information Retrieval (ECIR 2019)**, April 14, 2019.

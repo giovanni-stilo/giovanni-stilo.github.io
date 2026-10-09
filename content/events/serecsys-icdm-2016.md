@@ -3,6 +3,7 @@ title: "SERecSys: Workshop on Semantics-Enabled Recommender Systems (ICDM 2016)"
 description: "Workshop on Semantics-Enabled Recommender Systems at ICDM 2016, December 12, 2016."
 layout: event
 last-updated: 2016-12-12
+start_date: 2016-12-12
 ---
 
 **Workshop at the IEEE International Conference on Data Mining (ICDM 2016)**, December 12, 2016.

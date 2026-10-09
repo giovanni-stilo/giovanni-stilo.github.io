@@ -1,7 +1,7 @@
 export const site = {
   title: "Prof. Giovanni Stilo",
   description:
-    "Professor of Computer Science at Luiss University of Rome. Expert in Artificial Intelligence, Machine Learning, Explainable AI, Graph Counterfactual Explanations, Machine Unlearning, and Algorithmic Fairness.",
+    "Associate Professor at Luiss University of Rome (Department of AI, Data and Decision Sciences). Expert in Artificial Intelligence, Machine Learning, Explainable AI, Graph Counterfactual Explanations, Machine Unlearning, and Algorithmic Fairness.",
   url: "https://giovannistilo.eu",
   author: "Giovanni Stilo",
   lang: "en",

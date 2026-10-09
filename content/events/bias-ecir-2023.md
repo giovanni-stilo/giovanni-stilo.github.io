@@ -3,6 +3,7 @@ title: "BIAS 2023: Fourth International Workshop on Algorithmic Bias in Search a
 description: "Fourth edition of the BIAS workshop at the 45th European Conference on Information Retrieval (ECIR 2023), April 2, 2023."
 layout: event
 last-updated: 2023-04-02
+start_date: 2023-04-02
 ---
 
 The **Fourth International Workshop on Algorithmic Bias in Search and Recommendation (BIAS 2023)** was co-located with the 45th European Conference on Information Retrieval (ECIR 2023) on April 2, 2023.

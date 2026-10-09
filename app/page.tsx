@@ -4,13 +4,14 @@ import { Stats } from "@/components/home/stats";
 import { HighlightBanner } from "@/components/home/highlight-banner";
 import { JsonLd } from "@/components/site/json-ld";
 import { getEvents, getPosts, formatShort, truncate } from "@/lib/content";
-import { pageMetadata, websiteSchema } from "@/lib/seo";
+import { graph, pageMetadata, webPageNode, PERSON_ID } from "@/lib/seo";
+import { lastModified } from "@/lib/dates";
 
 export const metadata = {
   ...pageMetadata({
-    title: "Prof. Giovanni Stilo - AI Researcher & Professor at Luiss University of Rome",
+    title: "Prof. Giovanni Stilo - AI Researcher & Associate Professor at Luiss University of Rome",
     description:
-      "Personal academic website of Professor Giovanni Stilo. Expert in Artificial Intelligence, Machine Learning, Explainable AI, Graph Counterfactual Explanations, Machine Unlearning, and Algorithmic Fairness.",
+      "Giovanni Stilo is an Associate Professor at Luiss University of Rome (Department of AI, Data and Decision Sciences) and founder of the AIIM Research Collective, working on Explainable AI, Graph Counterfactual Explanations, Machine Unlearning, and Algorithmic Fairness.",
     path: "/",
   }),
 };
@@ -45,7 +46,17 @@ export default function HomePage() {
 
   return (
     <>
-      <JsonLd data={websiteSchema} />
+      <JsonLd
+        data={graph(
+          webPageNode({
+            path: "/",
+            name: "Prof. Giovanni Stilo - AI Researcher & Associate Professor at Luiss University of Rome",
+            type: "ProfilePage",
+            modified: lastModified("app/page.tsx", "content/posts", "content/events"),
+            extra: { mainEntity: { "@id": PERSON_ID } },
+          }),
+        )}
+      />
       <Hero />
 
       <HighlightBanner>

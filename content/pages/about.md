@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About Giovanni Stilo"
-description: "Professor Giovanni Stilo is a Computer Science professor at Luiss University of Rome, specializing in Artificial Intelligence, Machine Learning, Explainable AI, and Algorithmic Fairness."
+description: "Giovanni Stilo is an Associate Professor in the Department of AI, Data and Decision Sciences at Luiss University of Rome, specializing in Artificial Intelligence, Machine Learning, Explainable AI, and Algorithmic Fairness."
 permalink: /about/
 ---
 

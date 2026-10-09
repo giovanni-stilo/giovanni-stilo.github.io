@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import { HtmlContent } from "@/components/site/html-content";
 import { JsonLd } from "@/components/site/json-ld";
 import { getProjects, findDoc, renderDoc } from "@/lib/content";
-import { articleSchema, breadcrumbSchema, docMetadata } from "@/lib/seo";
+import { docGraph, docMetadata } from "@/lib/seo";
 
 export const dynamicParams = false;
 
@@ -20,8 +20,7 @@ export default async function Page({ params }: PageProps<"/projects/[slug]">) {
   if (!doc) notFound();
   return (
     <div className="container">
-      <JsonLd data={articleSchema(doc)} />
-      <JsonLd data={breadcrumbSchema([{ name: doc.title, path: doc.url }])} />
+      <JsonLd data={docGraph(doc, [{ name: "Research", path: "/research/" }, { name: doc.title, path: doc.url }])} />
       <article className="page-content project-content">
         {!doc.notitle ? <h1 className="page-title">{doc.title}</h1> : null}
         {doc.image ? (

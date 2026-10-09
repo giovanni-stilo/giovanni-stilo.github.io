@@ -3,6 +3,7 @@ title: "BIAS 2020: International Workshop on Algorithmic Bias in Search and Reco
 description: "Workshop on Algorithmic Bias in Search and Recommendation at the 42nd European Conference on Information Retrieval (ECIR 2020), April 14, 2020."
 layout: event
 last-updated: 2020-04-14
+start_date: 2020-04-14
 ---
 
 The **International Workshop on Algorithmic Bias in Search and Recommendation (BIAS 2020)** was co-located with the 42nd European Conference on Information Retrieval (ECIR 2020) on April 14, 2020.

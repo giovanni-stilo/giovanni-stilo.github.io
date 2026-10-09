@@ -2,7 +2,8 @@ import Link from "next/link";
 import { PageShell } from "@/components/site/page-shell";
 import { JsonLd } from "@/components/site/json-ld";
 import { getBlogArticles, formatLong } from "@/lib/content";
-import { breadcrumbSchema, pageMetadata } from "@/lib/seo";
+import { collectionGraph, docEntity, pageMetadata } from "@/lib/seo";
+import { lastModified } from "@/lib/dates";
 
 const title = "Blog";
 
@@ -28,7 +29,7 @@ export default function BlogPage() {
   const articles = getBlogArticles();
   return (
     <PageShell title={title}>
-      <JsonLd data={breadcrumbSchema([{ name: title, path: "/blog/" }])} />
+      <JsonLd data={collectionGraph("/blog/", title, metadata.description as string, lastModified("content/blog"), articles.filter((a) => a.published).map(docEntity))} />
       <p className="blog-intro">
         A space to explore research ideas, explain concepts, and think through open questions. From artificial intelligence and machine learning to the practice of research itself.
       </p>

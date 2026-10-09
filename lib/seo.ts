@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { site, absoluteUrl } from "@/lib/site";
 import type { Doc } from "@/lib/content";
+import { profile, sameAs, faq } from "@/lib/profile";
+import type { Publication, Course } from "@/lib/scholarly";
 
 type PageMeta = {
   title?: string;
@@ -28,6 +30,7 @@ export function pageMetadata({ title, description, path, article, noindex }: Pag
       url,
       siteName: site.title,
       locale: site.lang,
+      images: [{ url: absoluteUrl(site.logo), alt: `${profile.honorificPrefix} ${profile.name}` }],
       ...(article
         ? {
             type: "article",
@@ -36,7 +39,7 @@ export function pageMetadata({ title, description, path, article, noindex }: Pag
           }
         : { type: "website" }),
     },
-    twitter: { card: "summary", title: title ?? site.title, site: site.twitter },
+    twitter: { card: "summary", title: title ?? site.title, description: desc, site: site.twitter, images: [absoluteUrl(site.logo)] },
   };
 }
 
@@ -45,95 +48,267 @@ export const docMetadata = (doc: Doc): Metadata =>
     title: doc.title,
     description: doc.description,
     path: doc.url,
-    article: { published: doc.date, modified: doc.lastModifiedAt ?? doc.date },
+    article: { published: doc.date, modified: doc.lastModifiedAt ?? doc.modified ?? doc.date },
     noindex: doc.collection === "blog" && !doc.published,
   });
 
-const personId = `${site.url}/#person`;
+/*
+ * Structured data as one connected graph. Every node has a stable @id, and
+ * everything points back to the same Person, so answer engines resolve the
+ * site to a single, unambiguous entity (reinforced by ORCID / Scopus sameAs).
+ */
+const id = (path: string, frag: string) => `${absoluteUrl(path)}#${frag}`;
+export const PERSON_ID = `${site.url}/#person`;
+export const WEBSITE_ID = `${site.url}/#website`;
+const ref = (i: string) => ({ "@id": i });
 
-export const personSchema = {
-  "@context": "https://schema.org",
-  "@type": "ProfilePage",
-  mainEntity: {
-    "@type": "Person",
-    "@id": personId,
-    name: "Giovanni Stilo",
-    givenName: "Giovanni",
-    familyName: "Stilo",
-    jobTitle: "Professor of Computer Science",
-    honorificPrefix: "Prof.",
-    url: site.url,
-    image: absoluteUrl(site.logo),
-    email: "gstilo@luiss.it",
-    affiliation: { "@type": "Organization", name: "Luiss University of Rome", url: "https://www.luiss.it" },
-    alumniOf: [{ "@type": "Organization", name: "Sapienza University of Rome" }],
-    knowsAbout: [
-      "Artificial Intelligence",
-      "Machine Learning",
-      "Graph Neural Networks",
-      "Explainable AI",
-      "Graph Counterfactual Explanations",
-      "Machine Unlearning",
-      "Algorithmic Bias and Fairness",
-      "Data Mining",
-      "Social Network Analysis",
-      "Network Medicine",
-      "Recommender Systems",
-      "Concept Drift Detection",
-    ],
-    sameAs: [
-      "https://scholar.google.com/citations?hl=en&user=uTyaicMAAAAJ",
-      "https://github.com/aiim-research",
-      "https://aiimlab.org",
-      "https://www.linkedin.com/in/giovanni-stilo-7986b816/",
-    ],
-    memberOf: {
-      "@type": "Organization",
-      name: "AIIM - Artificial Intelligence & Information Mining Research Collective",
-      url: "https://aiimlab.org",
-    },
-  },
-};
+const org = (name: string, url?: string, extra: object = {}) => ({
+  "@type": "EducationalOrganization",
+  name,
+  ...(url ? { url } : {}),
+  ...extra,
+});
 
-export const websiteSchema = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  name: site.author,
+export const graph = (...nodes: object[]) => ({ "@context": "https://schema.org", "@graph": nodes });
+
+export const personNode = () => ({
+  "@type": "Person",
+  "@id": PERSON_ID,
+  name: profile.name,
+  givenName: profile.givenName,
+  familyName: profile.familyName,
+  honorificPrefix: profile.honorificPrefix,
+  jobTitle: profile.jobTitle,
+  description: profile.summary,
   url: `${site.url}/`,
-  description: site.description,
-  author: { "@type": "Person", name: site.author },
-  publisher: {
-    "@type": "Organization",
-    name: site.author,
-    logo: { "@type": "ImageObject", url: absoluteUrl(site.logo) },
+  mainEntityOfPage: absoluteUrl("/about/"),
+  image: absoluteUrl(site.logo),
+  email: `mailto:${profile.email}`,
+  worksFor: [
+    org(profile.employer.name, profile.employer.url, {
+      alternateName: "Luiss University of Rome",
+      department: { "@type": "Organization", name: profile.department },
+    }),
+    org(profile.businessSchool.name, profile.businessSchool.url),
+  ],
+  hasOccupation: {
+    "@type": "Occupation",
+    name: profile.jobTitle,
+    occupationLocation: { "@type": "City", name: "Rome" },
+    description: `${profile.jobTitle}, ${profile.department}, ${profile.employer.name}. ${profile.roleAtBusinessSchool}, ${profile.businessSchool.name}.`,
   },
-  sameAs: site.social,
-};
+  alumniOf: [...new Map(profile.education.map((e) => [e.institution, org(e.institution, e.url)])).values()],
+  hasCredential: profile.education.map((e) => ({
+    "@type": "EducationalOccupationalCredential",
+    credentialCategory: "degree",
+    name: e.degree,
+    dateCreated: String(e.year),
+    recognizedBy: org(e.institution, e.url),
+  })),
+  memberOf: { "@type": "ResearchOrganization", "@id": `${site.url}/#aiim`, name: profile.group.name, url: profile.group.url },
+  award: [...profile.awards],
+  knowsAbout: [...profile.knowsAbout],
+  identifier: [
+    { "@type": "PropertyValue", propertyID: "ORCID", value: profile.identifiers.orcid, url: profile.links.orcid },
+    { "@type": "PropertyValue", propertyID: "Scopus Author ID", value: profile.identifiers.scopus, url: profile.links.scopus },
+    { "@type": "PropertyValue", propertyID: "Google Scholar", value: profile.identifiers.scholar, url: profile.links.scholar },
+  ],
+  sameAs,
+});
 
-export function articleSchema(doc: Doc) {
+export const aiimNode = () => ({
+  "@type": "ResearchOrganization",
+  "@id": `${site.url}/#aiim`,
+  name: profile.group.name,
+  alternateName: "AIIM",
+  url: profile.group.url,
+  founder: ref(PERSON_ID),
+});
+
+export const websiteNode = () => ({
+  "@type": "WebSite",
+  "@id": WEBSITE_ID,
+  url: `${site.url}/`,
+  name: site.title,
+  description: site.description,
+  inLanguage: site.lang,
+  publisher: ref(PERSON_ID),
+  about: ref(PERSON_ID),
+});
+
+type Crumb = { name: string; path: string };
+
+export function webPageNode({
+  path,
+  name,
+  description,
+  type = "WebPage",
+  modified,
+  trail = [],
+  extra = {},
+}: {
+  path: string;
+  name: string;
+  description?: string;
+  type?: string | string[];
+  modified?: Date;
+  trail?: Crumb[];
+  extra?: object;
+}) {
+  const crumbs: Crumb[] = [{ name: "Home", path: "/" }, ...trail];
   return {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    headline: doc.title,
-    ...(doc.description ? { description: doc.description } : {}),
-    ...(doc.date ? { datePublished: doc.date.toISOString() } : {}),
-    ...(doc.lastModifiedAt ? { dateModified: doc.lastModifiedAt.toISOString() } : {}),
-    author: { "@type": "Person", "@id": personId, name: doc.author ?? site.author },
-    publisher: { "@type": "Person", name: "Giovanni Stilo" },
-    url: absoluteUrl(doc.url),
-    mainEntityOfPage: { "@type": "WebPage", "@id": absoluteUrl(doc.url) },
+    "@type": type,
+    "@id": id(path, "webpage"),
+    url: absoluteUrl(path),
+    name,
+    ...(description ? { description } : {}),
+    inLanguage: site.lang,
+    isPartOf: ref(WEBSITE_ID),
+    about: ref(PERSON_ID),
+    ...(modified ? { dateModified: modified.toISOString() } : {}),
+    ...(trail.length
+      ? {
+          breadcrumb: {
+            "@type": "BreadcrumbList",
+            itemListElement: crumbs.map((c, i) => ({
+              "@type": "ListItem",
+              position: i + 1,
+              name: c.name,
+              item: absoluteUrl(c.path),
+            })),
+          },
+        }
+      : {}),
+    ...extra,
   };
 }
 
-export function breadcrumbSchema(trail: { name: string; path: string }[]) {
+/** The main entity of a collection document: Event, ResearchProject or BlogPosting. */
+export function docEntity(doc: Doc) {
+  const base = {
+    "@id": id(doc.url, "main"),
+    name: doc.title,
+    ...(doc.description ? { description: doc.description } : {}),
+    url: absoluteUrl(doc.url),
+    mainEntityOfPage: ref(id(doc.url, "webpage")),
+    ...(doc.image ? { image: doc.image.startsWith("http") ? doc.image : absoluteUrl(doc.image) } : {}),
+  };
+  if (doc.collection === "events") {
+    return {
+      "@type": "Event",
+      ...base,
+      ...(doc.startDate ? { startDate: doc.startDate } : {}),
+      ...(doc.endDate ? { endDate: doc.endDate } : {}),
+      ...(doc.location ? { location: { "@type": "Place", name: doc.location, address: doc.location } } : {}),
+      eventStatus: "https://schema.org/EventScheduled",
+      contributor: ref(PERSON_ID),
+    };
+  }
+  if (doc.collection === "projects") {
+    return {
+      "@type": "ResearchProject",
+      ...base,
+      member: doc.people.map((name) => (name === profile.name ? ref(PERSON_ID) : { "@type": "Person", name })),
+      parentOrganization: ref(`${site.url}/#aiim`),
+    };
+  }
   return {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [{ name: "Home", path: "/" }, ...trail].map((item, i) => ({
+    "@type": doc.collection === "posts" ? "NewsArticle" : "BlogPosting",
+    ...base,
+    headline: doc.title,
+    ...(doc.date ? { datePublished: doc.date.toISOString() } : {}),
+    ...((doc.lastModifiedAt ?? doc.modified) ? { dateModified: (doc.lastModifiedAt ?? doc.modified)!.toISOString() } : {}),
+    ...(doc.tags.length ? { keywords: doc.tags.join(", ") } : {}),
+    author: ref(PERSON_ID),
+    publisher: ref(PERSON_ID),
+    inLanguage: site.lang,
+  };
+}
+
+export function publicationNodes(pubs: Publication[]) {
+  return {
+    "@type": "ItemList",
+    "@id": id("/publications/", "list"),
+    name: `Publications by ${profile.name}`,
+    numberOfItems: pubs.length,
+    itemListElement: pubs.map((p, i) => ({
       "@type": "ListItem",
       position: i + 1,
-      name: item.name,
-      item: i === 0 ? site.url : absoluteUrl(item.path),
+      item: {
+        "@type": p.kind === "Book Chapter" ? "Chapter" : "ScholarlyArticle",
+        name: p.title,
+        headline: p.title,
+        author: p.authors.map((a) => (a === profile.name ? ref(PERSON_ID) : { "@type": "Person", name: a })),
+        datePublished: String(p.year),
+        genre: p.kind,
+        isPartOf: { "@type": p.kind === "Journal Paper" ? "Periodical" : "CreativeWork", name: p.venue },
+        ...(p.url ? { url: p.url } : {}),
+        ...(p.doi ? { sameAs: `https://doi.org/${p.doi}`, identifier: { "@type": "PropertyValue", propertyID: "DOI", value: p.doi } } : {}),
+      },
     })),
   };
+}
+
+export function courseNodes(courses: Course[]) {
+  return {
+    "@type": "ItemList",
+    "@id": id("/teaching/", "list"),
+    name: `Courses taught by ${profile.name}`,
+    numberOfItems: courses.length,
+    itemListElement: courses.map((c, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      item: {
+        "@type": "Course",
+        name: c.name,
+        description: [c.details, c.years].filter(Boolean).join(" · "),
+        provider: { "@type": "EducationalOrganization", name: c.provider },
+        ...(c.section === "Teaching Assistant" ? { contributor: ref(PERSON_ID) } : { instructor: ref(PERSON_ID) }),
+      },
+    })),
+  };
+}
+
+export const faqNode = () => ({
+  "@type": "FAQPage",
+  "@id": id("/about/", "faq"),
+  mainEntity: faq.map(({ q, a }) => ({
+    "@type": "Question",
+    name: q,
+    acceptedAnswer: { "@type": "Answer", text: a },
+  })),
+});
+
+/** Graph for a listing page: a CollectionPage whose main entity lists `items`. */
+export function collectionGraph(path: string, name: string, description: string, modified?: Date, items?: object[]) {
+  const list = items?.length
+    ? [{ "@type": "ItemList", "@id": id(path, "list"), numberOfItems: items.length, itemListElement: items.map((item, i) => ({ "@type": "ListItem", position: i + 1, item })) }]
+    : [];
+  return graph(
+    webPageNode({
+      path,
+      name,
+      description,
+      type: "CollectionPage",
+      modified,
+      trail: [{ name, path }],
+      extra: list.length ? { mainEntity: ref(id(path, "list")) } : {},
+    }),
+    ...list,
+  );
+}
+
+/** Graph for a collection document page (event, project, article, news post). */
+export function docGraph(doc: Doc, trail: Crumb[]) {
+  return graph(
+    webPageNode({
+      path: doc.url,
+      name: doc.title,
+      description: doc.description,
+      modified: doc.lastModifiedAt ?? doc.modified,
+      trail,
+      extra: { mainEntity: ref(id(doc.url, "main")) },
+    }),
+    docEntity(doc),
+  );
 }

@@ -3,6 +3,7 @@ title: "Invited Talk: Graphs' Counterfactual Explainability Landscape (XAI.it 20
 description: "Invited talk at the 4th Italian Workshop on Explainable Artificial Intelligence (XAI.it 2023), co-located with AIxIA 2023, November 8, 2023."
 layout: event
 last-updated: 2023-11-08
+start_date: 2023-11-08
 ---
 
 **Invited talk at XAI.it 2023 -- 4th Italian Workshop on Explainable Artificial Intelligence**, co-located with AIxIA 2023, November 8, 2023, Rome, Italy.

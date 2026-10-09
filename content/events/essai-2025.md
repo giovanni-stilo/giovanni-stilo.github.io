@@ -3,6 +3,8 @@ title: "Machine Unlearning: Theory, Methods, and Evaluations with Hands-On Insig
 description: "PhD course on Machine Unlearning at the 3rd European Summer School on Artificial Intelligence (ESSAI 2025), June 30 - July 4, 2025."
 layout: event
 last-updated: 2025-06-30
+start_date: 2025-06-30
+end_date: 2025-07-04
 ---
 
 **Course at the 3rd European Summer School on Artificial Intelligence (ESSAI 2025)**, June 30 -- July 4, 2025.

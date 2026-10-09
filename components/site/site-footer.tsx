@@ -17,7 +17,7 @@ export function SiteFooter() {
           <div className="footer-col">
             <h3>Prof. Giovanni Stilo</h3>
             <p>
-              Professor of Computer Science
+              Associate Professor
               <br />
               Luiss University of Rome
             </p>

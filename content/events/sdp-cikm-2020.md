@@ -3,6 +3,8 @@ title: "Tutorial: Student Dropout Prediction in Online Courses (CIKM 2020)"
 description: "Tutorial on challenges and solutions to the student dropout prediction problem in online courses at CIKM 2020, October 19-20, 2020."
 layout: event
 last-updated: 2020-10-20
+start_date: 2020-10-19
+end_date: 2020-10-20
 ---
 
 **Tutorial at ACM Conference on Information & Knowledge Management (CIKM 2020)**, Galway, October 19--20, 2020.

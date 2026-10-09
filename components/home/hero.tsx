@@ -68,7 +68,7 @@ export function Hero() {
           <div className="hero-content">
             <SplitName />
             <motion.p className="hero-subtitle" {...rise(0.5)}>
-              Professor of Computer Science
+              Associate Professor · AI, Data &amp; Decision Sciences
             </motion.p>
             <motion.p className="hero-affiliation" {...rise(0.62)}>
               <strong>Luiss University of Rome</strong> &middot; Founder of the{" "}

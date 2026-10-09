@@ -3,6 +3,7 @@ title: "BIAS 2021: Second International Workshop on Algorithmic Bias in Search a
 description: "Second edition of the BIAS workshop at the 43rd European Conference on Information Retrieval (ECIR 2021), April 1, 2021."
 layout: event
 last-updated: 2021-04-01
+start_date: 2021-04-01
 ---
 
 The **Second International Workshop on Algorithmic Bias in Search and Recommendation (BIAS 2021)** was co-located with the 43rd European Conference on Information Retrieval (ECIR 2021) on April 1, 2021.
