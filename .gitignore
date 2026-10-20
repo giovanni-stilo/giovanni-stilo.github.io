@@ -1,6 +1,7 @@
 _site/
 priv_site-main/
 
+.giovannistilo.eu-audit/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
