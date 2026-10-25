@@ -4,6 +4,12 @@ description: "Workshop on Algorithmic Bias in Search and Recommendation at the 4
 layout: event
 last-updated: 2020-04-14
 start_date: 2020-04-14
+organizers: ["Giovanni Stilo", "Ludovico Boratto", "Stefano Faralli", "Mirko Marras"]
+end_date: "2020-04-14"
+online: true
+image: "/assets/img/events/ECIR2020.png"
+image_width: 500
+image_height: 207
 ---
 
 The **International Workshop on Algorithmic Bias in Search and Recommendation (BIAS 2020)** was co-located with the 42nd European Conference on Information Retrieval (ECIR 2020) on April 14, 2020.
@@ -20,3 +26,5 @@ Being able to detect, measure, characterize, and mitigate these biases while kee
 - Giovanni Stilo
 
 [Workshop website](http://bias.disim.univaq.it/){:target="_blank"} | [AIIM Lab page](https://aiimlab.org/events/bias-ECIR2020){:target="_blank"}
+
+The workshop was held online. [Report by the workshop organizers](https://sigir.org/wp-content/uploads/2020/06/p11.pdf).

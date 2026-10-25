@@ -52,6 +52,17 @@ review badge, carry a `noindex` directive, and are omitted from the sitemap. Do
 not deploy a build made with `SHOW_DRAFTS=1`. Future-dated posts are not
 published until their date has passed and the site is rebuilt.
 
+## Event structured data
+
+Event detail pages emit Google Event markup only when a valid date and a
+verified physical venue are documented. Online events and archives without a
+verified address keep their ordinary WebPage markup. The Events index lists
+links to those pages. See [event data and sources](docs/event-structured-data.md)
+for the fields, source records, and archive exceptions.
+
+After building, run `npm run check:events` to check the exported markup and
+shared validation rules. The deployment workflow also runs this check.
+
 ## Deployment
 
 `.github/workflows/deploy.yml` builds the static export and publishes `out/`

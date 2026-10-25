@@ -4,6 +4,11 @@ description: "Third edition of the SoMePeAS workshop at ECIR 2019, April 14, 201
 layout: event
 last-updated: 2019-04-14
 start_date: 2019-04-14
+organizers: ["Giovanni Stilo"]
+end_date: "2019-04-14"
+image: "/assets/img/events/ECIR2019.png"
+image_width: 395
+image_height: 128
 ---
 
 **Workshop at the 41st European Conference on Information Retrieval (ECIR 2019)**, April 14, 2019.

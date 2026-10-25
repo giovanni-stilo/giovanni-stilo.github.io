@@ -3,7 +3,8 @@ import { PageShell } from "@/components/site/page-shell";
 import { JsonLd } from "@/components/site/json-ld";
 import { InfoCard } from "@/components/site/card";
 import { getEvents, stripHtml, truncate } from "@/lib/content";
-import { collectionGraph, docEntity, pageMetadata } from "@/lib/seo";
+import { collectionGraph, pageMetadata } from "@/lib/seo";
+import { absoluteUrl } from "@/lib/site";
 import { lastModified } from "@/lib/dates";
 import data from "@/content/data/events.json";
 
@@ -20,7 +21,7 @@ export default function EventsPage() {
   const events = getEvents().filter((e) => !e.inactive);
   return (
     <PageShell title={title}>
-      <JsonLd data={collectionGraph("/events/", title, metadata.description as string, lastModified("app/events/page.tsx", "content/events", "content/data/events.json"), events.map(docEntity))} />
+      <JsonLd data={collectionGraph("/events/", title, metadata.description as string, lastModified("app/events/page.tsx", "content/events", "content/data/events.json"), events.map((event) => ({ "@type": "WebPage", "@id": `${absoluteUrl(event.url)}#webpage`, url: absoluteUrl(event.url), name: event.title })))} />
       <p style={{ marginBottom: "2rem", fontSize: "0.95rem", color: "var(--color-text-secondary)" }}>
         Prof. Stilo has organized and co-organized numerous international workshops, tutorials, and events at premier AI and data mining conferences.
       </p>
@@ -31,7 +32,7 @@ export default function EventsPage() {
             {event.image ? (
               <div className="event-card-img">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={event.image} alt={event.title} loading="lazy" />
+                <img src={event.image} alt={event.title} width={event.imageWidth} height={event.imageHeight} loading="lazy" />
               </div>
             ) : null}
             <div className="event-card-body">

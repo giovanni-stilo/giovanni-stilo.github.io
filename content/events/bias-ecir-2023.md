@@ -4,6 +4,20 @@ description: "Fourth edition of the BIAS workshop at the 45th European Conferenc
 layout: event
 last-updated: 2023-04-02
 start_date: 2023-04-02
+organizers: ["Giovanni Stilo", "Ludovico Boratto", "Stefano Faralli", "Mirko Marras"]
+end_date: "2023-04-02"
+venue:
+  name: "Radisson Blu Royal Hotel"
+  address:
+    streetAddress: "Golden Lane"
+    addressLocality: "Dublin"
+    addressCountry: "IE"
+    postalCode: "D08 VRR7"
+  source: "https://ecir2023.org/attending/attend.html#venue"
+location: "Dublin, Ireland"
+image: "/assets/img/events/ECIR2023.png"
+image_width: 250
+image_height: 104
 ---
 
 The **Fourth International Workshop on Algorithmic Bias in Search and Recommendation (BIAS 2023)** was co-located with the 45th European Conference on Information Retrieval (ECIR 2023) on April 2, 2023.

@@ -114,7 +114,11 @@ const docMd = (d: Doc) => {
   const meta = [
     d.date ? `Published: ${formatLong(d.date)}` : "",
     d.startDate ? `Date: ${d.startDate}${d.endDate ? ` to ${d.endDate}` : ""}` : "",
-    d.location ? `Location: ${d.location}` : "",
+    d.online ? "Location: Online event" : d.venue
+      ? `Location: ${d.venue.name}, ${Object.values(d.venue.address).join(", ")} (venue source: ${d.venue.source})`
+      : d.location ? `Location: ${d.location}` : "",
+    d.organizers.length ? `Organizers: ${d.organizers.join(", ")}` : "",
+    d.speakers.length ? `Speakers: ${d.speakers.join(", ")}` : "",
   ].filter(Boolean);
   return section(d.title, d.url, `${meta.join("\n")}${meta.length ? "\n\n" : ""}${d.description ? `${oneLine(d.description)}\n\n` : ""}${htmlToMarkdown(renderDoc(d))}`, d.lastModifiedAt ?? d.modified);
 };

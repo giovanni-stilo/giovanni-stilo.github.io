@@ -4,6 +4,20 @@ description: "Third edition of the BIAS workshop at the 44th European Conference
 layout: event
 last-updated: 2022-04-10
 start_date: 2022-04-10
+organizers: ["Giovanni Stilo", "Ludovico Boratto", "Stefano Faralli", "Mirko Marras"]
+end_date: "2022-04-10"
+venue:
+  name: "Clarion Hotel Energy"
+  address:
+    streetAddress: "Ishockeyveien 2"
+    addressLocality: "Stavanger"
+    addressCountry: "NO"
+    postalCode: "4021"
+  source: "https://ecir2022.org/conference-venue/"
+location: "Stavanger, Norway"
+image: "/assets/img/events/ECIR2022.png"
+image_width: 500
+image_height: 207
 ---
 
 The **Third International Workshop on Algorithmic Bias in Search and Recommendation (BIAS 2022)** was co-located with the 44th European Conference on Information Retrieval (ECIR 2022) on April 10, 2022.

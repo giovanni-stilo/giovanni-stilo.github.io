@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "preview": "npx serve out",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check:events": "node scripts/check-event-schema.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.9.0",
@@ -17,7 +18,7 @@
     "gray-matter": "^4.0.3",
     "js-yaml": "^5.4.3",
     "lucide-react": "^1.54.0",
-    "next": "^16.4.0",
+    "next": "^16.4.3",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "rehype-parse": "^9.0.1",

@@ -30,6 +30,7 @@ jobs:
       - run: npm run build
         env:
           NEXT_TELEMETRY_DISABLED: "1"
+      - run: npm run check:events
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out

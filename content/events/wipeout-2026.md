@@ -5,6 +5,19 @@ layout: event
 last-updated: 2026-09-07
 start_date: 2026-09-07
 location: "Naples, Italy"
+organizers: ["Andrea D'Angelo", "Claudio Savelli", "Flavio Giobergia", "Francesco Gullo", "Giovanni Stilo"]
+end_date: "2026-09-07"
+venue:
+  name: "University of Naples Federico II – Department of Electrical Engineering and Information Technology"
+  address:
+    streetAddress: "Via Claudio 21"
+    addressLocality: "Naples"
+    addressCountry: "IT"
+    postalCode: "80125"
+  source: "https://ecmlpkdd.org/2026/conference-venue/"
+image: "/assets/img/events/WIPE-OUT_2.png"
+image_width: 877
+image_height: 310
 ---
 
 The **2nd Workshop on Machine Unlearning and Privacy Preservation (WIPE-OUT 2026)** is co-located with ECML-PKDD 2026, taking place on **September 7, 2026 in Naples, Italy**.

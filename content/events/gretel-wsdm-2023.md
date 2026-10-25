@@ -4,6 +4,21 @@ description: "Demo presentation of the GRETEL framework for Graph Counterfactual
 layout: event
 last-updated: 2023-03-02
 start_date: 2023-03-02
+organizers: ["Mario Alfonso Prado-Romero", "Bardh Prenkaj", "Giovanni Stilo"]
+speakers: ["Mario Alfonso Prado-Romero", "Bardh Prenkaj", "Giovanni Stilo"]
+end_date: "2023-03-02"
+venue:
+  name: "Carlton Hotel Singapore"
+  address:
+    streetAddress: "76 Bras Basah Road"
+    addressLocality: "Singapore"
+    addressCountry: "SG"
+    postalCode: "189558"
+  source: "https://www.wsdm-conference.org/2023/venue-travel/conference-venue"
+location: "Singapore, Singapore"
+image: "/assets/img/events/WSDM2023.png"
+image_width: 968
+image_height: 259
 ---
 
 **Demo at WSDM 2023: The 16th ACM International Conference on Web Search and Data Mining**, March 2, 2023.

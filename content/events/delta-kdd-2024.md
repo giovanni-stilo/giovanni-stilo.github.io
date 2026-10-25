@@ -5,6 +5,19 @@ layout: event
 last-updated: 2024-08-26
 start_date: 2024-08-26
 location: "Barcelona, Spain"
+organizers: ["Marco Piangerelli", "Bardh Prenkaj", "Ylenia Rotalinti", "Ananya Joshi", "Giovanni Stilo"]
+end_date: "2024-08-26"
+venue:
+  name: "Centre de Convencions Internacional de Barcelona – Room 120"
+  address:
+    streetAddress: "Plaça de Willy Brandt, 11–14"
+    addressLocality: "Barcelona"
+    addressCountry: "ES"
+    postalCode: "08019"
+  source: "https://aiimlab.org/events/KDD_2024_Discovering_Drift_Phenomena_in_Evolving_Landscape"
+image: "/assets/img/events/delta_at_kdd24.png"
+image_width: 200
+image_height: 64
 ---
 
 The **DELTA 2024** workshop at KDD 2024 addressed cutting-edge challenges in drift detection, data streams, and adaptive machine learning, held on **August 26, 2024 in Barcelona, Spain**.

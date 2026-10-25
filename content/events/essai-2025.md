@@ -5,6 +5,19 @@ layout: event
 last-updated: 2025-06-30
 start_date: 2025-06-30
 end_date: 2025-07-04
+organizers: ["Flavio Giobergia", "Giovanni Stilo"]
+speakers: ["Flavio Giobergia", "Giovanni Stilo"]
+venue:
+  name: "FIIT STU – Faculty of Informatics and Information Technologies"
+  address:
+    streetAddress: "Ilkovičova 2"
+    addressLocality: "Bratislava"
+    addressCountry: "SK"
+  source: "https://essai2025.eu/travelling/"
+location: "Bratislava, Slovakia"
+image: "/assets/img/events/ESSAI_2025_logo.png"
+image_width: 729
+image_height: 160
 ---
 
 **Course at the 3rd European Summer School on Artificial Intelligence (ESSAI 2025)**, June 30 -- July 4, 2025.

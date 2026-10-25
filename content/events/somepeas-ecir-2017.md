@@ -4,6 +4,11 @@ description: "Workshop on Social Media for Personalization and Search at ECIR 20
 layout: event
 last-updated: 2017-04-09
 start_date: 2017-04-09
+organizers: ["Giovanni Stilo"]
+end_date: "2017-04-09"
+image: "/assets/img/events/ECIR2017.png"
+image_width: 500
+image_height: 209
 ---
 
 **Workshop at the 39th European Conference on Information Retrieval (ECIR 2017)**, April 9, 2017.

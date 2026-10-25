@@ -137,7 +137,7 @@ export default function HomePage() {
                 {event.image ? (
                   <div className="event-card-img">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={event.image} alt={event.title} loading="lazy" />
+                    <img src={event.image} alt={event.title} width={event.imageWidth} height={event.imageHeight} loading="lazy" />
                   </div>
                 ) : null}
                 <div className="event-card-body">

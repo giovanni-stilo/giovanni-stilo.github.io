@@ -4,6 +4,20 @@ description: "Workshop on Social Aspects in Personalization and Search at ECIR 2
 layout: event
 last-updated: 2018-03-26
 start_date: 2018-03-26
+organizers: ["Giovanni Stilo"]
+end_date: "2018-03-26"
+venue:
+  name: "Minatec"
+  address:
+    streetAddress: "3 Parvis Louis Néel"
+    addressLocality: "Grenoble"
+    addressCountry: "FR"
+    postalCode: "38054"
+  source: "https://www.ecir2018.org/organisation/minatec-venue/index.html"
+location: "Grenoble, France"
+image: "/assets/img/events/ECIR2018.png"
+image_width: 500
+image_height: 207
 ---
 
 **Workshop at the 40th European Conference on Information Retrieval (ECIR 2018)**, March 26, 2018.

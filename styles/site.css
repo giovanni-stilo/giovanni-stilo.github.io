@@ -886,7 +886,7 @@ strong { font-weight: 700; color: var(--color-ink); }
 .event-card-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   filter: grayscale(1) contrast(1.1);
   transition: transform 0.7s var(--ease), filter var(--t);
 }
@@ -1321,6 +1321,8 @@ strong { font-weight: 700; color: var(--color-ink); }
   border: var(--rule);
   box-shadow: var(--shadow-hard);
 }
+
+.event-image img { width: auto; height: auto; }
 
 /* === TEACHING === */
 .course-grid {

@@ -4,6 +4,11 @@ description: "Second edition of the SERecSys workshop at ICDM 2017, November 18,
 layout: event
 last-updated: 2017-11-18
 start_date: 2017-11-18
+organizers: ["Giovanni Stilo"]
+end_date: "2017-11-18"
+image: "/assets/img/events/ICDM2017.png"
+image_width: 385
+image_height: 131
 ---
 
 **Workshop at the IEEE International Conference on Data Mining (ICDM 2017)**, November 18, 2017.

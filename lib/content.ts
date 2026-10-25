@@ -23,6 +23,8 @@ export type Doc = {
   author?: string;
   tags: string[];
   image?: string;
+  imageWidth?: number;
+  imageHeight?: number;
   notitle: boolean;
   published: boolean;
   inactive: boolean;
@@ -31,6 +33,19 @@ export type Doc = {
   startDate?: string;
   endDate?: string;
   location?: string;
+  venue?: {
+    name: string;
+    address: {
+      streetAddress: string;
+      addressLocality: string;
+      addressCountry: string;
+      postalCode?: string;
+    };
+    source: string;
+  };
+  online: boolean;
+  organizers: string[];
+  speakers: string[];
   /** projects: people involved */
   people: string[];
   /** last real change (git history) */
@@ -86,6 +101,8 @@ function readCollection(collection: Doc["collection"]): Doc[] {
         author: data.author,
         tags: Array.isArray(data.tags) ? data.tags.map(String) : [],
         image: data.image,
+        imageWidth: data.image_width,
+        imageHeight: data.image_height,
         notitle: data.notitle === true,
         published: data.published !== false,
         inactive: data.status === "inactive",
@@ -93,6 +110,10 @@ function readCollection(collection: Doc["collection"]): Doc[] {
         startDate: isoDay(data.start_date),
         endDate: isoDay(data.end_date),
         location: data.location,
+        venue: data.venue,
+        online: data.online === true,
+        organizers: Array.isArray(data.organizers) ? data.organizers.map(String) : [],
+        speakers: Array.isArray(data.speakers) ? data.speakers.map(String) : [],
         people: Array.isArray(data.people) ? data.people.map(String) : [],
         modified: lastModified(`content/${collection}/${file}`),
         file: `content/${collection}/${file}`,

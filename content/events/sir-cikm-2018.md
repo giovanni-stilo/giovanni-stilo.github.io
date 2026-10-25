@@ -4,6 +4,20 @@ description: "Workshop on Social Interaction-based Recommendation at CIKM 2018, 
 layout: event
 last-updated: 2018-10-22
 start_date: 2018-10-22
+organizers: ["Giovanni Stilo"]
+end_date: "2018-10-22"
+venue:
+  name: "Centro Congressi Lingotto"
+  address:
+    streetAddress: "Via Nizza 280"
+    addressLocality: "Turin"
+    addressCountry: "IT"
+    postalCode: "10126"
+  source: "https://www.cikm2018.units.it/"
+location: "Turin, Italy"
+image: "/assets/img/events/CIKM2018.png"
+image_width: 347
+image_height: 202
 ---
 
 **Workshop at the 27th International Conference on Information and Knowledge Management (CIKM 2018)**, October 22, 2018.

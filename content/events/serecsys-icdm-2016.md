@@ -4,6 +4,20 @@ description: "Workshop on Semantics-Enabled Recommender Systems at ICDM 2016, De
 layout: event
 last-updated: 2016-12-12
 start_date: 2016-12-12
+organizers: ["Giovanni Stilo"]
+end_date: "2016-12-12"
+venue:
+  name: "World Trade Center Barcelona"
+  address:
+    streetAddress: "Moll de Barcelona, s/n"
+    addressLocality: "Barcelona"
+    addressCountry: "ES"
+    postalCode: "08039"
+  source: "https://icdm2016.eurecat.cat/attending/the-venue-wtc-world-trade-center/"
+location: "Barcelona, Spain"
+image: "/assets/img/events/ICDM2016.jpg"
+image_width: 800
+image_height: 229
 ---
 
 **Workshop at the IEEE International Conference on Data Mining (ICDM 2016)**, December 12, 2016.

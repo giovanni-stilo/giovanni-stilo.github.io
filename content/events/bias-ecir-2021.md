@@ -4,6 +4,12 @@ description: "Second edition of the BIAS workshop at the 43rd European Conferenc
 layout: event
 last-updated: 2021-04-01
 start_date: 2021-04-01
+organizers: ["Giovanni Stilo", "Ludovico Boratto", "Stefano Faralli", "Mirko Marras"]
+end_date: "2021-04-01"
+online: true
+image: "/assets/img/events/ECIR2021.png"
+image_width: 500
+image_height: 207
 ---
 
 The **Second International Workshop on Algorithmic Bias in Search and Recommendation (BIAS 2021)** was co-located with the 43rd European Conference on Information Retrieval (ECIR 2021) on April 1, 2021.
@@ -20,3 +26,5 @@ BIAS 2021 was the second edition of this dedicated event at ECIR, following a ve
 - Giovanni Stilo
 
 [Workshop website](https://biasinrecsys.github.io/ecir2021/){:target="_blank"} | [AIIM Lab page](https://aiimlab.org/events/bias-ECIR2021){:target="_blank"}
+
+The workshop was held online, as documented on the [official workshop page](https://biasinrecsys.github.io/ecir2021/).

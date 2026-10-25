@@ -5,6 +5,19 @@ layout: event
 last-updated: 2025-09-15
 start_date: 2025-09-15
 location: "Porto, Portugal"
+organizers: ["Andrea D'Angelo", "Claudio Savelli", "Flavio Giobergia", "Francesco Gullo", "Giovanni Stilo"]
+end_date: "2025-09-15"
+venue:
+  name: "Alfândega Porto Congress Centre – Sala S. João"
+  address:
+    streetAddress: "Rua Nova da Alfândega, Edifício da Alfândega"
+    addressLocality: "Porto"
+    addressCountry: "PT"
+    postalCode: "4050-430"
+  source: "https://ecmlpkdd.org/2025/conference-venue/"
+image: "/assets/img/events/WIPE-OUT.png"
+image_width: 900
+image_height: 344
 ---
 
 The **Workshop on Innovations, Privacy-preservation, and Evaluations Of machine Unlearning Techniques (WIPE-OUT 2025)** was co-located with ECML-PKDD 2025, September 15, 2025, Porto, Portugal.

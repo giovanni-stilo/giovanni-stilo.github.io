@@ -183,7 +183,11 @@ export function webPageNode({
   };
 }
 
-/** The main entity of a collection document: Event, ResearchProject or BlogPosting. */
+const validEventDate = (value?: string): value is string =>
+  !!value && /^\d{4}-\d{2}-\d{2}$/.test(value) &&
+  Number.isFinite(Date.parse(value)) && new Date(value).toISOString().slice(0, 10) === value;
+
+/** Archives without verified event facts retain their WebPage graph. */
 export function docEntity(doc: Doc) {
   const base = {
     "@id": id(doc.url, "main"),
@@ -194,12 +198,23 @@ export function docEntity(doc: Doc) {
     ...(doc.image ? { image: doc.image.startsWith("http") ? doc.image : absoluteUrl(doc.image) } : {}),
   };
   if (doc.collection === "events") {
+    const { venue } = doc;
+    // Google's Event feature requires a physical venue and verified dates.
+    if (doc.online || !validEventDate(doc.startDate) ||
+        (doc.endDate && (!validEventDate(doc.endDate) || doc.endDate < doc.startDate)) ||
+        !venue || ![venue.name, venue.address?.streetAddress, venue.address?.addressLocality, venue.address?.addressCountry]
+          .every((value) => typeof value === "string" && value.trim())) return null;
+    const person = (name: string) => name === site.author
+      ? { "@type": "Person", "@id": PERSON_ID, name, url: absoluteUrl("/about/") }
+      : { "@type": "Person", name };
     return {
       "@type": "Event",
       ...base,
-      ...(doc.startDate ? { startDate: doc.startDate } : {}),
+      startDate: doc.startDate,
       ...(doc.endDate ? { endDate: doc.endDate } : {}),
-      ...(doc.location ? { location: { "@type": "Place", name: doc.location, address: doc.location } } : {}),
+      location: { "@type": "Place", name: venue.name, address: { "@type": "PostalAddress", ...venue.address } },
+      ...(doc.organizers.length ? { organizer: doc.organizers.map(person) } : {}),
+      ...(doc.speakers.length ? { performer: doc.speakers.map(person) } : {}),
       eventStatus: "https://schema.org/EventScheduled",
       contributor: ref(PERSON_ID),
     };
@@ -280,9 +295,10 @@ export const faqNode = () => ({
 });
 
 /** Graph for a listing page: a CollectionPage whose main entity lists `items`. */
-export function collectionGraph(path: string, name: string, description: string, modified?: Date, items?: object[]) {
-  const list = items?.length
-    ? [{ "@type": "ItemList", "@id": id(path, "list"), numberOfItems: items.length, itemListElement: items.map((item, i) => ({ "@type": "ListItem", position: i + 1, item })) }]
+export function collectionGraph(path: string, name: string, description: string, modified?: Date, items?: (object | null)[]) {
+  const entries = items?.filter((item) => item !== null);
+  const list = entries?.length
+    ? [{ "@type": "ItemList", "@id": id(path, "list"), numberOfItems: entries.length, itemListElement: entries.map((item, i) => ({ "@type": "ListItem", position: i + 1, item })) }]
     : [];
   return graph(
     webPageNode({
@@ -300,6 +316,7 @@ export function collectionGraph(path: string, name: string, description: string,
 
 /** Graph for a collection document page (event, project, article, news post). */
 export function docGraph(doc: Doc, trail: Crumb[]) {
+  const entity = docEntity(doc);
   return graph(
     webPageNode({
       path: doc.url,
@@ -307,8 +324,8 @@ export function docGraph(doc: Doc, trail: Crumb[]) {
       description: doc.description,
       modified: doc.lastModifiedAt ?? doc.modified,
       trail,
-      extra: { mainEntity: ref(id(doc.url, "main")) },
+      extra: entity ? { mainEntity: ref(id(doc.url, "main")) } : {},
     }),
-    docEntity(doc),
+    ...(entity ? [entity] : []),
   );
 }

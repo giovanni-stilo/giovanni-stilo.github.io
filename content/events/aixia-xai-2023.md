@@ -4,6 +4,21 @@ description: "Invited talk at the 4th Italian Workshop on Explainable Artificial
 layout: event
 last-updated: 2023-11-08
 start_date: 2023-11-08
+organizers: ["Giovanni Stilo"]
+speakers: ["Giovanni Stilo"]
+end_date: "2023-11-08"
+venue:
+  name: "Roma Tre University – Department of Civil, Computer Science and Aeronautical Technologies Engineering"
+  address:
+    streetAddress: "Via Vito Volterra 60"
+    addressLocality: "Rome"
+    addressCountry: "IT"
+    postalCode: "00146"
+  source: "https://www.aixia2023.cnr.it/attendee/venue"
+location: "Rome, Italy"
+image: "/assets/img/events/AIxIA2023.png"
+image_width: 800
+image_height: 600
 ---
 
 **Invited talk at XAI.it 2023 -- 4th Italian Workshop on Explainable Artificial Intelligence**, co-located with AIxIA 2023, November 8, 2023, Rome, Italy.
