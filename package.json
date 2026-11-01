@@ -7,7 +7,8 @@
     "build": "next build",
     "preview": "npx serve out",
     "lint": "eslint",
-    "check:events": "node scripts/check-event-schema.mjs"
+    "check:events": "node scripts/check-event-schema.mjs",
+    "check:consent": "node scripts/check-statistics-consent.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.9.0",

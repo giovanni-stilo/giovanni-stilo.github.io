@@ -17,6 +17,7 @@ const PAGES: [string, string[]][] = [
   ["/service/", ["content/pages/service.html"]],
   ["/news/", ["content/posts"]],
   ["/blog/", ["content/blog"]],
+  ["/cookies/", ["app/cookies/page.tsx", "lib/statistics-consent.ts"]],
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

@@ -31,6 +31,7 @@ jobs:
         env:
           NEXT_TELEMETRY_DISABLED: "1"
       - run: npm run check:events
+      - run: npm run check:consent
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out

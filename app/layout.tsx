@@ -1,5 +1,4 @@
 import type { Metadata, Viewport } from "next";
-import Script from "next/script";
 import { SiteHeader } from "@/components/site/site-header";
 import { SiteFooter } from "@/components/site/site-footer";
 import { ScrollProgress } from "@/components/site/scroll-progress";
@@ -7,6 +6,7 @@ import { MotionLayer } from "@/components/site/motion-layer";
 import { JsonLd } from "@/components/site/json-ld";
 import { aiimNode, graph, personNode, websiteNode } from "@/lib/seo";
 import { site } from "@/lib/site";
+import { StatisticsConsent } from "@/components/site/statistics-consent";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -52,13 +52,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </main>
         <SiteFooter />
         <MotionLayer />
-        <Script src={`https://www.googletagmanager.com/gtag/js?id=${site.gaId}`} strategy="afterInteractive" />
-        <Script id="gtag-init" strategy="afterInteractive">
-          {`window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', '${site.gaId}');`}
-        </Script>
+        <StatisticsConsent />
       </body>
     </html>
   );

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CookiePreferencesButton } from "@/components/site/statistics-consent";
 
 const explore = [
   { href: "/research/", label: "Research Projects" },
@@ -58,6 +59,10 @@ export function SiteFooter() {
         </div>
         <div className="footer-bottom">
           <p>&copy; {new Date().getFullYear()} Giovanni Stilo. All rights reserved.</p>
+          <div className="footer-cookie-links">
+            <CookiePreferencesButton />
+            <Link href="/cookies/">Cookie information</Link>
+          </div>
         </div>
       </div>
     </footer>
