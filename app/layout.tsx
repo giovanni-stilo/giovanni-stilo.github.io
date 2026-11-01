@@ -15,12 +15,12 @@ export const metadata: Metadata = {
   description: site.description,
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "48x48" },
-      { url: "/assets/img/favicon/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico?v=2", sizes: "16x16 32x32 48x48" },
+      { url: "/assets/img/favicon/favicon.svg?v=2", type: "image/svg+xml", sizes: "any" },
     ],
-    apple: "/assets/img/favicon/apple-touch-icon.png",
+    apple: "/assets/img/favicon/apple-touch-icon.png?v=2",
   },
-  manifest: "/site.webmanifest",
+  manifest: "/site.webmanifest?v=2",
   alternates: {
     types: { "application/rss+xml": [{ url: `${site.url}/feed.xml`, title: site.title }] },
   },
